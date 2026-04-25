@@ -2,45 +2,45 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-3 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">S0 (0)</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">S0 (0)</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 p-2 border-1 bg-muted">No margin</div>
+    					<div class="m-0 p-2 border bg-muted" data-slot="div">No margin</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Is1 (0.25rem)</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Is1 (0.25rem)</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-1 p-2 border-1 bg-muted">Small margin</div>
+    					<div class="m-1 p-2 border bg-muted" data-slot="div">Small margin</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Is3 (1rem)</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Is3 (1rem)</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-3 p-2 border-1 bg-muted">Medium margin</div>
+    					<div class="m-3 p-2 border bg-muted" data-slot="div">Medium margin</div>
     				</div>
     			</div>
     		</div>
@@ -48,21 +48,21 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-4 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-4 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">FromTop</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">FromTop</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mt-3 p-2 border-1 bg-muted">
+    					<div class="mt-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Top margin
     					</div>
@@ -70,14 +70,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">FromRight</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">FromRight</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div me-3 p-2 border-1 bg-muted">
+    					<div class="mr-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Right margin
     					</div>
@@ -85,14 +85,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">FromBottom</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">FromBottom</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mb-3 p-2 border-1 bg-muted">
+    					<div class="mb-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Bottom margin
     					</div>
@@ -100,14 +100,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">FromLeft</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">FromLeft</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div ms-3 p-2 border-1 bg-muted">
+    					<div class="ml-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Left margin
     					</div>
@@ -118,21 +118,21 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnX (Horizontal)</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnX (Horizontal)</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mx-3 p-2 border-1 bg-muted">
+    					<div class="mx-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Horizontal margins
     					</div>
@@ -140,14 +140,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnY (Vertical)</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnY (Vertical)</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div my-3 p-2 border-1 bg-muted">
+    					<div class="my-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Vertical margins
     					</div>
@@ -158,21 +158,21 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-3 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Auto</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Auto</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-auto p-2 border-1 bg-muted">
+    					<div class="m-auto p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Auto margin
     					</div>
@@ -180,14 +180,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Auto OnX</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Auto OnX</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mx-auto p-2 border-1 bg-muted">
+    					<div class="mx-auto p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Auto horizontal
     					</div>
@@ -195,14 +195,14 @@
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Auto OnY</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Auto OnY</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div my-auto p-2 border-1 bg-muted">
+    					<div class="my-auto p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->                     Auto vertical
     					</div>
@@ -213,92 +213,104 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Is1.FromTop.Is3.FromBottom</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Is1.FromTop.Is3.FromBottom</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mt-1 mb-3 p-2 border-1 bg-muted">
+    					<div class="mt-1 mb-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.Is1.FromTop.Is3.FromBottom</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.Is1.FromTop.Is3.FromBottom</code>
     						
     						<!--!-->
-    						<small>mt-1 mb-3</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">mt-1 mb-3</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Is2.OnX.Is4.OnY</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Is2.OnX.Is4.OnY</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mx-2 my-4 p-2 border-1 bg-muted">
+    					<div class="mx-2 my-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.Is2.OnX.Is4.OnY</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.Is2.OnX.Is4.OnY</code>
     						
     						<!--!-->
-    						<small>mx-2 my-4</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">mx-2 my-4</small>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Is0.FromTop.Is5.FromBottom</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Is0.FromTop.Is5.FromBottom</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mt-0 mb-5 p-2 border-1 bg-muted">
+    					<div class="mt-0 mb-5 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.Is0.FromTop.Is5.FromBottom</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.Is0.FromTop.Is5.FromBottom</code>
     						
     						<!--!-->
-    						<small>mt-0 mb-5</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">mt-0 mb-5</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Auto.FromStart.Is2.FromEnd</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Auto.FromStart.Is2.FromEnd</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div ms-auto me-2 p-2 border-1 bg-muted">
+    					<div class="ms-auto me-2 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.Auto.FromStart.Is2.FromEnd</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.Auto.FromStart.Is2.FromEnd</code>
     						
     						<!--!-->
-    						<small>ms-auto me-2</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">ms-auto me-2</small>
     					</div>
     				</div>
     			</div>
@@ -307,174 +319,192 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<p class="q-paragraph text-sm leading-7 text-muted-foreground mb-4">Apply different margins based on device screen sizes for optimal responsive design.</p>
+    			<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mb-4" data-slot="paragraph">Apply different margins based on device screen sizes for optimal responsive design.</p>
     			
     			<!--!-->          															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnBase</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Portrait phones (&lt; 576px)</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnBase</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-1 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Portrait phones (&lt; 576px)</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-0 m-1 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is1</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is1</code>
     						
     						<!--!-->
-    						<small>m-1</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">m-1</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnMobile</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnMobile</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">
     						
     						<!--!-->Landscape phones (≥ 576px)</p>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 md:m-3 p-2 border-1 bg-muted">
+    					<div class="m-0 md:m-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnMd.Is3</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnMd.Is3</code>
     						
     						<!--!-->
-    						<small>sm-m-3</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">sm-m-3</small>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnTablet</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnTablet</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">
     						
     						<!--!-->Tablets (≥ 768px)</p>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 md:m-2 p-2 border-1 bg-muted">
+    					<div class="m-0 md:m-2 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnMd.Is2</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnMd.Is2</code>
     						
     						<!--!-->
-    						<small>md-m-2</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">md-m-2</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnLaptop</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnLaptop</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">
     						
     						<!--!-->Laptops (≥ 992px)</p>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 lg:m-4 p-2 border-1 bg-muted">
+    					<div class="m-0 lg:m-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnLg.Is4</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnLg.Is4</code>
     						
     						<!--!-->
-    						<small>lg-m-4</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">lg-m-4</small>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">OnDesktop</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">OnDesktop</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">
     						
     						<!--!-->Desktops (≥ 1200px)</p>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 xl:m-3 p-2 border-1 bg-muted">
+    					<div class="m-0 xl:m-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnXl.Is3</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnXl.Is3</code>
     						
     						<!--!-->
-    						<small>xl-m-3</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">xl-m-3</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">On2xl</h4>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">On2xl</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">
     						
     						<!--!-->Larger desktops (≥ 1400px)</p>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 2xl:m-5 p-2 border-1 bg-muted">
+    					<div class="m-0 2xl:m-5 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.On2xl.Is5</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.On2xl.Is5</code>
     						
     						<!--!-->
-    						<small>xxl-m-5</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">xxl-m-5</small>
     					</div>
     				</div>
     			</div>
@@ -483,179 +513,182 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<p class="q-paragraph text-sm leading-7 text-muted-foreground mb-4">Chain different margin sizes for different device types to create adaptive layouts.</p>
+    			<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mb-4" data-slot="paragraph">Chain different margin sizes for different device types to create adaptive layouts.</p>
     			
     			<!--!-->          															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Mobile to Laptop</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Small margin on mobile, larger on laptop</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Mobile to Laptop</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-3 lg:m-4 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Small margin on mobile, larger on laptop</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-3 lg:m-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is3.OnLg.Is4</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is3.OnLg.Is4</code>
     						
     						<!--!-->
-    						<br class="q-br">
+    						<br data-slot="br">
     						
     						<!--!-->                      																		
     						<!--!-->
-    						<small>sm-m-3 lg-m-4</small>
+    						<small class="text-sm font-medium leading-none" data-slot="small">sm-m-3 lg-m-4</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Progressive Scaling</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Increasing margins across device sizes</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Progressive Scaling</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-2 md:m-3 lg:m-4 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Increasing margins across device sizes</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-2 md:m-3 lg:m-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is2.OnMd.Is3.OnLg.Is4</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is2.OnMd.Is3.OnLg.Is4</code>
     						
     						<!--!-->
-    						<br class="q-br">
+    						<br data-slot="br">
     						
     						<!--!-->                      																		
     						<!--!-->
-    						<small>sm-m-2 md-m-3 lg-m-4</small>
+    						<small class="text-sm font-medium leading-none" data-slot="small">sm-m-2 md-m-3 lg-m-4</small>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Directional Responsive</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Different margins for different sides on different devices</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Directional Responsive</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mt-3 lg:mb-4 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Different margins for different sides on different devices</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="mt-3 lg:mb-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is3.FromTop.OnLg.Is4.FromBottom</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is3.FromTop.OnLg.Is4.FromBottom</code>
     						
     						<!--!-->
-    						<br class="q-br">
+    						<br data-slot="br">
     						
     						<!--!-->                      																		
     						<!--!-->
-    						<small>sm-mt-3 lg-mb-4</small>
+    						<small class="text-sm font-medium leading-none" data-slot="small">sm-mt-3 lg-mb-4</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Axis Responsive</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Horizontal on mobile, vertical on laptop</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Axis Responsive</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mx-2 lg:my-3 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Horizontal on mobile, vertical on laptop</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="mx-2 lg:my-3 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is2.OnX.OnLg.Is3.OnY</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is2.OnX.OnLg.Is3.OnY</code>
     						
     						<!--!-->
-    						<br class="q-br">
+    						<br data-slot="br">
     						
     						<!--!-->                      																		
     						<!--!-->
-    						<small>sm-mx-2 lg-my-3</small>
+    						<small class="text-sm font-medium leading-none" data-slot="small">sm-mx-2 lg-my-3</small>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Phone to Wide Screen</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Minimal on phone, generous on wide screens</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Phone to Wide Screen</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-1 2xl:m-5 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Minimal on phone, generous on wide screens</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-1 2xl:m-5 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnBase.Is1.On2xl.Is5</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnBase.Is1.On2xl.Is5</code>
     						
     						<!--!-->
-    						<br class="q-br">
+    						<br data-slot="br">
     						
     						<!--!-->                      																		
     						<!--!-->
-    						<small>m-1 xxl-m-5</small>
+    						<small class="text-sm font-medium leading-none" data-slot="small">m-1 xxl-m-5</small>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Laptop to Desktop</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Medium on laptop, large on desktop</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Laptop to Desktop</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-0 lg:m-2 xl:m-4 p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Medium on laptop, large on desktop</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-0 lg:m-2 xl:m-4 p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin.OnLg.Is2.OnXl.Is4</code>
-    						<br>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin.OnLg.Is2.OnXl.Is4</code>
     						
     						<!--!-->
-    						<small>lg-m-2 xl-m-4</small>
+    						<br data-slot="br">
+    						
+    						<!--!-->                      																		
+    						<!--!-->
+    						<small class="text-sm font-medium leading-none" data-slot="small">lg-m-2 xl-m-4</small>
     					</div>
     				</div>
     			</div>
@@ -664,92 +697,96 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<p class="q-paragraph text-sm leading-7 text-muted-foreground mb-4">You can use both the fluent API and custom strings for maximum flexibility.</p>
+    			<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mb-4" data-slot="paragraph">You can use both the fluent API and custom strings for maximum flexibility.</p>
     			
     			<!--!-->          															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Custom CSS String</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Direct CSS style string</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Custom CSS String</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div margin-top: margin-bottom: p-2 border-1 bg-muted">
-    						<code>Margin="margin-top: 2rem; margin-bottom: 1rem;"</code>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Direct CSS style string</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="margin-top: 2rem; margin-bottom: 1rem; p-2 border bg-muted" data-slot="div">
+    						
+    						<!--!-->
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin="margin-top: 2rem; margin-bottom: 1rem;"</code>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Custom CSS Class</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Direct CSS class string</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Custom CSS Class</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div mt-4 mb-2 p-2 border-1 bg-muted">
-    						<code>Margin="mt-4 mb-2"</code>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Direct CSS class string</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="mt-4 mb-2 p-2 border bg-muted" data-slot="div">
+    						
+    						<!--!-->
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin="mt-4 mb-2"</code>
     					</div>
     				</div>
     			</div>
     			
     			<!--!-->                   															
     			<!--!-->
-    			<div class="q-grid grid grid-cols-1 md:grid-cols-2 mt-3 gap-4">
+    			<div class="grid-cols-1 md:grid-cols-2 grid mt-3 gap-4" data-slot="grid">
     				
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Fluent API</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Using the fluent API</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Fluent API</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div 30px p-2 border-1 bg-muted">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Using the fluent API</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="30px p-2 border bg-muted" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin="Margin.Is3.FromTop.Is2.FromBottom"</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin="Margin.Is3.FromTop.Is2.FromBottom"</code>
     					</div>
     				</div>
     				
     				<!--!-->              																
     				<!--!-->
-    				<div class="q-div">
+    				<div data-slot="div">
     					
     					<!--!-->
-    					<h4 class="q-h4 text-xl font-semibold">Mixed Usage</h4>
-    					
-    					<!--!-->                  																	
-    					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-muted-foreground small">Fluent API with custom CSS</p>
+    					<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Mixed Usage</h4>
     					
     					<!--!-->                  																	
     					<!--!-->
-    					<div class="q-div m-2 p-2 border-1 bg-muted" style="margin-top: 3rem;">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 small" data-slot="paragraph">Fluent API with custom CSS</p>
+    					
+    					<!--!-->                  																	
+    					<!--!-->
+    					<div class="m-2 p-2 border bg-muted" style="margin-top: 3rem;" data-slot="div">
     						
     						<!--!-->
-    						<code>Margin="Margin.OnBase.Is2" + Style="margin-top: 3rem;"</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Margin="Margin.OnBase.Is2" + Style="margin-top: 3rem;"</code>
     					</div>
     				</div>
     			</div>

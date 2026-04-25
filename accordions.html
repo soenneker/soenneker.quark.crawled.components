@@ -2,121 +2,134 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-[300px] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 															
-    			<!--!--> 															
     			<!--!-->
-    			<div data-orientation="vertical" dir="ltr" class="q-accordion flex w-full flex-col max-w-sm" data-slot="accordion" data-multiple="false">
+    			<div class="w-full max-w-sm" data-slot="div">
     				
     				<!--!--> 																
     				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
     				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    				<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="false">
     					
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="open" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-16-trigger" type="button" aria-controls="bradix-collapsible-16-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_10="">What are your shipping options? 																			
+    						<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-16-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-1" _bl_11="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         We offer standard (5-7 days), express (2-3 days), and overnight shipping. Free shipping on international orders.
+    							<button id="bradix-collapsible-18-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-18-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-46" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_108="">What are your shipping options? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                          																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-18-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-2" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 30px; --radix-collapsible-content-width: 782px;" _bl_109="">
+    							<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
+    								
+    								<!--!-->                             We offer standard (5-7 days), express (2-3 days), and overnight shipping. Free shipping on international orders.
+    							</div>
     						</div>
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
-    					
-    					<!--!--> 																	
-    					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
-    						
-    						<!--!--> 																		
-    						<!--!-->
-    						<button id="bradix-collapsible-17-trigger" type="button" aria-controls="bradix-collapsible-17-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_12="">What is your return policy? 																			
-    							<!--!--> 																			
-    							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!--> 																	
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-17-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-2" _bl_13="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
+    						
+    						<!--!--> 																		
+    						<!--!-->
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     							
-    							<!--!-->                         Returns accepted within 30 days. Items must be unused and in original packaging. Refunds processed within 5-7 business days.
-    						</div>
+    							<!--!--> 																			
+    							<!--!-->
+    							<button id="bradix-collapsible-19-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-19-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-46" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_110="">What is your return policy? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                          																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
-    					
-    					<!--!--> 																	
-    					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
-    						
-    						<!--!--> 																		
-    						<!--!-->
-    						<button id="bradix-collapsible-18-trigger" type="button" aria-controls="bradix-collapsible-18-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_14="">How can I contact customer support? 																			
-    							<!--!--> 																			
-    							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!--> 																	
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-18-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-3" _bl_15="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
+    						
+    						<!--!--> 																		
+    						<!--!-->
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     							
-    							<!--!-->                         Reach us via email, live chat, or phone. We respond within 24 hours during business days.
-    						</div>
+    							<!--!--> 																			
+    							<!--!-->
+    							<button id="bradix-collapsible-20-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-20-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-46" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_111="">How can I contact customer support? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                          																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
     				</div>
     			</div>
@@ -125,121 +138,134 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-[300px] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 															
-    			<!--!--> 															
     			<!--!-->
-    			<div data-orientation="vertical" dir="ltr" class="q-accordion flex w-full flex-col max-w-sm" data-slot="accordion" data-multiple="false">
+    			<div class="w-full max-w-sm" data-slot="div">
     				
     				<!--!--> 																
     				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
     				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    				<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="false">
     					
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="open" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-19-trigger" type="button" aria-controls="bradix-collapsible-19-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_16="">How do I reset my password? 																			
+    						<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-19-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-4" _bl_17="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Click on 'Forgot Password' on the login page, enter your email address, and we'll send you a link to reset your password. The link will expire in 24 hours.
+    							<button id="bradix-collapsible-21-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-21-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-47" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_112="">How do I reset my password? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-21-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-5" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 50px; --radix-collapsible-content-width: 814px;" _bl_113="">
+    							<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
+    								
+    								<!--!-->                         Click on 'Forgot Password' on the login page, enter your email address, and we'll send you a link to reset your password. The link will expire in 24 hours.
+    							</div>
     						</div>
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-20-trigger" type="button" aria-controls="bradix-collapsible-20-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_18="">Can I change my subscription plan? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-20-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-5" _bl_19="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Yes, you can upgrade or downgrade your plan at any time from your account settings. Changes will be reflected in your next billing cycle.
-    						</div>
+    							<button id="bradix-collapsible-22-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-22-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-47" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_114="">Can I change my subscription plan? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-21-trigger" type="button" aria-controls="bradix-collapsible-21-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_20="">What payment methods do you accept? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-21-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-6" _bl_21="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment partners.
-    						</div>
+    							<button id="bradix-collapsible-23-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-23-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-47" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_115="">What payment methods do you accept? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
     				</div>
     			</div>
@@ -248,121 +274,134 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-[300px] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 															
-    			<!--!--> 															
     			<!--!-->
-    			<div data-orientation="vertical" dir="ltr" multiple="true" class="q-accordion flex w-full flex-col max-w-sm" data-slot="accordion" data-multiple="false">
+    			<div class="w-full max-w-sm" data-slot="div">
     				
     				<!--!--> 																
     				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
     				<!--!-->
-    				<div data-state="open" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    				<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="true">
     					
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="open" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-22-trigger" type="button" aria-controls="bradix-collapsible-22-content" aria-expanded="true" aria-disabled="true" data-state="open" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_22="">Notification Settings 																			
+    						<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-22-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-7" _bl_23="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Manage how you receive notifications. You can enable email alerts for updates or push notifications for mobile devices.
+    							<button id="bradix-collapsible-24-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-24-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-48" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_116="">Notification Settings 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-24-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-8" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 50px; --radix-collapsible-content-width: 814px;" _bl_117="">
+    							<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
+    								
+    								<!--!-->                         Manage how you receive notifications. You can enable email alerts for updates or push notifications for mobile devices.
+    							</div>
     						</div>
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-23-trigger" type="button" aria-controls="bradix-collapsible-23-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_24="">Privacy &amp; Security 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-23-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-8" _bl_25="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Control your privacy settings and security preferences. Enable two-factor authentication, manage connected devices, review active sessions, and configure data sharing preferences. You can also download your data or delete your account.
-    						</div>
+    							<button id="bradix-collapsible-25-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-25-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-48" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_118="">Privacy &amp; Security 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-24-trigger" type="button" aria-controls="bradix-collapsible-24-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_26="">Billing &amp; Subscription 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-24-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-9" _bl_27="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         View your current plan, payment history, and upcoming invoices. Update your payment method, change your subscription tier, or cancel your subscription.
-    						</div>
+    							<button id="bradix-collapsible-26-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-26-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-48" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_119="">Billing &amp; Subscription 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
     				</div>
     			</div>
@@ -371,121 +410,128 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-[300px] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 															
-    			<!--!--> 															
     			<!--!-->
-    			<div data-orientation="vertical" dir="ltr" class="q-accordion flex w-full flex-col max-w-sm" data-slot="accordion" data-multiple="false">
+    			<div class="w-full max-w-sm" data-slot="div">
     				
     				<!--!--> 																
     				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
     				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    				<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="false">
     					
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-25-trigger" type="button" aria-controls="bradix-collapsible-25-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_28="">Can I access my account history? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-25-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-10" _bl_29="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Yes, you can view your complete account history including all transactions, plan changes, and support tickets in the Account History section of your dashboard.
-    						</div>
+    							<button id="bradix-collapsible-27-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-27-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-49" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_120="">Can I access my account history? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-disabled="" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-disabled="" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-disabled="" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-26-trigger" type="button" aria-controls="bradix-collapsible-26-content" aria-expanded="false" data-state="closed" data-disabled="" disabled="" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_30="">Premium feature information 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-disabled="" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-26-content" data-state="closed" data-disabled="" role="region" aria-labelledby="bradix-accordion-trigger-11" _bl_31="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         This section contains information about premium features. Upgrade your plan to access this content.
-    						</div>
+    							<button id="bradix-collapsible-28-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-28-content" aria-expanded="false" data-state="closed" data-disabled="" disabled="" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-49" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_121="">Premium feature information 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-27-trigger" type="button" aria-controls="bradix-collapsible-27-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_32="">How do I update my email address? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-27-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-12" _bl_33="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         You can update your email address in your account settings. You'll receive a verification email at your new address to confirm the change.
-    						</div>
+    							<button id="bradix-collapsible-29-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-29-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-49" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_122="">How do I update my email address? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
     				</div>
     			</div>
@@ -494,121 +540,134 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-96 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm md:h-80">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 															
-    			<!--!--> 															
     			<!--!-->
-    			<div data-orientation="vertical" dir="ltr" class="q-accordion flex w-full flex-col max-w-sm rounded-lg border" data-slot="accordion" data-multiple="false">
+    			<div class="w-full max-w-sm" data-slot="div">
     				
     				<!--!--> 																
     				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
     				<!--!-->
-    				<div data-state="closed" class="q-accordion-item border-b last:border-b-0 border-b px-4 last:border-b-0" data-slot="accordion-item" data-orientation="Vertical">
+    				<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col rounded-lg border" data-slot="accordion" data-multiple="false">
     					
     					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="open" class="not-last:border-b px-4 border-b last:border-b-0" data-slot="accordion-item" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-28-trigger" type="button" aria-controls="bradix-collapsible-28-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_34="">How does billing work? 																			
+    						<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-28-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-13" _bl_35="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         We offer monthly and annual subscription plans. Billing is charged at the beginning of each cycle, and you can cancel anytime. All plans include automatic backups, 24/7 support, and unlimited team members.
+    							<button id="bradix-collapsible-30-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-30-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-50" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_123="">How does billing work? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-30-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-14" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 50px; --radix-collapsible-content-width: 780px;" _bl_124="">
+    							<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
+    								
+    								<!--!-->                         We offer monthly and annual subscription plans. Billing is charged at the beginning of each cycle, and you can cancel anytime. All plans include automatic backups, 24/7 support, and unlimited team members.
+    							</div>
     						</div>
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" class="q-accordion-item border-b last:border-b-0 border-b px-4 last:border-b-0" data-slot="accordion-item" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" class="not-last:border-b px-4 border-b last:border-b-0" data-slot="accordion-item" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-29-trigger" type="button" aria-controls="bradix-collapsible-29-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_36="">Is my data secure? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-29-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-14" _bl_37="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         Yes. We use end-to-end encryption, SOC 2 Type II compliance, and regular third-party security audits. All data is encrypted at rest and in transit using industry-standard protocols.
-    						</div>
+    							<button id="bradix-collapsible-31-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-31-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-50" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_125="">Is my data secure? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
-    				</div>
-    				
-    				<!--!-->                  																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!--> 																
-    				<!--!-->
-    				<div data-state="closed" class="q-accordion-item border-b last:border-b-0 border-b px-4 last:border-b-0" data-slot="accordion-item" data-orientation="Vertical">
     					
+    					<!--!-->                  																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    					<div data-state="closed" class="not-last:border-b px-4 border-b last:border-b-0" data-slot="accordion-item" data-orientation="vertical">
     						
     						<!--!--> 																		
     						<!--!-->
-    						<button id="bradix-collapsible-30-trigger" type="button" aria-controls="bradix-collapsible-30-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_38="">What integrations do you support? 																			
+    						<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    							
     							<!--!--> 																			
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</h3>
-    					
-    					<!--!-->                      																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!--> 																	
-    					<!--!-->
-    					<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-30-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-15" _bl_39="">
-    						<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    							
-    							<!--!-->                         We integrate with 500+ popular tools including Slack, Zapier, Salesforce, HubSpot, and more. You can also build custom integrations using our REST API and webhooks.
-    						</div>
+    							<button id="bradix-collapsible-32-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-32-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-50" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_126="">What integrations do you support? 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    								
+    								<!--!-->              																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    									<path d="m18 15-6-6-6 6"></path>
+    								</svg>
+    							</button>
+    						</h3>
+    						
+    						<!--!-->                      																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
     					</div>
     				</div>
     			</div>
@@ -617,22 +676,22 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-[32rem] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 *:data-[slot=accordion]:max-w-sm md:h-[28rem]">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 															
     			<!--!-->
-    			<div class="q-card flex flex-col gap-6 rounded-xl border bg-card py-6 text-card-foreground shadow-sm w-full max-w-sm" data-slot="card">
+    			<div class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl w-full max-w-sm" data-slot="card" data-size="default">
     				
     				<!--!-->
-    				<div data-slot="card-header" class="q-card-header @container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+    				<div data-slot="card-header" class="group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-4 group-data-[size=sm]/card:[.border-b]:pb-3">
     					
     					<!--!-->
-    					<div data-slot="card-title" class="q-card-title leading-none font-semibold">Subscription &amp; Billing</div>
+    					<div data-slot="card-title" class="cn-font-heading text-base leading-snug font-medium group-data-[size=sm]/card:text-sm">Subscription &amp; Billing</div>
     					
     					<!--!-->                      																	
     					<!--!-->
-    					<div data-slot="card-description" class="q-card-description text-sm text-muted-foreground">
+    					<div class="text-sm text-muted-foreground" data-slot="card-description">
     						
     						<!--!-->                         Common questions about your account, plans, payments and cancellations.
     					</div>
@@ -640,12 +699,12 @@
     				
     				<!--!-->                  																
     				<!--!-->
-    				<div data-slot="card-content" class="q-card-content px-6">
+    				<div data-slot="card-content" class="px-4 group-data-[size=sm]/card:px-3">
     					
     					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<div data-orientation="vertical" dir="ltr" data-slot="accordion" data-multiple="false" class="q-accordion flex w-full flex-col">
+    					<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="false">
     						
     						<!--!--> 																		
     						<!--!--> 																		
@@ -653,19 +712,26 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="open" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-37-trigger" type="button" aria-controls="bradix-collapsible-37-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_40="">What subscription plans do you offer? 																					
+    								<button id="bradix-collapsible-39-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-39-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-51" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_127="">What subscription plans do you offer? 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -675,8 +741,8 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-37-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-31" _bl_41="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
+    							<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-39-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-33" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 50px; --radix-collapsible-content-width: 782px;" _bl_128="">
+    								<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
     									
     									<!--!-->                                 We offer three subscription tiers: Starter ($9/month), Professional ($29/month), and Enterprise ($99/month). Each plan includes increasing storage limits, API access, priority support, and team collaboration features.
     								</div>
@@ -690,19 +756,26 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-38-trigger" type="button" aria-controls="bradix-collapsible-38-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_42="">How does billing work? 																					
+    								<button id="bradix-collapsible-40-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-40-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-51" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_129="">How does billing work? 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -712,12 +785,6 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-38-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-32" _bl_43="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    									
-    									<!--!-->                                 Billing occurs automatically at the start of each billing cycle. We accept all major credit cards, PayPal, and ACH transfers for enterprise customers. You'll receive an invoice via email after each payment.
-    								</div>
-    							</div>
     						</div>
     						
     						<!--!-->                          																		
@@ -727,19 +794,26 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-39-trigger" type="button" aria-controls="bradix-collapsible-39-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_44="">How do I cancel my subscription? 																					
+    								<button id="bradix-collapsible-41-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-41-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-51" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_130="">How do I cancel my subscription? 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -749,12 +823,6 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-39-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-33" _bl_45="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    									
-    									<!--!-->                                 You can cancel your subscription anytime from your account settings. There are no cancellation fees or penalties. Your access will continue until the end of your current billing period.
-    								</div>
-    							</div>
     						</div>
     					</div>
     				</div>
@@ -763,8 +831,8 @@
     	</div>
     </div>
 
-    <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    <div data-slot="preview" dir="rtl" data-lang="ar">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 															
@@ -772,12 +840,12 @@
     			<div data-slot="direction-provider" dir="rtl">
     				
     				<!--!-->
-    				<div class="q-div max-w-md text-right">
+    				<div class="text-end max-w-md" data-slot="div">
     					
     					<!--!--> 																	
     					<!--!--> 																	
     					<!--!-->
-    					<div data-orientation="vertical" dir="ltr" class="q-accordion flex w-full flex-col w-full" data-slot="accordion" data-multiple="false">
+    					<div data-orientation="vertical" dir="ltr" class="flex w-full flex-col" data-slot="accordion" data-multiple="false">
     						
     						<!--!--> 																		
     						<!--!--> 																		
@@ -785,21 +853,28 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="open" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="open" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-40-trigger" type="button" aria-controls="bradix-collapsible-40-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_46="">
+    								<button id="bradix-collapsible-42-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-42-content" aria-expanded="true" data-state="open" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-52" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_131="">
     									
     									<!--!-->كيف يمكنني إعادة تعيين كلمة المرور؟ 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -809,8 +884,8 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-40-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-34" _bl_47="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
+    							<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-42-content" data-state="open" role="region" aria-labelledby="bradix-accordion-trigger-36" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 70px; --radix-collapsible-content-width: 448px;" _bl_132="">
+    								<div data-slot="accordion-content-inner" class="pt-0 pb-2.5">
     									
     									<!--!-->                                 انقر على 'نسيت كلمة المرور' في صفحة تسجيل الدخول، أدخل عنوان بريدك الإلكتروني، وسنرسل لك رابطًا لإعادة تعيين كلمة المرور. سينتهي صلاحية الرابط خلال 24 ساعة.
     								</div>
@@ -824,21 +899,28 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-41-trigger" type="button" aria-controls="bradix-collapsible-41-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_48="">
+    								<button id="bradix-collapsible-43-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-43-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-52" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_133="">
     									
     									<!--!-->هل يمكنني تغيير خطة الاشتراك الخاصة بي؟ 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -848,12 +930,6 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-41-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-35" _bl_49="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    									
-    									<!--!-->                                 نعم، يمكنك ترقية أو تخفيض خطتك في أي وقت من إعدادات حسابك. ستظهر التغييرات في دورة الفوترة التالية.
-    								</div>
-    							</div>
     						</div>
     						
     						<!--!-->                          																		
@@ -863,21 +939,28 @@
     						<!--!--> 																		
     						<!--!--> 																		
     						<!--!-->
-    						<div data-state="closed" data-slot="accordion-item" class="q-accordion-item border-b last:border-b-0" data-orientation="Vertical">
+    						<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
     							
     							<!--!--> 																			
     							<!--!-->
-    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header" class="q-accordion-header flex">
+    							<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
     								
     								<!--!--> 																				
     								<!--!-->
-    								<button id="bradix-collapsible-42-trigger" type="button" aria-controls="bradix-collapsible-42-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" class="q-accordion-trigger group/accordion-trigger relative flex flex-1 items-start rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50" data-orientation="Vertical" _bl_50="">
+    								<button id="bradix-collapsible-44-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-44-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-52" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_134="">
     									
     									<!--!-->ما هي طرق الدفع التي تقبلونها؟ 																					
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="accordion-trigger-icon" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle pointer-events-none ms-auto size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out motion-reduce:transition-none group-aria-expanded/accordion-trigger:rotate-180">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
     										<path d="m6 9 6 6 6-6"></path>
+    									</svg>
+    									
+    									<!--!-->              																					
+    									<!--!--> 																					
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    										<path d="m18 15-6-6-6 6"></path>
     									</svg>
     								</button>
     							</h3>
@@ -887,12 +970,62 @@
     							<!--!--> 																			
     							<!--!--> 																			
     							<!--!-->
-    							<div data-slot="accordion-content" class="q-accordion-content overflow-hidden text-sm transition-[height] duration-200 ease-out motion-reduce:transition-none data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)" style="--radix-accordion-content-height: 0px; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);" data-orientation="vertical" id="bradix-collapsible-42-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-36" _bl_51="">
-    								<div class="pt-0 pb-2.5 [&amp;_a]:underline [&amp;_a]:underline-offset-3 [&amp;_a]:hover:text-foreground [&amp;_p:not(:last-child)]:mb-4">
-    									
-    									<!--!-->                                 نقبل جميع بطاقات الائتمان الرئيسية و PayPal والتحويلات المصرفية. تتم معالجة جميع المدفوعات بأمان من خلال شركاء الدفع لدينا.
-    								</div>
-    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 															
+    			<!--!--> 															
+    			<!--!-->
+    			<div data-orientation="vertical" dir="ltr" data-testid="accordion-force-mount-demo" class="flex w-full max-w-sm flex-col" data-slot="accordion" data-multiple="false">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-state="closed" data-slot="accordion-item" class="not-last:border-b" data-orientation="vertical">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<h3 data-orientation="vertical" data-state="closed" data-slot="accordion-header">
+    						
+    						<!--!--> 																		
+    						<!--!-->
+    						<button id="bradix-collapsible-17-trigger" class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground" type="button" aria-controls="bradix-collapsible-17-content" aria-expanded="false" data-state="closed" data-slot="accordion-trigger" data-orientation="vertical" data-bradix-roving-group="bradix-accordion-group-45" data-bradix-roving-item="" data-bradix-roving-orientation="vertical" data-bradix-roving-dir="ltr" data-bradix-roving-loop="true" data-bradix-roving-ignore-aria-disabled="true" _bl_106="">Keep details mounted for animation 																			
+    							<!--!--> 																			
+    							<!--!-->
+    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none group-aria-expanded/accordion-trigger:hidden">
+    								<path d="m6 9 6 6 6-6"></path>
+    							</svg>
+    							
+    							<!--!-->              																			
+    							<!--!--> 																			
+    							<!--!-->
+    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle pointer-events-none hidden group-aria-expanded/accordion-trigger:inline">
+    								<path d="m18 15-6-6-6 6"></path>
+    							</svg>
+    						</button>
+    					</h3>
+    					
+    					<!--!-->                      																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="accordion-content" class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up" data-orientation="vertical" id="bradix-collapsible-17-content" data-state="closed" role="region" aria-labelledby="bradix-accordion-trigger-1" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 30px; --radix-collapsible-content-width: 461px;" _bl_107="">
+    						<div data-slot="accordion-content-inner" class="pt-0 pb-2.5 accordion-force-mount-content">
+    							
+    							<!--!-->                         Force mounted accordion details remain in the DOM while closed.
     						</div>
     					</div>
     				</div>

@@ -2,82 +2,82 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div class="steps-container">
-    				<ul class="q-steps steps #FFFFFF" role="tablist">
+    			<div data-slot="steps-container" class="flex w-full flex-col gap-4">
+    				<ul class="justify-between list-none gap-y-6 flex m-0 p-0 relative w-full flex-wrap items-start #FFFFFF" data-slot="steps" role="tablist">
     					
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-1-tab-step1" tabindex="0" role="tab" aria-selected="true" aria-controls="quark-steps-1-panel-step1" aria-current="step" class="q-anchor active" href="#step1">
+    						<a id="quark-steps-1-tab-step1" tabindex="0" role="tab" data-slot="step-link" data-active="true" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="true" aria-disabled="false" aria-posinset="1" aria-setsize="3" aria-controls="quark-steps-1-panel-step1" aria-current="step" href="#step1">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">1</span>
+    								<span _bl_113="">1</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Step 1</div>
+    								<div class="step-title" data-slot="div">Step 1</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-1-tab-step2" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-1-panel-step2" class="q-anchor" href="#step2">
+    						<a id="quark-steps-1-tab-step2" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="2" aria-setsize="3" aria-controls="quark-steps-1-panel-step2" href="#step2">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">2</span>
+    								<span _bl_114="">2</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Step 2</div>
+    								<div class="step-title" data-slot="div">Step 2</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-1-tab-step3" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-1-panel-step3" class="q-anchor" href="#step3">
+    						<a id="quark-steps-1-tab-step3" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="3" aria-setsize="3" aria-controls="quark-steps-1-panel-step3" href="#step3">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">3</span>
+    								<span _bl_115="">3</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Step 3</div>
+    								<div class="step-title" data-slot="div">Step 3</div>
     							</div>
     						</a>
     					</li>
@@ -85,41 +85,41 @@
     					<!--!-->               																		
     					<!--!--> 																		
     					<!--!-->
-    					<div class="q-step-content mt-4">
+    					<div data-slot="step-content" class="mt-4">
     						
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-1-panel-step1" aria-labelledby="quark-steps-1-tab-step1" class="q-step-panel">
+    						<div class="block" data-slot="step-panel" role="tabpanel" id="quark-steps-1-panel-step1" aria-labelledby="quark-steps-1-tab-step1">
     							
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">This is the content for step 1.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">This is the content for step 1.</p>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">You can put any content here, including forms, text, or other components.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">You can put any content here, including forms, text, or other components.</p>
     						</div>
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-1-panel-step2" aria-labelledby="quark-steps-1-tab-step2" tabindex="-1" class="q-step-panel hidden">
+    						<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-1-panel-step2" aria-labelledby="quark-steps-1-tab-step2" tabindex="-1">
     							
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">This is the content for step 2.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">This is the content for step 2.</p>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Each step can have different content and functionality.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Each step can have different content and functionality.</p>
     						</div>
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-1-panel-step3" aria-labelledby="quark-steps-1-tab-step3" tabindex="-1" class="q-step-panel hidden">
+    						<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-1-panel-step3" aria-labelledby="quark-steps-1-tab-step3" tabindex="-1">
     							
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">This is the content for step 3.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">This is the content for step 3.</p>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">This is the final step in the process.</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">This is the final step in the process.</p>
     						</div>
     					</div>
     				</ul>
@@ -127,385 +127,516 @@
     			
     			<!--!-->           																
     			<!--!-->
-    			<div class="q-div flex flex-wrap gap-2 items-center mt-4">
+    			<div class="flex mt-4 flex-wrap gap-2 items-center" data-slot="div">
     				
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_8="">Previous</button>
-    				
-    				<!--!-->              																	
-    				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_9="">Next</button>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_10="">Previous</button>
     				
     				<!--!-->              																	
     				<!--!-->
-    				<span class="q-text text-sm text-muted-foreground m-0">Current Step: step1</span>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_11="">Next</button>
+    				
+    				<!--!-->              																	
+    				<!--!-->
+    				<span class="text-muted-foreground text-sm m-0" data-slot="text">Current Step: step1</span>
     			</div>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
-    			<!--!--> 																
-    			<!--!--> 																
     			<!--!-->
-    			<div class="steps-container">
-    				<ul role="tablist" class="q-steps steps">
-    					
-    					<!--!-->
-    					<li class="q-step step-item">
-    						
-    						<!--!-->
-    						<a id="quark-steps-2-tab-personal" tabindex="0" role="tab" aria-selected="true" aria-controls="quark-steps-2-panel-personal" aria-current="step" class="q-anchor active" href="#personal">
-    							
-    							<!--!-->
-    							<div class="q-step-marker step-marker">
-    								
-    								<!--!-->
-    								<span class="q-span text-foreground">1</span>
-    							</div>
-    							
-    							<!--!-->                  																				
-    							<!--!-->
-    							<div class="q-step-caption step-description">
-    								
-    								<!--!-->
-    								<div class="q-div step-title">Personal Information</div>
-    							</div>
-    						</a>
-    					</li>
-    					
-    					<!--!-->              																		
-    					<!--!-->
-    					<li class="q-step step-item">
-    						
-    						<!--!-->
-    						<a id="quark-steps-2-tab-contact" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-2-panel-contact" class="q-anchor" href="#contact">
-    							
-    							<!--!-->
-    							<div class="q-step-marker step-marker">
-    								
-    								<!--!-->
-    								<span class="q-span text-foreground">2</span>
-    							</div>
-    							
-    							<!--!-->                  																				
-    							<!--!-->
-    							<div class="q-step-caption step-description">
-    								
-    								<!--!-->
-    								<div class="q-div step-title">Contact Information</div>
-    							</div>
-    						</a>
-    					</li>
-    					
-    					<!--!-->              																		
-    					<!--!-->
-    					<li class="q-step step-item">
-    						
-    						<!--!-->
-    						<a id="quark-steps-2-tab-review" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-2-panel-review" class="q-anchor" href="#review">
-    							
-    							<!--!-->
-    							<div class="q-step-marker step-marker">
-    								
-    								<!--!-->
-    								<span class="q-span text-foreground">3</span>
-    							</div>
-    							
-    							<!--!-->                  																				
-    							<!--!-->
-    							<div class="q-step-caption step-description">
-    								
-    								<!--!-->
-    								<div class="q-div step-title">
-    									
-    									<!--!-->Review &amp; Submit</div>
-    							</div>
-    						</a>
-    					</li>
-    					
-    					<!--!-->               																		
-    					<!--!--> 																		
-    					<!--!-->
-    					<div class="q-step-content mt-4">
-    						
-    						<!--!-->
-    						<div class="q-step-panel space-y-4" role="tabpanel" id="quark-steps-2-panel-personal" aria-labelledby="quark-steps-2-tab-personal">
-    							
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
-    								
-    								<!--!--> 																					
-    								<!--!-->
-    								<label for="firstName" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_18="">First Name</label>
-    								
-    								<!--!-->                          																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
-    									
-    									<!--!-->
-    									<div class="q-text-input">
-    										
-    										<!--!-->
-    										<input id="firstName" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->                      																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
-    								
-    								<!--!--> 																					
-    								<!--!-->
-    								<label for="lastName" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_19="">Last Name</label>
-    								
-    								<!--!-->                          																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
-    									
-    									<!--!-->
-    									<div class="q-text-input">
-    										
-    										<!--!-->
-    										<input id="lastName" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
-    									</div>
-    								</div>
-    							</div>
-    						</div>
-    						
-    						<!--!-->                  																			
-    						<!--!-->
-    						<div class="q-step-panel hidden space-y-4" role="tabpanel" id="quark-steps-2-panel-contact" aria-labelledby="quark-steps-2-tab-contact" tabindex="-1">
-    							
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
-    								
-    								<!--!--> 																					
-    								<!--!-->
-    								<label for="email" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_20="">Email</label>
-    								
-    								<!--!-->                          																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
-    									
-    									<!--!-->
-    									<div class="q-text-input">
-    										
-    										<!--!-->
-    										<input id="email" type="email" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->                      																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!--> 																				
-    							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
-    								
-    								<!--!--> 																					
-    								<!--!-->
-    								<label for="phone" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_21="">Phone</label>
-    								
-    								<!--!-->                          																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
-    									
-    									<!--!-->
-    									<div class="q-text-input">
-    										
-    										<!--!-->
-    										<input id="phone" type="tel" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
-    									</div>
-    								</div>
-    							</div>
-    						</div>
-    						
-    						<!--!-->                  																			
-    						<!--!-->
-    						<div role="tabpanel" id="quark-steps-2-panel-review" aria-labelledby="quark-steps-2-tab-review" tabindex="-1" class="q-step-panel hidden">
-    							
-    							<!--!-->
-    							<h4 class="q-h4 text-xl font-semibold">Review Your Information</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">
-    								
-    								<!--!-->
-    								<strong class="q-strong">Name:</strong>
-    							</p>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">
-    								
-    								<!--!-->
-    								<strong class="q-strong">Email:</strong>
-    							</p>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">
-    								
-    								<!--!-->
-    								<strong class="q-strong">Phone:</strong>
-    							</p>
-    							
-    							<!--!-->                       																				
-    							<!--!-->
-    							<div class="q-div mt-3">
-    								
-    								<!--!-->
-    								<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-accent" data-slot="button" data-variant="default" data-size="default" type="button" _bl_17="">Submit</button>
-    							</div>
-    						</div>
-    					</div>
-    				</ul>
-    			</div>
-    			
-    			<!--!-->           																
-    			<!--!-->
-    			<div class="q-div flex gap-2 mt-4">
+    			<div id="steps-disabled-demo" class="space-y-4" data-slot="div">
     				
+    				<!--!--> 																	
+    				<!--!--> 																	
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-secondary-foreground bg-secondary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_10="">Previous</button>
+    				<div data-slot="steps-container" class="flex w-full flex-col gap-4">
+    					<ul class="justify-between list-none gap-y-6 flex m-0 p-0 relative w-full flex-wrap items-start" data-slot="steps" role="tablist">
+    						
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-4-tab-details" tabindex="0" role="tab" data-slot="step-link" data-active="true" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="true" aria-disabled="false" aria-posinset="1" aria-setsize="3" aria-controls="quark-steps-4-panel-details" aria-current="step" href="#details">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_123="">1</span>
+    								</div>
+    								
+    								<!--!-->                              																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">Details</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-4-tab-billing" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="true" data-clickable="false" aria-selected="false" aria-disabled="true" aria-posinset="2" aria-setsize="3" aria-controls="quark-steps-4-panel-billing">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_124="">2</span>
+    								</div>
+    								
+    								<!--!-->                              																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">Billing</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-4-tab-confirm" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="3" aria-setsize="3" aria-controls="quark-steps-4-panel-confirm" href="#confirm">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_125="">3</span>
+    								</div>
+    								
+    								<!--!-->                              																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">Confirm</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->                           																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div data-slot="step-content" class="mt-4">
+    							
+    							<!--!-->
+    							<div class="block" data-slot="step-panel" role="tabpanel" id="quark-steps-4-panel-details" aria-labelledby="quark-steps-4-tab-details">
+    								
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Details panel</p>
+    							</div>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-4-panel-billing" aria-labelledby="quark-steps-4-tab-billing" tabindex="-1">
+    								
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Billing panel</p>
+    							</div>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-4-panel-confirm" aria-labelledby="quark-steps-4-tab-confirm" tabindex="-1">
+    								
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Confirm panel</p>
+    							</div>
+    						</div>
+    					</ul>
+    				</div>
     				
-    				<!--!-->              																	
+    				<!--!-->                       																	
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_11="">Next</button>
+    				<span id="steps-disabled-current" class="text-muted-foreground text-sm m-0" data-slot="text">Current Step: details</span>
     			</div>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div id="steps-validation-demo" class="space-y-4" data-slot="div">
+    				
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="steps-container" class="flex w-full flex-col gap-4">
+    					<ul class="justify-between list-none gap-y-6 flex m-0 p-0 relative w-full flex-wrap items-start" data-slot="steps" role="tablist">
+    						
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-5-tab-personal" tabindex="0" role="tab" data-slot="step-link" data-active="true" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="true" aria-disabled="false" aria-posinset="1" aria-setsize="3" aria-controls="quark-steps-5-panel-personal" aria-current="step" href="#personal">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_126="">1</span>
+    								</div>
+    								
+    								<!--!-->                  																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">Personal Information</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->              																			
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-5-tab-contact" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="2" aria-setsize="3" aria-controls="quark-steps-5-panel-contact" href="#contact">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_127="">2</span>
+    								</div>
+    								
+    								<!--!-->                  																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">Contact Information</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->              																			
+    						<!--!-->
+    						<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
+    							
+    							<!--!-->
+    							<a id="quark-steps-5-tab-review" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="3" aria-setsize="3" aria-controls="quark-steps-5-panel-review" href="#review">
+    								
+    								<!--!-->
+    								<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
+    									
+    									<!--!-->
+    									<span _bl_128="">3</span>
+    								</div>
+    								
+    								<!--!-->                  																					
+    								<!--!-->
+    								<div class="block" data-slot="step-caption">
+    									
+    									<!--!-->
+    									<div class="step-title" data-slot="div">
+    										
+    										<!--!-->Review &amp; Submit</div>
+    								</div>
+    							</a>
+    						</li>
+    						
+    						<!--!-->               																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div data-slot="step-content" class="mt-4">
+    							
+    							<!--!-->
+    							<div class="block space-y-4" data-slot="step-panel" role="tabpanel" id="quark-steps-5-panel-personal" aria-labelledby="quark-steps-5-tab-personal">
+    								
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<label for="firstName" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_137="">First Name</label>
+    									
+    									<!--!-->                          																						
+    									<!--!--> 																						
+    									<!--!-->
+    									<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
+    										
+    										<!--!-->
+    										<div>
+    											
+    											<!--!-->
+    											<input id="firstName" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
+    										</div>
+    									</div>
+    								</div>
+    								
+    								<!--!-->                      																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<label for="lastName" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_138="">Last Name</label>
+    									
+    									<!--!-->                          																						
+    									<!--!--> 																						
+    									<!--!-->
+    									<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
+    										
+    										<!--!-->
+    										<div>
+    											
+    											<!--!-->
+    											<input id="lastName" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->                  																				
+    							<!--!-->
+    							<div class="hidden block space-y-4" data-slot="step-panel" role="tabpanel" id="quark-steps-5-panel-contact" aria-labelledby="quark-steps-5-tab-contact" tabindex="-1">
+    								
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<label for="email" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_139="">Email</label>
+    									
+    									<!--!-->                          																						
+    									<!--!--> 																						
+    									<!--!-->
+    									<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
+    										
+    										<!--!-->
+    										<div>
+    											
+    											<!--!-->
+    											<input id="email" type="email" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
+    										</div>
+    									</div>
+    								</div>
+    								
+    								<!--!-->                      																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<label for="phone" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_140="">Phone</label>
+    									
+    									<!--!-->                          																						
+    									<!--!--> 																						
+    									<!--!-->
+    									<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
+    										
+    										<!--!-->
+    										<div>
+    											
+    											<!--!-->
+    											<input id="phone" type="tel" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->                  																				
+    							<!--!-->
+    							<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-5-panel-review" aria-labelledby="quark-steps-5-tab-review" tabindex="-1">
+    								
+    								<!--!-->
+    								<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Review Your Information</h4>
+    								
+    								<!--!-->                      																					
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">
+    									
+    									<!--!-->
+    									<strong data-slot="strong">Name:</strong>
+    								</p>
+    								
+    								<!--!-->                      																					
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">
+    									
+    									<!--!-->
+    									<strong data-slot="strong">Email:</strong>
+    								</p>
+    								
+    								<!--!-->                      																					
+    								<!--!-->
+    								<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">
+    									
+    									<!--!-->
+    									<strong data-slot="strong">Phone:</strong>
+    								</p>
+    								
+    								<!--!-->                       																					
+    								<!--!-->
+    								<div class="mt-3" data-slot="div">
+    									
+    									<!--!-->
+    									<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border bg-accent rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_129="">Submit</button>
+    								</div>
+    							</div>
+    						</div>
+    					</ul>
+    				</div>
+    				
+    				<!--!-->           																	
+    				<!--!-->
+    				<div class="flex mt-4 gap-2" data-slot="div">
+    					
+    					<!--!-->
+    					<button id="steps-validation-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-secondary-foreground text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border bg-secondary rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_18="">Previous</button>
+    					
+    					<!--!-->              																		
+    					<!--!-->
+    					<button id="steps-validation-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_19="">Next</button>
+    				</div>
+    				
+    				<!--!-->          																	
+    				<!--!-->
+    				<span id="steps-validation-current" class="text-muted-foreground text-sm m-0" data-slot="text">Current Step: personal</span>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div class="steps-container">
-    				<ul role="tablist" class="q-steps steps">
+    			<div data-slot="steps-container" class="flex w-full flex-col gap-4">
+    				<ul class="justify-between list-none gap-y-6 flex m-0 p-0 relative w-full flex-wrap items-start" data-slot="steps" role="tablist">
     					
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-3-tab-design" tabindex="0" role="tab" aria-selected="true" aria-controls="quark-steps-3-panel-design" aria-current="step" class="q-anchor active" href="#design">
+    						<a id="quark-steps-2-tab-design" tabindex="0" role="tab" data-slot="step-link" data-active="true" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="true" aria-disabled="false" aria-posinset="1" aria-setsize="4" aria-controls="quark-steps-2-panel-design" aria-current="step" href="#design">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">
+    								<span _bl_116="">
     									
     									<!--!-->🎨</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Design</div>
+    								<div class="step-title" data-slot="div">Design</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-3-tab-develop" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-3-panel-develop" class="q-anchor" href="#develop">
+    						<a id="quark-steps-2-tab-develop" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="2" aria-setsize="4" aria-controls="quark-steps-2-panel-develop" href="#develop">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">
+    								<span _bl_117="">
     									
     									<!--!-->💻</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Development</div>
+    								<div class="step-title" data-slot="div">Development</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-3-tab-test" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-3-panel-test" class="q-anchor" href="#test">
+    						<a id="quark-steps-2-tab-test" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="3" aria-setsize="4" aria-controls="quark-steps-2-panel-test" href="#test">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">
+    								<span _bl_118="">
     									
     									<!--!-->🧪</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Testing</div>
+    								<div class="step-title" data-slot="div">Testing</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-3-tab-deploy" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-3-panel-deploy" class="q-anchor" href="#deploy">
+    						<a id="quark-steps-2-tab-deploy" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="4" aria-setsize="4" aria-controls="quark-steps-2-panel-deploy" href="#deploy">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">
+    								<span _bl_119="">
     									
     									<!--!-->🚀</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Deployment</div>
+    								<div class="step-title" data-slot="div">Deployment</div>
     							</div>
     						</a>
     					</li>
@@ -513,116 +644,116 @@
     					<!--!-->               																		
     					<!--!--> 																		
     					<!--!-->
-    					<div class="q-step-content mt-4">
+    					<div data-slot="step-content" class="mt-4">
     						
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-3-panel-design" aria-labelledby="quark-steps-3-tab-design" class="q-step-panel">
+    						<div class="block" data-slot="step-panel" role="tabpanel" id="quark-steps-2-panel-design" aria-labelledby="quark-steps-2-tab-design">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl text-foreground font-semibold">Design Phase</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Create the visual design and user interface.</p>
+    							<h4 class="scroll-m-20 text-foreground text-xl font-semibold tracking-tight" data-slot="h4">Design Phase</h4>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<ul class="q-unordered-list">
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Create the visual design and user interface.</p>
+    							
+    							<!--!-->                      																				
+    							<!--!-->
+    							<ul data-slot="unordered-list" class="my-6 ml-6 [&amp;>li]:mt-2 list-disc">
     								
     								<!--!-->
-    								<li class="q-unordered-list-item">Wireframes</li>
+    								<li data-slot="unordered-list-item">Wireframes</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Mockups</li>
+    								<li data-slot="unordered-list-item">Mockups</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Prototypes</li>
+    								<li data-slot="unordered-list-item">Prototypes</li>
     							</ul>
     						</div>
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-3-panel-develop" aria-labelledby="quark-steps-3-tab-develop" tabindex="-1" class="q-step-panel hidden">
+    						<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-2-panel-develop" aria-labelledby="quark-steps-2-tab-develop" tabindex="-1">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl text-foreground font-semibold">Development Phase</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Implement the design into working code.</p>
+    							<h4 class="scroll-m-20 text-foreground text-xl font-semibold tracking-tight" data-slot="h4">Development Phase</h4>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<ul class="q-unordered-list">
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Implement the design into working code.</p>
+    							
+    							<!--!-->                      																				
+    							<!--!-->
+    							<ul data-slot="unordered-list" class="my-6 ml-6 [&amp;>li]:mt-2 list-disc">
     								
     								<!--!-->
-    								<li class="q-unordered-list-item">Frontend Development</li>
+    								<li data-slot="unordered-list-item">Frontend Development</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Backend Development</li>
+    								<li data-slot="unordered-list-item">Backend Development</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Database Design</li>
+    								<li data-slot="unordered-list-item">Database Design</li>
     							</ul>
     						</div>
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-3-panel-test" aria-labelledby="quark-steps-3-tab-test" tabindex="-1" class="q-step-panel hidden">
+    						<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-2-panel-test" aria-labelledby="quark-steps-2-tab-test" tabindex="-1">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl text-foreground font-semibold">Testing Phase</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Test the application for bugs and performance.</p>
+    							<h4 class="scroll-m-20 text-foreground text-xl font-semibold tracking-tight" data-slot="h4">Testing Phase</h4>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<ul class="q-unordered-list">
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Test the application for bugs and performance.</p>
+    							
+    							<!--!-->                      																				
+    							<!--!-->
+    							<ul data-slot="unordered-list" class="my-6 ml-6 [&amp;>li]:mt-2 list-disc">
     								
     								<!--!-->
-    								<li class="q-unordered-list-item">Unit Testing</li>
+    								<li data-slot="unordered-list-item">Unit Testing</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Integration Testing</li>
+    								<li data-slot="unordered-list-item">Integration Testing</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">User Acceptance Testing</li>
+    								<li data-slot="unordered-list-item">User Acceptance Testing</li>
     							</ul>
     						</div>
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div role="tabpanel" id="quark-steps-3-panel-deploy" aria-labelledby="quark-steps-3-tab-deploy" tabindex="-1" class="q-step-panel hidden">
+    						<div class="hidden block" data-slot="step-panel" role="tabpanel" id="quark-steps-2-panel-deploy" aria-labelledby="quark-steps-2-tab-deploy" tabindex="-1">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl text-foreground font-semibold">Deployment Phase</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Deploy the application to production.</p>
+    							<h4 class="scroll-m-20 text-foreground text-xl font-semibold tracking-tight" data-slot="h4">Deployment Phase</h4>
     							
     							<!--!-->                      																				
     							<!--!-->
-    							<ul class="q-unordered-list">
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Deploy the application to production.</p>
+    							
+    							<!--!-->                      																				
+    							<!--!-->
+    							<ul data-slot="unordered-list" class="my-6 ml-6 [&amp;>li]:mt-2 list-disc">
     								
     								<!--!-->
-    								<li class="q-unordered-list-item">Production Setup</li>
+    								<li data-slot="unordered-list-item">Production Setup</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Monitoring</li>
+    								<li data-slot="unordered-list-item">Monitoring</li>
     								
     								<!--!-->                          																					
     								<!--!-->
-    								<li class="q-unordered-list-item">Documentation</li>
+    								<li data-slot="unordered-list-item">Documentation</li>
     							</ul>
     						</div>
     					</div>
@@ -631,100 +762,100 @@
     			
     			<!--!-->           																
     			<!--!-->
-    			<div class="q-div flex flex-wrap gap-2 items-center mt-4">
+    			<div class="flex mt-4 flex-wrap gap-2 items-center" data-slot="div">
     				
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_12="">Previous</button>
-    				
-    				<!--!-->              																	
-    				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_13="">Next</button>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_12="">Previous</button>
     				
     				<!--!-->              																	
     				<!--!-->
-    				<span class="q-text text-sm text-muted-foreground m-0">Current Phase: design</span>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_13="">Next</button>
+    				
+    				<!--!-->              																	
+    				<!--!-->
+    				<span class="text-muted-foreground text-sm m-0" data-slot="text">Current Phase: design</span>
     			</div>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div class="steps-container">
-    				<ul role="tablist" class="q-steps steps">
+    			<div data-slot="steps-container" class="flex w-full flex-col gap-4">
+    				<ul class="justify-between list-none gap-y-6 flex m-0 p-0 relative w-full flex-wrap items-start" data-slot="steps" role="tablist">
     					
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-4-tab-account" tabindex="0" role="tab" aria-selected="true" aria-controls="quark-steps-4-panel-account" aria-current="step" class="q-anchor active" href="#account">
+    						<a id="quark-steps-3-tab-account" tabindex="0" role="tab" data-slot="step-link" data-active="true" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="true" aria-disabled="false" aria-posinset="1" aria-setsize="3" aria-controls="quark-steps-3-panel-account" aria-current="step" href="#account">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">1</span>
+    								<span _bl_120="">1</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Create Account</div>
+    								<div class="step-title" data-slot="div">Create Account</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-4-tab-profile" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-4-panel-profile" class="q-anchor" href="#profile">
+    						<a id="quark-steps-3-tab-profile" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="2" aria-setsize="3" aria-controls="quark-steps-3-panel-profile" href="#profile">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">2</span>
+    								<span _bl_121="">2</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Profile Setup</div>
+    								<div class="step-title" data-slot="div">Profile Setup</div>
     							</div>
     						</a>
     					</li>
     					
     					<!--!-->              																		
     					<!--!-->
-    					<li class="q-step step-item">
+    					<li class="flex relative flex-1 items-start" data-slot="step" role="presentation">
     						
     						<!--!-->
-    						<a id="quark-steps-4-tab-preferences" tabindex="-1" role="tab" aria-selected="false" aria-controls="quark-steps-4-panel-preferences" class="q-anchor" href="#preferences">
+    						<a id="quark-steps-3-tab-preferences" tabindex="-1" role="tab" data-slot="step-link" data-active="false" data-completed="false" data-disabled="false" data-clickable="true" aria-selected="false" aria-disabled="false" aria-posinset="3" aria-setsize="3" aria-controls="quark-steps-3-panel-preferences" href="#preferences">
     							
     							<!--!-->
-    							<div class="q-step-marker step-marker">
+    							<div class="justify-center flex font-semibold relative items-center rounded-full" data-slot="step-marker">
     								
     								<!--!-->
-    								<span class="q-span text-foreground">3</span>
+    								<span _bl_122="">3</span>
     							</div>
     							
     							<!--!-->                  																				
     							<!--!-->
-    							<div class="q-step-caption step-description">
+    							<div class="block" data-slot="step-caption">
     								
     								<!--!-->
-    								<div class="q-div step-title">Preferences</div>
+    								<div class="step-title" data-slot="div">Preferences</div>
     							</div>
     						</a>
     					</li>
@@ -732,39 +863,39 @@
     					<!--!-->               																		
     					<!--!--> 																		
     					<!--!-->
-    					<div class="q-step-content mt-4">
+    					<div data-slot="step-content" class="mt-4">
     						
     						<!--!-->
-    						<div class="q-step-panel space-y-4" role="tabpanel" id="quark-steps-4-panel-account" aria-labelledby="quark-steps-4-tab-account">
+    						<div class="block space-y-4" data-slot="step-panel" role="tabpanel" id="quark-steps-3-panel-account" aria-labelledby="quark-steps-3-tab-account">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl font-semibold">Account Creation</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Create your account to get started.</p>
+    							<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Account Creation</h4>
     							
     							<!--!-->                      																				
+    							<!--!-->
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Create your account to get started.</p>
+    							
+    							<!--!-->                      																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="username" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_22="">Username</label>
+    								<label for="username" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_130="">Username</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
     									<!--!-->
-    									<div class="q-text-input">
+    									<div>
     										
     										<!--!-->
-    										<input id="username" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    										<input id="username" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
     									</div>
     								</div>
     							</div>
@@ -774,22 +905,22 @@
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="password" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_23="">Password</label>
+    								<label for="password" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_131="">Password</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
     									<!--!-->
-    									<div class="q-text-input">
+    									<div>
     										
     										<!--!-->
-    										<input id="password" type="password" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    										<input id="password" type="password" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
     									</div>
     								</div>
     							</div>
@@ -797,33 +928,33 @@
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div class="q-step-panel hidden space-y-4" role="tabpanel" id="quark-steps-4-panel-profile" aria-labelledby="quark-steps-4-tab-profile" tabindex="-1">
+    						<div class="hidden block space-y-4" data-slot="step-panel" role="tabpanel" id="quark-steps-3-panel-profile" aria-labelledby="quark-steps-3-tab-profile" tabindex="-1">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl font-semibold">Profile Information</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Tell us about yourself.</p>
+    							<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Profile Information</h4>
     							
     							<!--!-->                      																				
+    							<!--!-->
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Tell us about yourself.</p>
+    							
+    							<!--!-->                      																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="bio" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_24="">Bio</label>
+    								<label for="bio" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_132="">Bio</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
     									<!--!-->
-    									<textarea id="bio" class="q-memo-input border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" rows="3"></textarea>
+    									<textarea id="bio" data-slot="textarea" class="border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-lg border bg-transparent px-2.5 py-2 text-base transition-colors outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" rows="3"></textarea>
     								</div>
     							</div>
     							
@@ -832,22 +963,22 @@
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="website" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_25="">Website</label>
+    								<label for="website" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_133="">Website</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
     									<!--!-->
-    									<div class="q-text-input">
+    									<div>
     										
     										<!--!-->
-    										<input id="website" type="url" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    										<input id="website" type="url" data-slot="input" class="h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40">
     									</div>
     								</div>
     							</div>
@@ -855,49 +986,45 @@
     						
     						<!--!-->                  																			
     						<!--!-->
-    						<div class="q-step-panel hidden space-y-4" role="tabpanel" id="quark-steps-4-panel-preferences" aria-labelledby="quark-steps-4-tab-preferences" tabindex="-1">
+    						<div class="hidden block space-y-4" data-slot="step-panel" role="tabpanel" id="quark-steps-3-panel-preferences" aria-labelledby="quark-steps-3-tab-preferences" tabindex="-1">
     							
     							<!--!-->
-    							<h4 class="q-h4 text-xl font-semibold">Account Preferences</h4>
-    							
-    							<!--!-->                      																				
-    							<!--!-->
-    							<p class="q-paragraph text-sm text-foreground leading-7">Configure your account preferences.</p>
+    							<h4 class="scroll-m-20 text-xl font-semibold tracking-tight" data-slot="h4">Account Preferences</h4>
     							
     							<!--!-->                      																				
+    							<!--!-->
+    							<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Configure your account preferences.</p>
+    							
+    							<!--!-->                      																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="emailNotifications" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_26="">Email Notifications</label>
+    								<label for="emailNotifications" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_134="">Email Notifications</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
+    									<!--!--> 																						
+    									<!--!--> 																						
     									<!--!-->
-    									<div class="q-check flex items-center gap-2">
+    									<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="emailNotifications" data-slot="checkbox" class="peer relative flex size-4 shrink-0 items-center justify-center rounded-[4px] border border-input transition-colors outline-none group-has-disabled/field:opacity-50 after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 aria-invalid:aria-checked:border-primary dark:bg-input/30 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 data-checked:border-primary data-checked:bg-primary data-checked:text-primary-foreground dark:data-checked:bg-primary data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground dark:data-[state=checked]:bg-primary dark:data-[state=indeterminate]:bg-primary" _bl_143="" data-bradix-checkbox-root="">
     										
-    										<!--!--> 																							
     										<!--!-->
-    										<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="quark-field-13-control" data-slot="checkbox" data-checked="true" class="q-check-indicator peer border-input dark:bg-input/30 data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground data-[state=unchecked]:bg-transparent data-[state=unchecked]:text-current shrink-0 rounded-[4px] border shadow-xs transition-[color,box-shadow] outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 disabled:cursor-not-allowed disabled:opacity-50 grid place-content-center size-4" _bl_31="">
+    										<span data-state="checked" style="pointer-events: none;" data-slot="checkbox-indicator" class="grid place-content-center text-current transition-none [&amp;>svg]:size-3.5">
     											
     											<!--!-->
-    											<span data-state="checked" style="pointer-events: none;" data-slot="checkbox-indicator" class="grid place-content-center text-current transition-none">
-    												
-    												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-3.5 shrink-0">
-    													<path d="M20 6 9 17 4 12"></path>
-    												</svg>
-    											</span>
-    										</button>
-    										<input type="checkbox" value="on" tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_29="">
-    									</div>
+    											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-3.5 shrink-0">
+    												<path d="M20 6 9 17 4 12"></path>
+    											</svg>
+    										</span>
+    									</button>
     								</div>
     							</div>
     							
@@ -906,28 +1033,24 @@
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="smsNotifications" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_27="">SMS Notifications</label>
+    								<label for="smsNotifications" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_135="">SMS Notifications</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
+    									<!--!--> 																						
+    									<!--!--> 																						
     									<!--!-->
-    									<div class="q-check flex items-center gap-2">
+    									<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="smsNotifications" data-slot="checkbox" class="peer relative flex size-4 shrink-0 items-center justify-center rounded-[4px] border border-input transition-colors outline-none group-has-disabled/field:opacity-50 after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 aria-invalid:aria-checked:border-primary dark:bg-input/30 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 data-checked:border-primary data-checked:bg-primary data-checked:text-primary-foreground dark:data-checked:bg-primary data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground dark:data-[state=checked]:bg-primary dark:data-[state=indeterminate]:bg-primary" _bl_144="" data-bradix-checkbox-root="">
     										
-    										<!--!--> 																							
     										<!--!-->
-    										<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="quark-field-14-control" data-slot="checkbox" data-unchecked="true" class="q-check-indicator peer border-input dark:bg-input/30 data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground data-[state=unchecked]:bg-transparent data-[state=unchecked]:text-current shrink-0 rounded-[4px] border shadow-xs transition-[color,box-shadow] outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 disabled:cursor-not-allowed disabled:opacity-50 grid place-content-center size-4" _bl_32="">
-    											
-    											<!--!-->
-    										</button>
-    										<input type="checkbox" value="on" tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_30="">
-    									</div>
+    									</button>
     								</div>
     							</div>
     							
@@ -936,21 +1059,21 @@
     							<!--!--> 																				
     							<!--!--> 																				
     							<!--!-->
-    							<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<label for="language" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_28="">Language</label>
+    								<label for="language" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_136="">Language</label>
     								
     								<!--!-->                          																					
     								<!--!--> 																					
     								<!--!-->
-    								<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								<div class="group/field-content leading-snug flex flex-1 flex-col gap-0.5" data-slot="field-content">
     									
     									<!--!--> 																						
     									<!--!--> 																						
     									<!--!-->
-    									<div id="language" data-slot="select" data-size="default" data-state="closed" class="q-select group/select relative w-full max-w-full">
+    									<div id="language" data-slot="select" data-size="default" data-state="closed" class="group/select relative w-full max-w-full">
     										
     										<!--!--> 																							
     										<!--!--> 																							
@@ -959,50 +1082,51 @@
     										<!--!--> 																							
     										<!--!--> 																							
     										<!--!-->
-    										<div role="option" aria-labelledby="bradix-select-18-item-english-text" aria-selected="false" data-state="unchecked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_34="">
-    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    										<div role="option" aria-labelledby="bradix-select-19-item-english-text" aria-selected="false" data-state="unchecked" tabindex="-1" class="outline-hidden focus:bg-accent focus:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 [&amp;_svg:not([class*='text-'])]:text-muted-foreground *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2 flex text-sm pr-8 pl-2 py-1.5 relative w-full gap-2 items-center select-none cursor-default rounded-sm" data-slot="select-item" _bl_146="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center">
     												
     												<!--!-->
     											</span>
     											
     											<!--!-->      																								
     											<!--!-->
-    											<span id="bradix-select-18-item-english-text" _bl_37="">English</span>
+    											<span id="bradix-select-19-item-english-text" _bl_149="">English</span>
     										</div>
     										
     										<!--!-->                                  																							
     										<!--!--> 																							
     										<!--!--> 																							
     										<!--!-->
-    										<div role="option" aria-labelledby="bradix-select-18-item-spanish-text" aria-selected="false" data-state="unchecked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_35="">
-    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    										<div role="option" aria-labelledby="bradix-select-19-item-spanish-text" aria-selected="false" data-state="unchecked" tabindex="-1" class="outline-hidden focus:bg-accent focus:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 [&amp;_svg:not([class*='text-'])]:text-muted-foreground *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2 flex text-sm pr-8 pl-2 py-1.5 relative w-full gap-2 items-center select-none cursor-default rounded-sm" data-slot="select-item" _bl_147="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center">
     												
     												<!--!-->
     											</span>
     											
     											<!--!-->      																								
     											<!--!-->
-    											<span id="bradix-select-18-item-spanish-text" _bl_38="">Spanish</span>
+    											<span id="bradix-select-19-item-spanish-text" _bl_150="">Spanish</span>
     										</div>
     										
     										<!--!-->                                  																							
     										<!--!--> 																							
     										<!--!--> 																							
     										<!--!-->
-    										<div role="option" aria-labelledby="bradix-select-18-item-french-text" aria-selected="false" data-state="unchecked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_36="">
-    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    										<div role="option" aria-labelledby="bradix-select-19-item-french-text" aria-selected="false" data-state="unchecked" tabindex="-1" class="outline-hidden focus:bg-accent focus:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 [&amp;_svg:not([class*='text-'])]:text-muted-foreground *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2 flex text-sm pr-8 pl-2 py-1.5 relative w-full gap-2 items-center select-none cursor-default rounded-sm" data-slot="select-item" _bl_148="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center">
     												
     												<!--!-->
     											</span>
     											
     											<!--!-->      																								
     											<!--!-->
-    											<span id="bradix-select-18-item-french-text" _bl_39="">French</span>
+    											<span id="bradix-select-19-item-french-text" _bl_151="">French</span>
     										</div>
-    										<select tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_33="">
-    											<option value="english"></option>
-    											<option value="spanish"></option>
-    											<option value="french"></option>
+    										<select tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_145="">
+    											<option value="english">English</option>
+    											<option value="spanish">Spanish</option>
+    											<option value="french">French</option>
+    											<option value="en"></option>
     										</select>
     									</div>
     								</div>
@@ -1014,102 +1138,102 @@
     			
     			<!--!-->           																
     			<!--!-->
-    			<div class="q-div flex mt-4 flex-wrap gap-2">
+    			<div class="flex mt-4 flex-wrap gap-2" data-slot="div">
     				
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-secondary-foreground bg-secondary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_14="">Previous</button>
-    				
-    				<!--!-->              																	
-    				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_15="">Next</button>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-secondary-foreground text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border bg-secondary rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_14="">Previous</button>
     				
     				<!--!-->              																	
     				<!--!-->
-    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md hover:bg-primary/90 text-primary-foreground bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_16="">Complete Setup</button>
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_15="">Next</button>
+    				
+    				<!--!-->              																	
+    				<!--!-->
+    				<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_16="">Complete Setup</button>
     			</div>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div p-4 border-border bg-muted/50 rounded-lg">
+    			<div class="p-4 border border-border bg-muted/50 rounded-lg" data-slot="div">
     				
     				<!--!-->
-    				<h3 class="q-h3 tracking-tight text-lg font-semibold">Steps Features</h3>
-    				
-    				<!--!-->                      																	
-    				<!--!-->
-    				<p class="q-paragraph text-sm text-foreground leading-7 m-0">Steps components provide guided workflow functionality:</p>
+    				<h3 class="scroll-m-20 text-lg font-semibold tracking-tight" data-slot="h3">Steps Features</h3>
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<ul class="q-unordered-list">
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7 m-0" data-slot="paragraph">Steps components provide guided workflow functionality:</p>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<ul data-slot="unordered-list" class="my-6 ml-6 [&amp;>li]:mt-2 list-disc">
     					
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Steps:</strong>
+    						<strong data-slot="strong">Steps:</strong>
     						Main container for the step workflow</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Step:</strong>
+    						<strong data-slot="strong">Step:</strong>
     						Individual step with title and content</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">StepContent:</strong>
+    						<strong data-slot="strong">StepContent:</strong>
     						Content area within each step</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">StepPanel:</strong>
+    						<strong data-slot="strong">StepPanel:</strong>
     						Panel wrapper for step content</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Navigation:</strong>
+    						<strong data-slot="strong">Navigation:</strong>
     						Built-in navigation between steps</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Validation:</strong>
+    						<strong data-slot="strong">Validation:</strong>
     						Support for step validation</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Customization:</strong>
+    						<strong data-slot="strong">Customization:</strong>
     						Custom styling and behavior</li>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<li class="q-unordered-list-item">
+    					<li data-slot="unordered-list-item">
     						
     						<!--!-->
-    						<strong class="q-strong">Events:</strong>
+    						<strong data-slot="strong">Events:</strong>
     						Step change and completion events</li>
     				</ul>
     			</div>

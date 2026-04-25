@@ -2,65 +2,67 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<blockquote class="q-blockquote border-l-4 border-primary pl-4 italic">
+    			<blockquote class="mt-6 border-l-2 pl-6 italic ps-4 border-l-4 border-primary" data-slot="blockquote">
     				
     				<!--!-->
-    				<p class="q-paragraph text-sm text-foreground leading-7">The only way to do great work is to love what you do.</p>
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">The only way to do great work is to love what you do.</p>
     			</blockquote>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<blockquote class="q-blockquote border-l-4 border-primary pl-4">
+    			<blockquote class="mt-6 border-l-2 pl-6 italic ps-4 border-l-4 border-primary" data-slot="blockquote">
     				
     				<!--!-->
-    				<p class="q-paragraph text-sm text-foreground leading-7 mb-0">Stay hungry. Stay foolish.</p>
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7 mb-0" data-slot="paragraph">Stay hungry. Stay foolish.</p>
     				
     				<!--!-->                  																	
     				<!--!-->
-    				<footer class="mt-2 text-sm text-muted-foreground">Steve Jobs — Stanford Commencement 2005</footer>
+    				<small class="block text-muted-foreground text-sm font-medium leading-none mt-2" data-slot="small">
+    					
+    					<!--!-->Steve Jobs — Stanford Commencement 2005</small>
     			</blockquote>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-6 md:grid-cols-2">
+    			<div class="grid gap-6 md:grid-cols-2" data-slot="div">
     				
     				<!--!-->
-    				<blockquote class="q-blockquote rounded-lg border-l-4 border-primary bg-primary/10 p-4">
+    				<blockquote class="mt-6 border-l-2 pl-6 italic p-4 border-l-4 border-primary bg-primary/10 rounded-lg" data-slot="blockquote">
     					
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-primary mb-0">Success is not final, failure is not fatal.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-primary leading-7 mb-0" data-slot="paragraph">Success is not final, failure is not fatal.</p>
     					
     					<!--!-->                  																		
     					<!--!-->
-    					<footer class="mt-2 text-sm text-muted-foreground">Winston Churchill</footer>
+    					<small class="block text-muted-foreground text-sm font-medium leading-none mt-2" data-slot="small">Winston Churchill</small>
     				</blockquote>
     				
     				<!--!-->              																	
     				<!--!-->
-    				<blockquote class="q-blockquote rounded-lg border-l-4 border-green-500 bg-green-500/10 p-4">
+    				<blockquote class="mt-6 border-l-2 pl-6 italic p-4 border-l-4 border-green-500 bg-green-500/10 rounded-lg" data-slot="blockquote">
     					
     					<!--!-->
-    					<p class="q-paragraph text-sm leading-7 text-accent mb-0">The best time to plant a tree was 20 years ago.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-accent leading-7 mb-0" data-slot="paragraph">The best time to plant a tree was 20 years ago.</p>
     					
     					<!--!-->                  																		
     					<!--!-->
-    					<footer class="mt-2 text-sm text-muted-foreground">Chinese Proverb</footer>
+    					<small class="block text-muted-foreground text-sm font-medium leading-none mt-2" data-slot="small">Chinese Proverb</small>
     				</blockquote>
     			</div>
     		</div>
@@ -68,28 +70,29 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<blockquote class="q-blockquote rounded-xl bg-gradient-to-br from-violet-500 to-purple-700 p-6 text-white">
+    			<blockquote class="mt-6 border-l-2 pl-6 text-center text-white italic p-6 rounded-xl bg-gradient-to-br from-violet-500 to-purple-700" data-slot="blockquote">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle text-white me-3 size-8 opacity-50">
+    				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle text-white me-3 opacity-50 size-8" data-slot="icon">
     					<path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
     					<path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
     				</svg>
     				
     				<!--!-->              																	
     				<!--!-->
-    				<p class="q-paragraph text-foreground leading-7 mb-3 text-lg">This is the best component library I've ever used!</p>
+    				<p class="[&amp;:not(:first-child)]:mt-6 text-lg leading-7 mb-3" data-slot="paragraph">This is the best component library I've ever used!</p>
     				
+    				<!--!-->              																	
     				<!--!-->
-    				<footer>
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7 m-0" data-slot="paragraph">
     					
     					<!--!-->
-    					<strong class="q-strong">Jane Developer</strong>, Senior Engineer</footer>
+    					<strong data-slot="strong">Jane Developer</strong>, Senior Engineer</p>
     			</blockquote>
     		</div>
     	</div>

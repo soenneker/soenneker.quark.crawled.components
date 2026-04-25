@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="w-full data-[variant=list]:flex data-[variant=list]:flex-col data-[variant=list]:gap-2 data-[variant=inline]:flex data-[variant=inline]:flex-wrap data-[variant=inline]:gap-2 data-[variant=grid]:grid data-[variant=grid]:grid-cols-2 data-[variant=grid]:gap-2 max-w-lg" data-slot="attachments" data-variant="list">
+    				
+    				<!--!-->
+    				<div data-slot="attachment" data-variant="default" class="flex min-w-0 items-center gap-3 rounded-2xl border border-border bg-card px-3 py-2 text-sm data-[variant=inline]:w-fit data-[variant=inline]:rounded-full data-[variant=inline]:py-1.5 data-[variant=detailed]:items-start data-[variant=detailed]:p-4 data-[variant=pasted]:border-dashed data-[variant=pasted]:bg-muted/40 data-[variant=pasted]:text-muted-foreground">
+    					
+    					<!--!-->
+    					<div data-slot="attachment-info" class="min-w-0 flex-1">
+    						
+    						<!--!-->
+    						<div class="truncate text-sm font-medium text-foreground" data-slot="attachment-name">quarterly-report.pdf</div>
+    						
+    						<!--!-->
+    						<div class="truncate text-xs text-muted-foreground" data-slot="attachment-description">842 KB PDF</div>
+    					</div>
+    					
+    					<!--!-->
+    				</div>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<div data-slot="attachment" data-variant="default" class="flex min-w-0 items-center gap-3 rounded-2xl border border-border bg-card px-3 py-2 text-sm data-[variant=inline]:w-fit data-[variant=inline]:rounded-full data-[variant=inline]:py-1.5 data-[variant=detailed]:items-start data-[variant=detailed]:p-4 data-[variant=pasted]:border-dashed data-[variant=pasted]:bg-muted/40 data-[variant=pasted]:text-muted-foreground">
+    					
+    					<!--!-->
+    					<div data-slot="attachment-info" class="min-w-0 flex-1">
+    						
+    						<!--!-->
+    						<div class="truncate text-sm font-medium text-foreground" data-slot="attachment-name">screenshot.png</div>
+    						
+    						<!--!-->
+    						<div class="truncate text-xs text-muted-foreground" data-slot="attachment-description">Uploading</div>
+    						
+    						<!--!-->
+    						<div data-slot="attachment-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="64" class="mt-2 h-1.5 overflow-hidden rounded-full bg-muted">
+    							<div class="h-full rounded-full bg-primary" style="width:64%"></div>
+    						</div>
+    					</div>
+    					
+    					<!--!-->
+    				</div>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<div data-slot="attachment" data-variant="inline" class="flex min-w-0 items-center gap-3 rounded-2xl border border-border bg-card px-3 py-2 text-sm data-[variant=inline]:w-fit data-[variant=inline]:rounded-full data-[variant=inline]:py-1.5 data-[variant=detailed]:items-start data-[variant=detailed]:p-4 data-[variant=pasted]:border-dashed data-[variant=pasted]:bg-muted/40 data-[variant=pasted]:text-muted-foreground">
+    					
+    					<!--!-->
+    					<div data-slot="attachment-info" class="min-w-0 flex-1">
+    						
+    						<!--!-->
+    						<div class="truncate text-sm font-medium text-foreground" data-slot="attachment-name">notes.md</div>
+    						
+    						<!--!-->
+    						<div class="truncate text-xs text-muted-foreground" data-slot="attachment-description">Ready</div>
+    					</div>
+    					
+    					<!--!-->
+    				</div>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<div data-slot="attachment" data-variant="pasted" class="flex min-w-0 items-center gap-3 rounded-2xl border border-border bg-card px-3 py-2 text-sm data-[variant=inline]:w-fit data-[variant=inline]:rounded-full data-[variant=inline]:py-1.5 data-[variant=detailed]:items-start data-[variant=detailed]:p-4 data-[variant=pasted]:border-dashed data-[variant=pasted]:bg-muted/40 data-[variant=pasted]:text-muted-foreground">
+    					
+    					<!--!-->
+    					<div data-slot="attachment-info" class="min-w-0 flex-1">
+    						
+    						<!--!-->
+    						<div class="truncate text-sm font-medium text-foreground" data-slot="attachment-name">pasted-image.png</div>
+    						
+    						<!--!-->
+    						<div class="truncate text-xs text-muted-foreground" data-slot="attachment-description">Pasted from clipboard</div>
+    					</div>
+    					
+    					<!--!-->      																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<button data-slot="attachment-remove" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-variant="ghost" data-size="sm" type="button" _bl_6="">Remove</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

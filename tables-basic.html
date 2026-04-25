@@ -2,101 +2,105 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div data-slot="table-container" class="q-table-container relative w-full overflow-x-auto">
-    				<table data-slot="table" class="q-table w-full caption-bottom text-sm">
+    			<div data-slot="table-container" class="relative w-full overflow-x-auto">
+    				<table class="caption-bottom text-sm w-full" data-slot="table">
     					
     					<!--!-->
-    					<caption data-slot="table-caption" class="q-table-caption text-muted-foreground mt-4 text-sm">A list of your recent invoices.</caption>
+    					<caption class="mt-4 text-sm text-muted-foreground" data-slot="table-caption">A list of your recent invoices.</caption>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<thead data-slot="table-header" class="q-table-thead [&amp;_tr]:border-b">
+    					<thead data-slot="table-header" class="[&amp;_tr]:border-b">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<th class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 w-[100px]" data-slot="table-head" scope="col" style="cursor:pointer;">Invoice  ↕</th>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Status  ↕</th>
+    							<th class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0 w-[100px]" data-slot="table-head" scope="col">Invoice
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Method  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Status
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th class="q-table-th h-10 px-2 align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-head" scope="col" style="cursor:pointer;">Amount  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Method
+    							</th>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<th class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-head" scope="col">Amount
+    							</th>
     						</tr>
     					</thead>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<tbody data-slot="table-body" class="q-table-tbody [&amp;_tr:last-child]:border-0">
+    					<tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV001</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Paid</td>
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV001</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Credit Card</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Paid</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$250.00</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Credit Card</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$250.00</td>
     						</tr>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV002</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Pending</td>
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV002</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">PayPal</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Pending</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$150.00</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">PayPal</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$150.00</td>
     						</tr>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV003</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Unpaid</td>
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">INV003</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Bank Transfer</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Unpaid</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$350.00</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Bank Transfer</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$350.00</td>
     						</tr>
     					</tbody>
     				</table>
@@ -106,97 +110,101 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div data-slot="table-container" class="q-table-container relative w-full overflow-x-auto">
-    				<table data-slot="table" class="q-table w-full caption-bottom text-sm">
+    			<div data-slot="table-container" class="relative w-full overflow-x-auto">
+    				<table class="caption-bottom text-sm w-full" data-slot="table">
     					
     					<!--!-->
-    					<caption data-slot="table-caption" class="q-table-caption text-muted-foreground mt-4 text-sm">A list of your recent invoices.</caption>
+    					<caption class="mt-4 text-sm text-muted-foreground" data-slot="table-caption">A list of your recent invoices.</caption>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<thead data-slot="table-header" class="q-table-thead [&amp;_tr]:border-b">
+    					<thead data-slot="table-header" class="[&amp;_tr]:border-b">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Invoice  ↕</th>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Status  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Invoice
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Method  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Status
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th class="q-table-th h-10 px-2 align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-head" scope="col" style="cursor:pointer;">Amount  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Method
+    							</th>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<th class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-head" scope="col">Amount
+    							</th>
     						</tr>
     					</thead>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<tbody data-slot="table-body" class="q-table-tbody [&amp;_tr:last-child]:border-0">
+    					<tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">INV001</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Paid</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">INV001</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Credit Card</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Paid</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$250.00</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Credit Card</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$250.00</td>
     						</tr>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">INV002</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Pending</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">INV002</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">PayPal</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Pending</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$150.00</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">PayPal</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$150.00</td>
     						</tr>
     					</tbody>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<tfoot data-slot="table-footer" class="q-table-footer bg-muted/50 border-t font-medium">
+    					<tfoot class="bg-muted/50 border-t [&amp;>tr]:last:border-b-0 font-medium" data-slot="table-footer">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="3" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Total</td>
+    							<td colspan="3" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Total</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">$400.00</td>
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">$400.00</td>
     						</tr>
     					</tfoot>
     				</table>
@@ -206,57 +214,61 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div data-slot="table-container" class="q-table-container relative w-full overflow-x-auto">
-    				<table data-slot="table" class="q-table w-full caption-bottom text-sm">
+    			<div data-slot="table-container" class="relative w-full overflow-x-auto">
+    				<table class="caption-bottom text-sm w-full" data-slot="table">
     					
     					<!--!-->
-    					<thead data-slot="table-header" class="q-table-thead [&amp;_tr]:border-b">
+    					<thead data-slot="table-header" class="[&amp;_tr]:border-b">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Project  ↕</th>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Status  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Project
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Owner  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Status
+    							</th>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<th class="q-table-th h-10 px-2 align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-head" scope="col" style="cursor:pointer;">Actions  ↕</th>
+    							<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0">Owner
+    							</th>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<th class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-head" scope="col">Actions
+    							</th>
     						</tr>
     					</thead>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<tbody data-slot="table-body" class="q-table-tbody [&amp;_tr:last-child]:border-0">
+    					<tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0">
     						
     						<!--!-->
-    						<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    						<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     							
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">Design system</td>
-    							
-    							<!--!-->                              																				
-    							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 font-medium" data-slot="table-cell">Design system</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Casey</td>
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
     							
     							<!--!-->                              																				
     							<!--!-->
-    							<td colspan="1" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-right" data-slot="table-cell">
+    							<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Casey</td>
+    							
+    							<!--!-->                              																				
+    							<!--!-->
+    							<td colspan="1" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 text-end" data-slot="table-cell">
     								
     								<!--!--> 																					
     								<!--!--> 																					
@@ -267,17 +279,17 @@
     								<!--!--> 																					
     								<!--!--> 																					
     								<!--!-->
-    								<div id="quark-dropdown-2" data-slot="dropdown-menu" data-state="closed" class="q-dropdown relative dropend">
+    								<div id="quark-dropdown-2" data-slot="dropdown-menu" data-state="closed" class="relative dropend">
     									
     									<!--!--> 																						
     									<!--!--> 																						
     									<!--!-->
-    									<div data-bradix-dismissable-layer-branch="" _bl_8="">
+    									<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_105="">
     										
     										<!--!--> 																							
     										<!--!-->
-    										<div _bl_9="">
-    											<button type="button" id="bradix-dropdown-menu-4-trigger" aria-haspopup="menu" aria-expanded="false" aria-controls="bradix-dropdown-menu-4-content" data-state="closed" data-slot="dropdown-menu-trigger" class="q-dropdown-toggle inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2" _bl_10="">Open</button>
+    										<div style="display:contents;" _bl_106="">
+    											<button type="button" id="bradix-dropdown-menu-4-trigger" aria-haspopup="menu" aria-expanded="false" aria-controls="bradix-dropdown-menu-4-content" data-state="closed" class="group/button inline-flex shrink-0 items-center justify-center rounded-lg bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none cursor-pointer focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 gap-2 rounded-md" data-slot="dropdown-menu-trigger" _bl_107="">Open</button>
     										</div>
     									</div>
     									
@@ -287,10 +299,14 @@
     									<!--!--> 																						
     									<!--!--> 																						
     									<!--!-->
-    									<div _bl_11="">
+    									<div _bl_108="">
     										
-    										<!--!--> 																							
     										<!--!-->
+    										<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_109="">
+    											
+    											<!--!--> 																								
+    											<!--!-->
+    										</div>
     									</div>
     								</div>
     							</td>
@@ -303,25 +319,25 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!-->
-    			<div class="q-card flex flex-col gap-6 rounded-xl bg-card py-6 text-card-foreground shadow-sm overflow-hidden border shadow-sm" data-slot="card">
+    			<div class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl border shadow-sm" data-slot="card" data-size="default">
     				
     				<!--!-->
-    				<div class="q-card-header @container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 border-b bg-muted/20" data-slot="card-header">
+    				<div class="group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-4 group-data-[size=sm]/card:[.border-b]:pb-3 border-b bg-muted/20" data-slot="card-header">
     					
     					<!--!-->
-    					<div class="q-div space-y-1">
+    					<div class="space-y-1" data-slot="div">
     						
     						<!--!-->
-    						<h3 class="q-h3 text-2xl font-semibold tracking-tight">
+    						<h3 class="scroll-m-20 text-2xl font-semibold tracking-tight" data-slot="h3">
     							
     							<!--!--> 																				
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle me-2">
+    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle me-2" data-slot="icon">
     								<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
     								<path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
     								<path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -331,7 +347,7 @@
     						
     						<!--!-->                              																			
     						<!--!-->
-    						<p class="q-paragraph text-sm leading-7 text-muted-foreground mb-0">
+    						<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mb-0" data-slot="paragraph">
     							
     							<!--!-->                                 Search, sort, and paginate through employee data without leaving the page.
     						</p>
@@ -340,331 +356,331 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="q-card-body q-card-content px-4 group-data-[size=sm]/card:px-3 p-0" data-slot="card-content">
+    				<div class="px-4 group-data-[size=sm]/card:px-3 p-0" data-slot="card-content">
     					
     					<!--!-->
-    					<div class="q-div p-6">
+    					<div data-testid="server-table-demo" class="p-6" data-slot="div">
     						
     						<!--!--> 																			
     						<!--!--> 																			
     						<!--!-->
-    						<div id="quark-table-3" class="q-table-wrapper relative w-full">
-    							<div class="q-table-container relative w-full overflow-x-auto">
-    								<div class="q-table-with-search w-full">
+    						<div id="quark-table-3" class="relative w-full">
+    							<div class="relative w-full overflow-x-auto">
+    								<div class="w-full">
     									
     									<!--!-->
-    									<div class="q-table-search flex w-full items-center gap-2 sm:max-w-sm">
-    										<input type="text" placeholder="Search employees..." class="q-table-search-input flex h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]">
+    									<div data-slot="table-search" class="flex w-full items-center gap-2 sm:max-w-sm">
+    										<input type="text" data-slot="table-search-input" aria-label="Search table" placeholder="Search employees..." class="flex h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]">
     									</div>
     									
     									<!--!-->                                   																						
     									<!--!-->
-    									<div data-slot="table-container" class="q-table-container relative w-full overflow-x-auto">
-    										<table data-slot="table" class="q-table w-full caption-bottom text-sm">
+    									<div data-slot="table-container" class="relative w-full overflow-x-auto">
+    										<table class="caption-bottom text-sm w-full" data-slot="table">
     											
     											<!--!-->
-    											<thead data-slot="table-header" class="q-table-thead [&amp;_tr]:border-b">
+    											<thead data-slot="table-header" class="[&amp;_tr]:border-b">
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Name  ↕</th>
-    													
-    													<!--!-->                                              																										
-    													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Department  ↕</th>
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Name  ↕</th>
     													
     													<!--!-->                                              																										
     													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Email  ↕</th>
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Department  ↕</th>
     													
     													<!--!-->                                              																										
     													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Salary  ↕</th>
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Email  ↕</th>
     													
     													<!--!-->                                              																										
     													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Hire Date  ↕</th>
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Salary  ↕</th>
     													
     													<!--!-->                                              																										
     													<!--!-->
-    													<th data-slot="table-head" scope="col" class="q-table-th h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Status  ↕</th>
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Hire Date  ↕</th>
+    													
+    													<!--!-->                                              																										
+    													<!--!-->
+    													<th data-slot="table-head" scope="col" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-foreground [&amp;:has([role=checkbox])]:pr-0" style="cursor:pointer;">Status  ↕</th>
     												</tr>
     											</thead>
     											
     											<!--!-->                                       																								
     											<!--!-->
-    											<tbody data-slot="table-body" class="q-table-tbody [&amp;_tr:last-child]:border-0">
+    											<tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0">
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Forrest Cummings</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Operations</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Ida Luettgen</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">ForrestCummings_Powlowski@gmail.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Sales</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$121,757.00</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">IdaLuettgen_Gulgowski20@yahoo.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Dec 31, 2023</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$30,637.07</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Aug 18, 2024</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Inactive</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Derrick Nikolaus</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Engineering</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Tina Sanford</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">DerrickNikolaus_Corkery40@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Operations</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$110,232.67</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">TinaSanford_Gutmann2@hotmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Feb 26, 2024</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$92,186.24</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Nov 01, 2025</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Russell Green</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Sales</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Patsy Hills</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">RussellGreen.Erdman28@gmail.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Sales</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$58,031.79</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">PatsyHills85@gmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Oct 10, 2024</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$125,368.21</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Aug 09, 2025</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Emily Jaskolski</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Finance</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Salvatore Strosin</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">EmilyJaskolski.Kerluke7@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Marketing</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$76,458.63</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">SalvatoreStrosin36@hotmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Nov 04, 2022</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$80,717.21</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Aug 02, 2022</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Sylvester Ritchie</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">HR</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Grace O'Kon</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">SylvesterRitchie_Lang@gmail.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">HR</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$70,867.29</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">GraceOKon_OReilly@hotmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Apr 04, 2024</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$54,557.23</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">May 19, 2024</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Wanda Smith</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Operations</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Vernon Carroll</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">WandaSmith.McGlynn90@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Engineering</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$118,307.97</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">VernonCarroll22@yahoo.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Oct 31, 2024</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$51,983.26</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Nov 14, 2021</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Inactive</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Olive McLaughlin</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Marketing</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Kenny Corkery</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">OliveMcLaughlin.Gorczany@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Finance</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$145,416.53</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">KennyCorkery_Trantow49@yahoo.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Aug 03, 2022</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$57,307.17</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Jul 28, 2023</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Raymond Mayer</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Operations</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Shawna Harvey</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">RaymondMayer_Hoppe33@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Engineering</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$143,464.40</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">ShawnaHarvey.Labadie89@gmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Oct 29, 2023</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$134,780.74</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Jun 08, 2024</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Active</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Dale Dickinson</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Operations</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Tonya Mitchell</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">DaleDickinson_Ritchie@yahoo.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Marketing</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$113,436.99</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">TonyaMitchell49@yahoo.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Jan 07, 2026</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$100,594.86</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Inactive</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Apr 25, 2021</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
     												</tr>
     												
     												<!--!-->
-    												<tr data-slot="table-row" class="q-table-tr hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+    												<tr data-slot="table-row" class="border-b transition-colors hover:bg-muted/50 has-aria-expanded:bg-muted/50 data-[state=selected]:bg-muted">
     													
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Naomi Rempel</td>
-    													
-    													<!--!-->                                                      																										
-    													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Finance</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Lena Emard</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">NaomiRempel.Batz27@gmail.com</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Sales</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$136,518.40</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">LenaEmard.Hane@gmail.com</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Dec 29, 2021</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">$123,818.61</td>
     													
     													<!--!-->                                                      																										
     													<!--!-->
-    													<td colspan="1" data-slot="table-cell" class="q-table-td p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">On Leave</td>
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Oct 21, 2023</td>
+    													
+    													<!--!-->                                                      																										
+    													<!--!-->
+    													<td colspan="1" data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0">Inactive</td>
     												</tr>
     											</tbody>
     										</table>
@@ -672,24 +688,46 @@
     									
     									<!--!-->                                   																						
     									<!--!-->
-    									<div class="q-table-bottom-bar-wrapper w-full">
-    										<div class="q-table-bottom-bar flex flex-wrap items-center justify-between gap-3 rounded-md border bg-card px-3 py-2">
+    									<div class="w-full">
+    										<div class="flex py-2 px-3 flex-wrap gap-3 items-center justify-between border bg-card rounded-md" data-slot="table-bottom-bar">
     											
     											<!--!-->
-    											<div class="q-table-info text-muted-foreground text-sm font-medium">
+    											<div class="flex flex-wrap gap-4 items-center" data-slot="div">
     												
     												<!--!-->
-    												<span class="q-span text-foreground">1-10 of 0</span>
+    												<div class="text-muted-foreground text-sm font-medium" data-slot="table-info">
+    													
+    													<!--!-->
+    													<span _bl_103="">1-10 of 150</span>
+    												</div>
+    												
+    												<!--!-->                                          																									
+    												<!--!-->
+    												<div class="flex gap-2 items-center" data-slot="table-page-size-selector">
+    													<label for="table-page-size-bec3d1d5e0e74582a46c4960b11f175c" class="text-muted-foreground text-sm">Show</label>
+    													
+    													<!--!-->
+    													<select id="table-page-size-bec3d1d5e0e74582a46c4960b11f175c" data-slot="table-page-size-select" class="h-8 rounded-lg border border-input bg-transparent py-1 pr-8 pl-2.5 text-sm transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]">
+    														<option value="10" selected="">10</option>
+    														<option value="25">25</option>
+    														<option value="50">50</option>
+    														<option value="100">100</option>
+    													</select>
+    													
+    													<!--!--> 	 																										
+    													<!--!-->
+    													<span class="text-muted-foreground text-sm" _bl_104="">entries per page</span>
+    												</div>
     											</div>
     											
     											<!--!-->                                      																								
     											<!--!-->
-    											<nav data-slot="pagination" role="navigation" aria-label="pagination" class="q-table-pagination flex flex-wrap items-center justify-center">
-    												<ul data-slot="pagination-content" class="q-table-pagination-controls flex flex-wrap items-center justify-center gap-0.5">
+    											<nav data-slot="pagination" role="navigation" aria-label="pagination" class="flex flex-wrap items-center justify-center">
+    												<ul data-slot="pagination-content" class="flex flex-wrap items-center justify-center gap-0.5">
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" disabled="" aria-label="Go to first page" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 opacity-50 pointer-events-none q-table-pagination-btn" data-slot="pagination-link" data-active="false" aria-disabled="true" tabindex="-1">
+    														<button type="button" disabled="" aria-label="Go to first page" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 opacity-50 pointer-events-none inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon" aria-disabled="true" tabindex="-1">
     															
     															<!--!-->«</button>
     													</li>
@@ -698,39 +736,39 @@
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" disabled="" aria-label="Go to previous page" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 opacity-50 pointer-events-none q-table-pagination-btn" data-slot="pagination-link" data-active="false" aria-disabled="true" tabindex="-1">
+    														<button type="button" disabled="" aria-label="Go to previous page" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 opacity-50 pointer-events-none inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon" aria-disabled="true" tabindex="-1">
     															
     															<!--!-->‹</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 q-table-pagination-btn active" data-slot="pagination-link" data-active="true" aria-current="page">1</button>
+    														<button type="button" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center border rounded-lg transition-all active" data-slot="pagination-link" data-active="true" data-size="icon" aria-current="page">1</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">2</button>
+    														<button type="button" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">2</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">3</button>
+    														<button type="button" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">3</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">4</button>
+    														<button type="button" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">4</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">5</button>
+    														<button type="button" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">5</button>
     													</li>
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" aria-label="Go to next page" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">
+    														<button type="button" aria-label="Go to next page" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">
     															
     															<!--!-->›</button>
     													</li>
@@ -739,7 +777,7 @@
     													<li data-slot="pagination-item" class="list-none">
     														
     														<!--!-->
-    														<button type="button" aria-label="Go to last page" class="q-pagination-link inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 q-table-pagination-btn" data-slot="pagination-link" data-active="false">
+    														<button type="button" aria-label="Go to last page" class="group/button bg-clip-padding outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 size-8 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 inline-flex text-sm font-medium whitespace-nowrap shrink-0 gap-1.5 items-center justify-center rounded-lg transition-all" data-slot="pagination-link" data-active="false" data-size="icon">
     															
     															<!--!-->»</button>
     													</li>
@@ -758,27 +796,27 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-4 md:grid-cols-2">
+    			<div class="grid gap-4 md:grid-cols-2" data-slot="div">
     				
     				<!--!-->
-    				<div class="q-div p-4 border-1 bg-card rounded-lg">
+    				<div class="p-4 border bg-card rounded-lg" data-slot="div">
     					
     					<!--!-->
-    					<p class="q-paragraph text-foreground leading-7 text-sm font-medium m-0">Searching and sorting</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7 m-0" data-slot="paragraph">Searching and sorting</p>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm m-0">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7 m-0" data-slot="paragraph">
     						
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">TableSearch</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">TableSearch</code>
     						and sortable  																			
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">Th</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">Th</code>
     						
     						<!--!--> columns keep the table interactive without extra scaffolding.
     					</p>
@@ -786,21 +824,21 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="q-div p-4 border-1 bg-card rounded-lg">
+    				<div class="p-4 border bg-card rounded-lg" data-slot="div">
     					
     					<!--!-->
-    					<p class="q-paragraph text-foreground leading-7 text-sm font-medium m-0">Pagination</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7 m-0" data-slot="paragraph">Pagination</p>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm m-0">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7 m-0" data-slot="paragraph">
     						
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">TableBottomBar</code>,  																			
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">TableBottomBar</code>,  																			
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">TableInfo</code>, and  																			
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">TableInfo</code>, and  																			
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">TablePagination</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">TablePagination</code>
     						
     						<!--!--> keep paging controls aligned.
     					</p>
@@ -808,17 +846,17 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="q-div p-4 border-1 bg-card rounded-lg">
+    				<div class="p-4 border bg-card rounded-lg" data-slot="div">
     					
     					<!--!-->
-    					<p class="q-paragraph text-foreground leading-7 text-sm font-medium m-0">Empty state</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7 m-0" data-slot="paragraph">Empty state</p>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm m-0">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7 m-0" data-slot="paragraph">
     						
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">TableNoData</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">TableNoData</code>
     						
     						<!--!--> gives the table a dedicated no-results state instead of collapsing the layout.
     					</p>
@@ -826,18 +864,18 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="q-div p-4 border-1 bg-card rounded-lg">
+    				<div class="p-4 border bg-card rounded-lg" data-slot="div">
     					
     					<!--!-->
-    					<p class="q-paragraph text-foreground leading-7 text-sm font-medium m-0">Server-side interactions</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7 m-0" data-slot="paragraph">Server-side interactions</p>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm m-0">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7 m-0" data-slot="paragraph">
     						
     						<!--!-->                             The demo fetches rows through  																			
     						<!--!-->
-    						<code class="q-code q-code-bg px-1 py-0 rounded">OnInteraction</code>
+    						<code class="relative px-[0.3rem] py-[0.2rem] text-sm font-mono font-semibold bg-muted rounded" data-slot="code">OnInteraction</code>
     						
     						<!--!--> so filtering and paging can scale beyond in-memory samples.
     					</p>

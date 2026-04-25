@@ -2,26 +2,26 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 h-[30rem]">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!-->
-    			<div class="q-card flex flex-col gap-6 rounded-xl border bg-card py-6 text-card-foreground shadow-sm mx-auto max-w-md" data-slot="card">
+    			<div class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl mx-auto max-w-md" data-slot="card" data-size="default">
     				
     				<!--!-->
-    				<div data-slot="card-header" class="q-card-header @container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+    				<div data-slot="card-header" class="group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-4 group-data-[size=sm]/card:[.border-b]:pb-3">
     					
     					<!--!-->
-    					<div data-slot="card-title" class="q-card-title leading-none font-semibold">Verify your login</div>
+    					<div data-slot="card-title" class="cn-font-heading text-base leading-snug font-medium group-data-[size=sm]/card:text-sm">Verify your login</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="card-description" class="q-card-description text-sm text-muted-foreground">
+    					<div class="text-sm text-muted-foreground" data-slot="card-description">
     						
     						<!--!-->                             Enter the verification code we sent to your email address:                              																			
     						<!--!-->
-    						<span class="q-span text-foreground font-medium">m@example.com</span>
+    						<span class="font-medium" _bl_112="">m@example.com</span>
     						
     						<!--!-->.
     					</div>
@@ -29,28 +29,28 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div data-slot="card-content" class="q-card-body q-card-content px-4 group-data-[size=sm]/card:px-3">
+    				<div data-slot="card-content" class="px-4 group-data-[size=sm]/card:px-3">
     					
     					<!--!--> 																		
     					<!--!--> 																		
     					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     						
     						<!--!-->
-    						<div class="q-div flex items-center justify-between">
+    						<div class="flex items-center justify-between" data-slot="div">
     							
     							<!--!--> 																				
     							<!--!-->
-    							<label for="otp-verification" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_37="">Verification code</label>
+    							<label for="otp-verification" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_140="">Verification code</label>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_29="">
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="sm" type="button" _bl_132="">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle mr-2 size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle mr-2" data-slot="icon">
     									<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
     									<path d="M21 3v5h-5"></path>
     									<path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
@@ -65,86 +65,86 @@
     						<!--!--> 																			
     						<!--!--> 																			
     						<!--!-->
-    						<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" required="" data-slot="input-otp">
+    						<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" required="" data-slot="input-otp">
     							
     							<!--!--> 																				
     							<!--!-->
-    							<input id="quark-field-8-control" type="hidden" value="_formOtpValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" required="" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-8-description" _bl_78="">
+    							<input id="quark-field-8-control" type="hidden" value="" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" required="" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-8-description" _bl_181="">
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<div class="q-input-otp-group flex items-center *:data-[slot=input-otp-slot]:h-12 *:data-[slot=input-otp-slot]:w-11 *:data-[slot=input-otp-slot]:text-xl" data-slot="input-otp-group">
+    							<div class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40 *:data-[slot=input-otp-slot]:h-12 *:data-[slot=input-otp-slot]:w-11 *:data-[slot=input-otp-slot]:text-xl" data-slot="input-otp-group">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_79="">
-    								
-    								<!--!-->                                      																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_80="">
+    								<input id="bradix-otp-input-59" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_182="">
     								
     								<!--!-->                                      																					
     								<!--!--> 																					
     								<!--!-->
-    								<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_81="">
+    								<input id="bradix-otp-input-60" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_183="">
+    								
+    								<!--!-->                                      																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<input id="bradix-otp-input-61" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_184="">
     							</div>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    							<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     									<path d="M5 12h14"></path>
     								</svg>
     							</div>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<div class="q-input-otp-group flex items-center *:data-[slot=input-otp-slot]:h-12 *:data-[slot=input-otp-slot]:w-11 *:data-[slot=input-otp-slot]:text-xl" data-slot="input-otp-group">
+    							<div class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40 *:data-[slot=input-otp-slot]:h-12 *:data-[slot=input-otp-slot]:w-11 *:data-[slot=input-otp-slot]:text-xl" data-slot="input-otp-group">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_82="">
-    								
-    								<!--!-->                                      																					
-    								<!--!--> 																					
-    								<!--!-->
-    								<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_83="">
+    								<input id="bradix-otp-input-62" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_185="">
     								
     								<!--!-->                                      																					
     								<!--!--> 																					
     								<!--!-->
-    								<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_84="">
+    								<input id="bradix-otp-input-63" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_186="">
+    								
+    								<!--!-->                                      																					
+    								<!--!--> 																					
+    								<!--!-->
+    								<input id="bradix-otp-input-64" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_187="">
     							</div>
     						</div>
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<p data-slot="field-description" id="quark-field-8-description" class="q-field-description text-sm leading-normal font-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5">
+    						<p class="text-left text-sm font-normal leading-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary" data-slot="field-description" id="quark-field-8-description">
     							
     							<!--!-->
-    							<a class="q-anchor" href="#">I no longer have access to this email address.</a>
+    							<a href="#">I no longer have access to this email address.</a>
     						</p>
     					</div>
     				</div>
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="q-card-footer flex items-center px-6 [.border-t]:pt-6 flex-col gap-2" data-slot="card-footer">
+    				<div class="flex items-center rounded-b-xl border-t bg-muted/50 p-4 group-data-[size=sm]/card:p-3 flex-col gap-2" data-slot="card-footer">
     					
     					<!--!-->
-    					<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 w-full" data-slot="button" data-variant="default" data-size="default" type="button" _bl_14="">Verify</button>
+    					<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap w-full shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_111="">Verify</button>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     						
     						<!--!-->                             Having trouble signing in?                              																			
     						<!--!-->
-    						<a class="q-anchor underline underline-offset-4 hover:text-primary" href="#">Contact support</a>
+    						<a class="underline underline-offset-4 hover:text-primary" href="#">Contact support</a>
     					</p>
     				</div>
     			</div>
@@ -153,76 +153,76 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="simple-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_15="">Simple</label>
+    				<label for="simple-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_113="">Simple</label>
     				
     				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-1-control" type="hidden" value="_simpleValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" _bl_30="">
+    					<input id="quark-field-1-control" type="hidden" value="" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_133="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="text" maxlength="6" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_38="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_39="">
+    						<input id="bradix-otp-input-19" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="text" maxlength="6" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_141="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_40="">
+    						<input id="bradix-otp-input-20" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_142="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-21" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_143="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_41="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_42="">
+    						<input id="bradix-otp-input-22" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_144="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_43="">
+    						<input id="bradix-otp-input-23" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_145="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-24" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_146="">
     					</div>
     				</div>
     			</div>
@@ -231,61 +231,61 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="digits-only-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_16="">Digits Only</label>
+    				<label for="digits-only-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_114="">Digits Only</label>
     				
     				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-2-control" type="hidden" value="_digitsOnlyValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" _bl_31="">
+    					<input id="quark-field-2-control" type="hidden" value="" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_134="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_44="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_45="">
+    						<input id="bradix-otp-input-25" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_147="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_46="">
+    						<input id="bradix-otp-input-26" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_148="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_47="">
+    						<input id="bradix-otp-input-27" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_149="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_48="">
+    						<input id="bradix-otp-input-28" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_150="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_49="">
+    						<input id="bradix-otp-input-29" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_151="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-30" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_152="">
     					</div>
     				</div>
     			</div>
@@ -294,91 +294,91 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="separator-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_17="">With Separator</label>
+    				<label for="separator-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_115="">With Separator</label>
     				
     				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-3-control" type="hidden" value="_separatorValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" _bl_32="">
+    					<input id="quark-field-3-control" type="hidden" value="123456" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_135="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_50="">
+    						<input id="bradix-otp-input-31" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_153="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_51="">
+    						<input id="bradix-otp-input-32" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_154="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_52="">
+    						<input id="bradix-otp-input-33" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_155="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_53="">
+    						<input id="bradix-otp-input-34" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_156="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_54="">
+    						<input id="bradix-otp-input-35" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_157="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_55="">
+    						<input id="bradix-otp-input-36" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_158="">
     					</div>
     				</div>
     			</div>
@@ -387,80 +387,80 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="alphanumeric-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_18="">Alphanumeric</label>
-    				
-    				<!--!-->                      																	
-    				<!--!-->
-    				<p data-slot="field-description" id="quark-field-4-description" class="q-field-description text-sm leading-normal font-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5">Accepts both letters and numbers.</p>
+    				<label for="alphanumeric-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_116="">Alphanumeric</label>
     				
     				<!--!-->                      																	
+    				<!--!-->
+    				<p class="text-left text-sm font-normal leading-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary" data-slot="field-description" id="quark-field-4-description">Accepts both letters and numbers.</p>
+    				
+    				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-4-control" type="hidden" value="_alphaNumericValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-4-description" _bl_33="">
+    					<input id="quark-field-4-control" type="hidden" value="A9" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-4-description" _bl_136="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="text" maxlength="6" pattern="^[0-9A-Za-z]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_56="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_57="">
+    						<input id="bradix-otp-input-37" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="text" maxlength="6" pattern="^[0-9A-Za-z]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_159="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_58="">
+    						<input id="bradix-otp-input-38" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_160="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-39" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_161="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_59="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_60="">
+    						<input id="bradix-otp-input-40" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_162="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_61="">
+    						<input id="bradix-otp-input-41" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_163="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-42" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="text" maxlength="1" pattern="^[0-9A-Za-z]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_164="">
     					</div>
     				</div>
     			</div>
@@ -469,76 +469,76 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" data-disabled="true" aria-disabled="true" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical" data-disabled="true" aria-disabled="true">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="disabled-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_19="">Disabled</label>
+    				<label for="disabled-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_117="">Disabled</label>
     				
     				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" data-disabled="true" disabled="" data-slot="input-otp" class="q-input-otp flex items-center data-[disabled=true]:opacity-50">
+    				<div role="group" data-orientation="horizontal" dir="ltr" data-disabled="true" disabled="" data-slot="input-otp" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-5-control" type="hidden" value="123456" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" disabled="" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" _bl_34="">
+    					<input id="quark-field-5-control" type="hidden" value="123456" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" disabled="" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_137="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" disabled="" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_62="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_63="">
+    						<input id="bradix-otp-input-43" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" disabled="" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_165="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_64="">
+    						<input id="bradix-otp-input-44" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_166="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-45" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_167="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_65="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_66="">
+    						<input id="bradix-otp-input-46" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_168="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_67="">
+    						<input id="bradix-otp-input-47" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_169="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-48" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" disabled="" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_170="">
     					</div>
     				</div>
     			</div>
@@ -547,55 +547,55 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="four-digit-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_20="">4 Digits</label>
-    				
-    				<!--!-->                      																	
-    				<!--!-->
-    				<p data-slot="field-description" id="quark-field-6-description" class="q-field-description text-sm leading-normal font-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5">Common pattern for PIN codes.</p>
+    				<label for="four-digit-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_118="">4 Digits</label>
     				
     				<!--!-->                      																	
+    				<!--!-->
+    				<p class="text-left text-sm font-normal leading-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary" data-slot="field-description" id="quark-field-6-description">Common pattern for PIN codes.</p>
+    				
+    				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-6-control" type="hidden" value="_pinValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-6-description" _bl_35="">
+    					<input id="quark-field-6-control" type="hidden" value="7" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-6-description" _bl_138="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="4" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 4" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_68="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 4" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_69="">
+    						<input id="bradix-otp-input-49" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="4" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_171="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 4" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_70="">
+    						<input id="bradix-otp-input-50" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_172="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 4" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_71="">
+    						<input id="bradix-otp-input-51" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_173="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-52" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_174="">
     					</div>
     				</div>
     			</div>
@@ -604,182 +604,233 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div data-slot="field" role="group" data-orientation="vertical" data-invalid="true" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical" data-invalid="true">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="invalid-otp" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_21="">Invalid State</label>
-    				
-    				<!--!-->                      																	
-    				<!--!-->
-    				<p data-slot="field-description" id="quark-field-7-description" class="q-field-description text-sm leading-normal font-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5">Example showing the invalid error state.</p>
+    				<label for="invalid-otp" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-data-checked:border-primary/30 has-data-checked:bg-primary/5 has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-data-checked:border-primary/20 dark:has-data-checked:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium select-none" data-slot="field-label" _bl_119="">Invalid State</label>
     				
     				<!--!-->                      																	
+    				<!--!-->
+    				<p class="text-left text-sm font-normal leading-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary" data-slot="field-description" id="quark-field-7-description">Example showing the invalid error state.</p>
+    				
+    				<!--!-->                      																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" class="q-input-otp flex items-center data-[disabled=true]:opacity-50" data-slot="input-otp">
+    				<div role="group" data-orientation="horizontal" dir="ltr" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50" data-slot="input-otp">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input id="quark-field-7-control" type="hidden" value="_invalidValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-7-description quark-field-7-error" aria-invalid="true" _bl_36="">
+    					<input id="quark-field-7-control" type="hidden" value="000000" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" aria-describedby="quark-field-7-description quark-field-7-error" aria-invalid="true" _bl_139="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_72="">
+    						<input id="bradix-otp-input-53" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_175="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_73="">
+    						<input id="bradix-otp-input-54" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_176="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_74="">
+    						<input id="bradix-otp-input-55" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_177="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_75="">
+    						<input id="bradix-otp-input-56" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_178="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_76="">
+    						<input id="bradix-otp-input-57" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_179="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" aria-invalid="true" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_77="">
+    						<input id="bradix-otp-input-58" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" aria-invalid="true" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_180="">
     					</div>
     				</div>
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div data-slot="field-error" id="quark-field-7-error" class="q-field-error text-sm font-normal text-destructive" role="alert">Invalid code. Please try again.</div>
+    				<div class="text-destructive text-sm font-normal" data-slot="field-error" id="quark-field-7-error" role="alert">Invalid code. Please try again.</div>
     			</div>
     		</div>
     	</div>
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			<form id="quark-otp-reset-form">
+    				
+    				<!--!-->
+    				<div class="space-y-3" data-slot="div">
+    					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<div role="group" data-orientation="horizontal" dir="ltr" name="otp-reset" data-slot="input-otp" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<input type="hidden" value="2468" name="otp-reset" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_120="">
+    						
+    						<!--!-->                              																			
+    						<!--!-->
+    						<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
+    							
+    							<!--!--> 																				
+    							<!--!-->
+    							<input id="bradix-otp-input-9" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="4" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_122="">
+    							
+    							<!--!-->                                  																				
+    							<!--!--> 																				
+    							<!--!-->
+    							<input id="bradix-otp-input-10" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_123="">
+    							
+    							<!--!-->                                  																				
+    							<!--!--> 																				
+    							<!--!-->
+    							<input id="bradix-otp-input-11" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_124="">
+    							
+    							<!--!-->                                  																				
+    							<!--!--> 																				
+    							<!--!-->
+    							<input id="bradix-otp-input-12" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 4" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_125="">
+    						</div>
+    					</div>
+    					
+    					<!--!-->                           																		
+    					<!--!-->
+    					<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="sm" type="reset" _bl_14="">Reset OTP</button>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div space-y-3">
+    			<div class="space-y-3" data-slot="div">
     				
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="group" data-orientation="horizontal" dir="ltr" data-slot="input-otp" class="q-input-otp flex items-center data-[disabled=true]:opacity-50">
+    				<div role="group" data-orientation="horizontal" dir="ltr" data-slot="input-otp" class="cn-input-otp flex items-center gap-2 has-disabled:opacity-50">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<input type="hidden" value="_controlledValue" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="q-input-otp-input sr-only disabled:cursor-not-allowed" _bl_22="">
+    					<input type="hidden" value="12" autocomplete="off" autocapitalize="off" autocorrect="off" autosave="off" spellcheck="false" data-slot="input-otp-input" class="sr-only disabled:cursor-not-allowed" _bl_121="">
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_23="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_24="">
+    						<input id="bradix-otp-input-13" data-index="0" data-radix-otp-input="" data-radix-index="0" data-active="true" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="^[0-9]$" tabindex="0" type="text" aria-label="Character 1 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_126="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_25="">
+    						<input id="bradix-otp-input-14" data-index="1" data-radix-otp-input="" data-radix-index="1" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 2 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_127="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-15" data-index="2" data-radix-otp-input="" data-radix-index="2" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 3 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_128="">
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-separator" class="q-input-otp-separator flex items-center" role="separator">
+    					<div data-slot="input-otp-separator" class="flex items-center [&amp;_svg:not([class*='size-'])]:size-4" role="separator">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     							<path d="M5 12h14"></path>
     						</svg>
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div data-slot="input-otp-group" class="q-input-otp-group flex items-center">
+    					<div data-slot="input-otp-group" class="flex items-center rounded-lg has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40">
     						
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_26="">
-    						
-    						<!--!-->                              																			
-    						<!--!--> 																			
-    						<!--!-->
-    						<input data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_27="">
+    						<input id="bradix-otp-input-16" data-index="3" data-radix-otp-input="" data-radix-index="3" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 4 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_129="">
     						
     						<!--!-->                              																			
     						<!--!--> 																			
     						<!--!-->
-    						<input data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="q-input-otp-slot relative flex h-9 w-9 items-center justify-center border border-input bg-transparent text-center text-sm shadow-xs transition-all outline-none caret-transparent first:rounded-l-md first:border-l last:rounded-r-md dark:bg-input/30 data-[active=true]:z-10 data-[active=true]:ring-[3px] data-[active=true]:ring-ring/50 aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 data-[active=true]:aria-invalid:border-destructive" _bl_28="">
+    						<input id="bradix-otp-input-17" data-index="4" data-radix-otp-input="" data-radix-index="4" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 5 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_130="">
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<input id="bradix-otp-input-18" data-index="5" data-radix-otp-input="" data-radix-index="5" data-active="false" autocomplete="off" data-1p-ignore="true" data-lpignore="true" data-protonpass-ignore="true" data-bwignore="true" inputmode="numeric" maxlength="1" pattern="^[0-9]$" tabindex="-1" type="text" aria-label="Character 6 of 6" data-slot="input-otp-slot" class="relative flex size-8 items-center justify-center border-y border-r border-input text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg aria-invalid:border-destructive data-[active=true]:z-10 data-[active=true]:border-ring data-[active=true]:ring-3 data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:border-destructive data-[active=true]:aria-invalid:ring-destructive/20 dark:bg-input/30 dark:data-[active=true]:aria-invalid:ring-destructive/40" _bl_131="">
     					</div>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<div class="q-div flex gap-2">
+    				<div class="flex gap-2" data-slot="div">
     					
     					<!--!-->
-    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_12="">Fill sample</button>
+    					<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="sm" type="button" _bl_16="">Fill sample</button>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_13="">Clear</button>
+    					<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="sm" type="button" _bl_17="">Clear</button>
     				</div>
     			</div>
     		</div>

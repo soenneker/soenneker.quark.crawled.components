@@ -2,80 +2,120 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div w-full max-w-3xl">
+    			<div id="sortable-basic-demo" class="w-full max-w-3xl" data-slot="div">
     				
     				<!--!-->
-    				<div data-slot="sortable-list" data-sortable-list-id="quark-sortable-1" role="list" class="q-sortable-list flex flex-col gap-2" _bl_6="">
+    				<div id="sortable-basic-list" class="flex flex-col gap-2" data-slot="sortable-list" data-sortable-list-id="quark-sortable-1" data-sortable-keyboard="true" role="list" _bl_7="">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="usage-analytics" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-border bg-card p-4 text-card-foreground shadow-sm transition-shadow hover:shadow-md">
-    							<div class="flex items-start justify-between gap-4">
-    								<div class="space-y-1">
-    									<div class="text-sm font-semibold">Usage analytics dashboard</div>
-    									
-    									<!--!-->
-    									<div class="text-sm text-muted-foreground">Owned by Product</div>
-    								</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="usage-analytics" class="relative">
+    						
+    						<!--!-->
+    						<div class="text-card-foreground p-4 w-full border bg-card rounded-xl shadow-sm transition-shadow hover:shadow-md" data-slot="div">
+    							
+    							<!--!-->
+    							<div class="flex gap-4 items-start justify-between" data-slot="div">
     								
     								<!--!-->
-    								<span class="inline-flex rounded-full px-2 py-1 text-xs font-medium bg-emerald-500/10 text-emerald-700 dark:text-emerald-300">Ready</span>
+    								<div class="space-y-1" data-slot="div">
+    									
+    									<!--!-->
+    									<div class="text-sm font-semibold" data-slot="div">Usage analytics dashboard</div>
+    									
+    									<!--!-->                                              																						
+    									<!--!-->
+    									<div class="text-muted-foreground text-sm" data-slot="div">Owned by Product</div>
+    								</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<span class="text-xs font-medium py-1 px-2 rounded-full inline-flex bg-emerald-500/10 text-emerald-700 dark:text-emerald-300" _bl_108="">Ready</span>
     							</div>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="billing-export" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-border bg-card p-4 text-card-foreground shadow-sm transition-shadow hover:shadow-md">
-    							<div class="flex items-start justify-between gap-4">
-    								<div class="space-y-1">
-    									<div class="text-sm font-semibold">Billing export retry policy</div>
-    									
-    									<!--!-->
-    									<div class="text-sm text-muted-foreground">Owned by Platform</div>
-    								</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="billing-export" class="relative">
+    						
+    						<!--!-->
+    						<div class="text-card-foreground p-4 w-full border bg-card rounded-xl shadow-sm transition-shadow hover:shadow-md" data-slot="div">
+    							
+    							<!--!-->
+    							<div class="flex gap-4 items-start justify-between" data-slot="div">
     								
     								<!--!-->
-    								<span class="inline-flex rounded-full px-2 py-1 text-xs font-medium bg-blue-500/10 text-blue-700 dark:text-blue-300">In review</span>
+    								<div class="space-y-1" data-slot="div">
+    									
+    									<!--!-->
+    									<div class="text-sm font-semibold" data-slot="div">Billing export retry policy</div>
+    									
+    									<!--!-->                                              																						
+    									<!--!-->
+    									<div class="text-muted-foreground text-sm" data-slot="div">Owned by Platform</div>
+    								</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<span class="text-xs font-medium py-1 px-2 rounded-full inline-flex bg-blue-500/10 text-blue-700 dark:text-blue-300" _bl_109="">In review</span>
     							</div>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="empty-state" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-border bg-card p-4 text-card-foreground shadow-sm transition-shadow hover:shadow-md">
-    							<div class="flex items-start justify-between gap-4">
-    								<div class="space-y-1">
-    									<div class="text-sm font-semibold">Empty state polish</div>
-    									
-    									<!--!-->
-    									<div class="text-sm text-muted-foreground">Owned by Design</div>
-    								</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="empty-state" class="relative">
+    						
+    						<!--!-->
+    						<div class="text-card-foreground p-4 w-full border bg-card rounded-xl shadow-sm transition-shadow hover:shadow-md" data-slot="div">
+    							
+    							<!--!-->
+    							<div class="flex gap-4 items-start justify-between" data-slot="div">
     								
     								<!--!-->
-    								<span class="inline-flex rounded-full px-2 py-1 text-xs font-medium bg-amber-500/10 text-amber-700 dark:text-amber-300">Todo</span>
+    								<div class="space-y-1" data-slot="div">
+    									
+    									<!--!-->
+    									<div class="text-sm font-semibold" data-slot="div">Empty state polish</div>
+    									
+    									<!--!-->                                              																						
+    									<!--!-->
+    									<div class="text-muted-foreground text-sm" data-slot="div">Owned by Design</div>
+    								</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<span class="text-xs font-medium py-1 px-2 rounded-full inline-flex bg-amber-500/10 text-amber-700 dark:text-amber-300" _bl_110="">Todo</span>
     							</div>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="audit-log" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-border bg-card p-4 text-card-foreground shadow-sm transition-shadow hover:shadow-md">
-    							<div class="flex items-start justify-between gap-4">
-    								<div class="space-y-1">
-    									<div class="text-sm font-semibold">Audit log filters</div>
-    									
-    									<!--!-->
-    									<div class="text-sm text-muted-foreground">Owned by Support</div>
-    								</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="audit-log" class="relative">
+    						
+    						<!--!-->
+    						<div class="text-card-foreground p-4 w-full border bg-card rounded-xl shadow-sm transition-shadow hover:shadow-md" data-slot="div">
+    							
+    							<!--!-->
+    							<div class="flex gap-4 items-start justify-between" data-slot="div">
     								
     								<!--!-->
-    								<span class="inline-flex rounded-full px-2 py-1 text-xs font-medium bg-rose-500/10 text-rose-700 dark:text-rose-300">Blocked</span>
+    								<div class="space-y-1" data-slot="div">
+    									
+    									<!--!-->
+    									<div class="text-sm font-semibold" data-slot="div">Audit log filters</div>
+    									
+    									<!--!-->                                              																						
+    									<!--!-->
+    									<div class="text-muted-foreground text-sm" data-slot="div">Owned by Support</div>
+    								</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<span class="text-xs font-medium py-1 px-2 rounded-full inline-flex bg-rose-500/10 text-rose-700 dark:text-rose-300" _bl_111="">Blocked</span>
     							</div>
     						</div>
     					</div>
@@ -83,11 +123,11 @@
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<p class="q-paragraph text-sm leading-7 text-muted-foreground mt-4 mb-0">
+    				<p id="sortable-basic-order" class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mt-4 mb-0" data-slot="paragraph">
     					
     					<!--!-->                         Current order:  																		
     					<!--!-->
-    					<strong class="q-strong">Usage analytics dashboard -&gt; Billing export retry policy -&gt; Empty state polish -&gt; Audit log filters</strong>
+    					<strong data-slot="strong">Usage analytics dashboard -&gt; Billing export retry policy -&gt; Empty state polish -&gt; Audit log filters</strong>
     				</p>
     			</div>
     		</div>
@@ -95,26 +135,28 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div w-full max-w-3xl">
+    			<div id="sortable-handle-demo" class="w-full max-w-3xl" data-slot="div">
     				
     				<!--!-->
-    				<div data-slot="sortable-list" data-sortable-list-id="quark-sortable-2" role="list" class="q-sortable-list flex flex-col gap-2" _bl_7="">
+    				<div id="sortable-handle-list" class="flex flex-col gap-2" data-slot="sortable-list" data-sortable-list-id="quark-sortable-2" data-sortable-keyboard="true" role="list" _bl_8="">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="build" class="q-sortable-item relative">
-    						<div class="flex w-full items-center gap-3 rounded-xl border border-border bg-background p-4 shadow-sm">
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="build" class="relative">
+    						
+    						<!--!-->
+    						<div class="flex p-4 w-full gap-3 items-center border bg-background rounded-xl shadow-sm" data-slot="div">
     							
     							<!--!-->
-    							<div class="q-sortable-handle inline-flex shrink-0 items-center justify-center cursor-grab touch-none select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-label="Drag handle">
+    							<button type="button" class="shrink-0 cursor-grab touch-none inline-flex items-center justify-center select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-keyshortcuts="Space Enter ArrowUp ArrowDown Home End" aria-label="Drag handle">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     									<circle cx="9" cy="12" r="1"></circle>
     									<circle cx="9" cy="5" r="1"></circle>
     									<circle cx="9" cy="19" r="1"></circle>
@@ -122,31 +164,38 @@
     									<circle cx="15" cy="5" r="1"></circle>
     									<circle cx="15" cy="19" r="1"></circle>
     								</svg>
-    							</div>
+    							</button>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<div class="min-w-0 flex-1 text-left">
-    								<div class="truncate text-sm font-semibold">Build artifacts</div>
+    							<div class="w-full min-w-0 flex-1 text-left" data-slot="div">
     								
     								<!--!-->
-    								<div class="truncate text-sm text-muted-foreground">Create and sign the release bundle.</div>
+    								<div class="text-sm font-semibold truncate" data-slot="div">Build artifacts</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<div class="text-muted-foreground text-sm truncate" data-slot="div">Create and sign the release bundle.</div>
     							</div>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<span class="inline-flex rounded-md bg-muted px-2 py-1 text-xs text-muted-foreground">CI</span>
+    							<span class="inline-flex text-muted-foreground text-xs py-1 px-2 bg-muted rounded-md" _bl_104="">CI</span>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="smoke" class="q-sortable-item relative">
-    						<div class="flex w-full items-center gap-3 rounded-xl border border-border bg-background p-4 shadow-sm">
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="smoke" class="relative">
+    						
+    						<!--!-->
+    						<div class="flex p-4 w-full gap-3 items-center border bg-background rounded-xl shadow-sm" data-slot="div">
     							
     							<!--!-->
-    							<div class="q-sortable-handle inline-flex shrink-0 items-center justify-center cursor-grab touch-none select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-label="Drag handle">
+    							<button type="button" class="shrink-0 cursor-grab touch-none inline-flex items-center justify-center select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-keyshortcuts="Space Enter ArrowUp ArrowDown Home End" aria-label="Drag handle">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     									<circle cx="9" cy="12" r="1"></circle>
     									<circle cx="9" cy="5" r="1"></circle>
     									<circle cx="9" cy="19" r="1"></circle>
@@ -154,31 +203,38 @@
     									<circle cx="15" cy="5" r="1"></circle>
     									<circle cx="15" cy="19" r="1"></circle>
     								</svg>
-    							</div>
+    							</button>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<div class="min-w-0 flex-1 text-left">
-    								<div class="truncate text-sm font-semibold">Run smoke tests</div>
+    							<div class="w-full min-w-0 flex-1 text-left" data-slot="div">
     								
     								<!--!-->
-    								<div class="truncate text-sm text-muted-foreground">Verify the preview environment before promote.</div>
+    								<div class="text-sm font-semibold truncate" data-slot="div">Run smoke tests</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<div class="text-muted-foreground text-sm truncate" data-slot="div">Verify the preview environment before promote.</div>
     							</div>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<span class="inline-flex rounded-md bg-muted px-2 py-1 text-xs text-muted-foreground">Preview</span>
+    							<span class="inline-flex text-muted-foreground text-xs py-1 px-2 bg-muted rounded-md" _bl_105="">Preview</span>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="promote" class="q-sortable-item relative">
-    						<div class="flex w-full items-center gap-3 rounded-xl border border-border bg-background p-4 shadow-sm">
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="promote" class="relative">
+    						
+    						<!--!-->
+    						<div class="flex p-4 w-full gap-3 items-center border bg-background rounded-xl shadow-sm" data-slot="div">
     							
     							<!--!-->
-    							<div class="q-sortable-handle inline-flex shrink-0 items-center justify-center cursor-grab touch-none select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-label="Drag handle">
+    							<button type="button" class="shrink-0 cursor-grab touch-none inline-flex items-center justify-center select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-keyshortcuts="Space Enter ArrowUp ArrowDown Home End" aria-label="Drag handle">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     									<circle cx="9" cy="12" r="1"></circle>
     									<circle cx="9" cy="5" r="1"></circle>
     									<circle cx="9" cy="19" r="1"></circle>
@@ -186,31 +242,38 @@
     									<circle cx="15" cy="5" r="1"></circle>
     									<circle cx="15" cy="19" r="1"></circle>
     								</svg>
-    							</div>
+    							</button>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<div class="min-w-0 flex-1 text-left">
-    								<div class="truncate text-sm font-semibold">Promote to production</div>
+    							<div class="w-full min-w-0 flex-1 text-left" data-slot="div">
     								
     								<!--!-->
-    								<div class="truncate text-sm text-muted-foreground">Approve the rollout window and push live.</div>
+    								<div class="text-sm font-semibold truncate" data-slot="div">Promote to production</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<div class="text-muted-foreground text-sm truncate" data-slot="div">Approve the rollout window and push live.</div>
     							</div>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<span class="inline-flex rounded-md bg-muted px-2 py-1 text-xs text-muted-foreground">Prod</span>
+    							<span class="inline-flex text-muted-foreground text-xs py-1 px-2 bg-muted rounded-md" _bl_106="">Prod</span>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="announce" class="q-sortable-item relative">
-    						<div class="flex w-full items-center gap-3 rounded-xl border border-border bg-background p-4 shadow-sm">
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="announce" class="relative">
+    						
+    						<!--!-->
+    						<div class="flex p-4 w-full gap-3 items-center border bg-background rounded-xl shadow-sm" data-slot="div">
     							
     							<!--!-->
-    							<div class="q-sortable-handle inline-flex shrink-0 items-center justify-center cursor-grab touch-none select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-label="Drag handle">
+    							<button type="button" class="shrink-0 cursor-grab touch-none inline-flex items-center justify-center select-none size-9 rounded-lg border border-border bg-muted/40 text-muted-foreground" data-slot="sortable-handle" data-sortable-handle="" aria-keyshortcuts="Space Enter ArrowUp ArrowDown Home End" aria-label="Drag handle">
     								
     								<!--!--> 																					
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-4">
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
     									<circle cx="9" cy="12" r="1"></circle>
     									<circle cx="9" cy="5" r="1"></circle>
     									<circle cx="9" cy="19" r="1"></circle>
@@ -218,29 +281,34 @@
     									<circle cx="15" cy="5" r="1"></circle>
     									<circle cx="15" cy="19" r="1"></circle>
     								</svg>
-    							</div>
+    							</button>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<div class="min-w-0 flex-1 text-left">
-    								<div class="truncate text-sm font-semibold">Post release note</div>
+    							<div class="w-full min-w-0 flex-1 text-left" data-slot="div">
     								
     								<!--!-->
-    								<div class="truncate text-sm text-muted-foreground">Notify support and customer success.</div>
+    								<div class="text-sm font-semibold truncate" data-slot="div">Post release note</div>
+    								
+    								<!--!-->                                          																					
+    								<!--!-->
+    								<div class="text-muted-foreground text-sm truncate" data-slot="div">Notify support and customer success.</div>
     							</div>
     							
+    							<!--!-->                                       																				
     							<!--!-->
-    							<span class="inline-flex rounded-md bg-muted px-2 py-1 text-xs text-muted-foreground">Ops</span>
+    							<span class="inline-flex text-muted-foreground text-xs py-1 px-2 bg-muted rounded-md" _bl_107="">Ops</span>
     						</div>
     					</div>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<p class="q-paragraph text-sm leading-7 text-muted-foreground mt-4 mb-0">
+    				<p id="sortable-handle-state" class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground leading-7 mt-4 mb-0" data-slot="paragraph">
     					
     					<!--!-->                         Last move:  																		
     					<!--!-->
-    					<strong class="q-strong">No changes yet.</strong>
+    					<strong data-slot="strong">No changes yet.</strong>
     				</p>
     			</div>
     		</div>
@@ -248,43 +316,58 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div w-full max-w-3xl">
+    			<div id="sortable-disabled-demo" class="w-full max-w-3xl" data-slot="div">
     				
     				<!--!-->
-    				<div data-slot="sortable-list" data-sortable-list-id="quark-sortable-3" role="list" data-disabled="true" aria-disabled="true" class="q-sortable-list flex flex-col gap-2 opacity-80" _bl_8="">
+    				<div id="sortable-disabled-list" class="opacity-80 flex flex-col gap-2" data-slot="sortable-list" data-sortable-list-id="quark-sortable-3" data-sortable-keyboard="true" role="list" data-disabled="true" aria-disabled="true" _bl_9="">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="contract" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-dashed border-border bg-muted/20 p-4 text-left">
-    							<div class="text-sm font-semibold">Contract signed</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="contract" class="relative">
+    						
+    						<!--!-->
+    						<div class="p-4 w-full border bg-muted/20 rounded-xl border-dashed text-left" data-slot="div">
     							
     							<!--!-->
-    							<div class="text-sm text-muted-foreground">Locked after legal review.</div>
+    							<div class="text-sm font-semibold" data-slot="div">Contract signed</div>
+    							
+    							<!--!-->                                      																				
+    							<!--!-->
+    							<div class="text-muted-foreground text-sm" data-slot="div">Locked after legal review.</div>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="dns" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-dashed border-border bg-muted/20 p-4 text-left">
-    							<div class="text-sm font-semibold">DNS validated</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="dns" class="relative">
+    						
+    						<!--!-->
+    						<div class="p-4 w-full border bg-muted/20 rounded-xl border-dashed text-left" data-slot="div">
     							
     							<!--!-->
-    							<div class="text-sm text-muted-foreground">Owned by infrastructure automation.</div>
+    							<div class="text-sm font-semibold" data-slot="div">DNS validated</div>
+    							
+    							<!--!-->                                      																				
+    							<!--!-->
+    							<div class="text-muted-foreground text-sm" data-slot="div">Owned by infrastructure automation.</div>
     						</div>
     					</div>
     					
     					<!--!-->
-    					<div data-slot="sortable-item" data-sortable-item="" data-sortable-id="handoff" class="q-sortable-item relative">
-    						<div class="w-full rounded-xl border border-dashed border-border bg-muted/20 p-4 text-left">
-    							<div class="text-sm font-semibold">Customer handoff</div>
+    					<div data-slot="sortable-item" data-sortable-item="" role="listitem" data-sortable-id="handoff" class="relative">
+    						
+    						<!--!-->
+    						<div class="p-4 w-full border bg-muted/20 rounded-xl border-dashed text-left" data-slot="div">
     							
     							<!--!-->
-    							<div class="text-sm text-muted-foreground">Waiting on scheduled launch window.</div>
+    							<div class="text-sm font-semibold" data-slot="div">Customer handoff</div>
+    							
+    							<!--!-->                                      																				
+    							<!--!-->
+    							<div class="text-muted-foreground text-sm" data-slot="div">Waiting on scheduled launch window.</div>
     						</div>
     					</div>
     				</div>

@@ -2,47 +2,47 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-6 md:grid-cols-2">
+    			<div class="grid gap-6 md:grid-cols-2" data-slot="div">
     				
     				<!--!--> 																	
     				<!--!-->
     				<div data-slot="direction-provider" dir="ltr">
     					
     					<!--!-->
-    					<div class="q-div space-y-4 rounded-xl border bg-card p-5 text-left">
+    					<div class="space-y-4 rounded-xl border bg-card p-5 text-left" data-slot="div">
     						
     						<!--!-->
-    						<div class="q-div flex items-center justify-between">
+    						<div class="flex items-center justify-between" data-slot="div">
     							
     							<!--!-->
-    							<p class="q-paragraph text-foreground leading-7 text-sm font-semibold">Left to right</p>
+    							<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-semibold leading-7" data-slot="paragraph">Left to right</p>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<span class="q-span rounded-full border border-border px-2 py-1 text-xs text-muted-foreground">LTR</span>
+    							<span class="text-muted-foreground text-xs px-2 py-1 border border-border rounded-full" _bl_100="">LTR</span>
     						</div>
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    						<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     							
     							<!--!-->                                 Ship changes, review feedback, and coordinate release work in the default left-to-right flow.
     						</p>
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<div class="q-div flex flex-wrap gap-2">
+    						<div class="flex flex-wrap gap-2" data-slot="div">
     							
     							<!--!-->
-    							<button data-slot="button" data-variant="default" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90" type="button" _bl_5="">Deploy</button>
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_101="">Deploy</button>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_6="">Preview</button>
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="default" type="button" _bl_102="">Preview</button>
     						</div>
     					</div>
     				</div>
@@ -53,40 +53,40 @@
     				<div data-slot="direction-provider" dir="rtl">
     					
     					<!--!-->
-    					<div class="q-div space-y-4 rounded-xl border bg-card p-5 text-right">
+    					<div class="space-y-4 rounded-xl border bg-card p-5 text-right" data-slot="div">
     						
     						<!--!-->
-    						<div class="q-div flex items-center justify-between">
+    						<div class="flex items-center justify-between" data-slot="div">
     							
     							<!--!-->
-    							<span class="q-span rounded-full border border-border px-2 py-1 text-xs text-muted-foreground">RTL</span>
+    							<span class="text-muted-foreground text-xs px-2 py-1 border border-border rounded-full" _bl_103="">RTL</span>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<p class="q-paragraph text-foreground leading-7 text-sm font-semibold">
+    							<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-semibold leading-7" data-slot="paragraph">
     								
     								<!--!-->من اليمين إلى اليسار</p>
     						</div>
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    						<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     							
     							<!--!-->                                 استخدم موفر الاتجاه لمعاينة الواجهات العربية أو العبرية مع نفس مكونات كوارك.
     						</p>
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<div class="q-div flex flex-wrap justify-end gap-2">
+    						<div class="flex flex-wrap justify-end gap-2" data-slot="div">
     							
     							<!--!-->
-    							<button data-slot="button" data-variant="default" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90" type="button" _bl_7="">
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_104="">
     								
     								<!--!-->نشر</button>
     							
     							<!--!-->                                  																				
     							<!--!-->
-    							<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_8="">
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="default" type="button" _bl_105="">
     								
     								<!--!-->معاينة</button>
     						</div>
@@ -98,25 +98,25 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-4">
+    			<div class="grid gap-4" data-slot="div">
     				
     				<!--!--> 																	
     				<!--!-->
     				<div data-slot="direction-provider" dir="ltr">
     					
     					<!--!-->
-    					<div class="q-div rounded-xl border border-dashed border-border bg-background p-4">
+    					<div class="rounded-xl border border-dashed border-border bg-background p-4" data-slot="div">
     						
     						<!--!-->
-    						<p class="q-paragraph text-foreground leading-7 text-sm font-medium">Billing summary</p>
+    						<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7" data-slot="paragraph">Billing summary</p>
     						
     						<!--!-->                              																			
     						<!--!-->
-    						<p class="q-paragraph leading-7 mt-1 text-sm text-muted-foreground">Direction can be applied to just the components that need it.</p>
+    						<p class="[&amp;:not(:first-child)]:mt-6 leading-7 mt-1 text-sm text-muted-foreground" data-slot="paragraph">Direction can be applied to just the components that need it.</p>
     					</div>
     				</div>
     				
@@ -126,16 +126,16 @@
     				<div data-slot="direction-provider" dir="rtl">
     					
     					<!--!-->
-    					<div class="q-div rounded-xl border border-dashed border-border bg-background p-4 text-right">
+    					<div class="rounded-xl border border-dashed border-border bg-background p-4 text-right" data-slot="div">
     						
     						<!--!-->
-    						<p class="q-paragraph text-foreground leading-7 text-sm font-medium">
+    						<p class="[&amp;:not(:first-child)]:mt-6 text-sm font-medium leading-7" data-slot="paragraph">
     							
     							<!--!-->ملخص الفوترة</p>
     						
     						<!--!-->                              																			
     						<!--!-->
-    						<p class="q-paragraph leading-7 mt-1 text-sm text-muted-foreground">
+    						<p class="[&amp;:not(:first-child)]:mt-6 leading-7 mt-1 text-sm text-muted-foreground" data-slot="paragraph">
     							
     							<!--!-->يمكنك تطبيق الاتجاه على قسم واحد فقط دون تغيير بقية الصفحة.</p>
     					</div>

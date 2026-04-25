@@ -2,13 +2,12 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div data-slot="popover" class="q-popover group/popover relative">
+    			<div class="relative" data-slot="popover">
     				
-    				<!--!--> 																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!--> 																	
@@ -16,17 +15,28 @@
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<button role="combobox" aria-expanded="false" class="q-button inline-flex shrink-0 items-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 w-[200px] justify-between" data-slot="button" data-variant="outline" data-size="default" id="quark-popover-1-trigger" data-state="closed" aria-haspopup="dialog" aria-controls="quark-popover-1-content" type="button" _bl_23="">Select framework... 																		
-    					<!--!-->                              																		
-    					<!--!--> 																		
+    				<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_110="">
+    					
     					<!--!-->
-    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle opacity-50">
-    						<path d="m7 15 5 5 5-5"></path>
-    						<path d="m7 9 5-5 5 5"></path>
-    					</svg>
-    				</button>
+    					<div style="display:contents;" _bl_112="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<button role="combobox" aria-expanded="false" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all w-[200px] justify-between" data-slot="popover-trigger" data-variant="outline" data-size="default" id="bradix-popover-4-trigger" data-state="closed" aria-haspopup="dialog" aria-controls="bradix-popover-4-content" type="button" _bl_117="">Select framework... 																				
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!-->
+    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle opacity-50" data-slot="icon">
+    								<path d="m7 15 5 5 5-5"></path>
+    								<path d="m7 9 5-5 5 5"></path>
+    							</svg>
+    						</button>
+    					</div>
+    				</div>
     				
     				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
     			</div>
@@ -35,20 +45,19 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div flex items-center space-x-4">
+    			<div class="flex gap-4 items-center" data-slot="div">
     				
     				<!--!-->
-    				<p class="q-paragraph leading-7 m-0 text-sm text-muted-foreground">Status</p>
+    				<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7 m-0" data-slot="paragraph">Status</p>
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div data-slot="popover" class="q-popover group/popover relative">
+    				<div class="relative" data-slot="popover">
     					
-    					<!--!--> 																		
     					<!--!--> 																		
     					<!--!--> 																		
     					<!--!--> 																		
@@ -56,9 +65,20 @@
     					<!--!--> 																		
     					<!--!--> 																		
     					<!--!-->
-    					<button class="q-button inline-flex shrink-0 items-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 w-[150px] justify-start" data-slot="button" data-variant="outline" data-size="default" id="quark-popover-4-trigger" data-state="closed" aria-haspopup="dialog" aria-expanded="false" aria-controls="quark-popover-4-content" type="button" _bl_24="">+ Set status</button>
+    					<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_113="">
+    						
+    						<!--!-->
+    						<div style="display:contents;" _bl_116="">
+    							
+    							<!--!--> 																				
+    							<!--!-->
+    							<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all w-[150px] justify-start" data-slot="popover-trigger" data-variant="outline" data-size="default" id="bradix-popover-11-trigger" data-state="closed" aria-haspopup="dialog" aria-expanded="false" aria-controls="bradix-popover-11-content" type="button" _bl_120="">+ Set status</button>
+    						</div>
+    					</div>
     					
     					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!--> 																		
     					<!--!-->
     				</div>
@@ -68,41 +88,63 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div max-w-sm space-y-3">
+    			<div class="max-w-sm space-y-3" data-slot="div">
     				
     				<!--!--> 																	
+    				<!--!--> 																	
     				<!--!-->
-    				<div value="_selectedFramework" data-slot="combobox" data-state="closed" class="q-combobox relative">
+    				<div class="relative" data-slot="popover">
     					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="q-combobox-control q-input-group group/input-group border-input relative flex h-9 w-full min-w-0 items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40" _bl_12="">
-    						<input placeholder="Select framework..." type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-5-input" aria-controls="quark-combobox-5-listbox" class="q-combobox-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 pr-10 rtl:pr-3 rtl:pl-10 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    					<div data-slot="combobox" data-state="closed" class="relative">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-5-listbox" aria-expanded="false" tabindex="-1" class="q-combobox-trigger text-muted-foreground absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 inline-flex items-center justify-center px-3">
+    						<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_122="">
     							
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
+    							<div style="display:contents;" _bl_126="">
+    								<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="group/input-group relative flex h-8 min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[>textarea]:h-auto dark:bg-input/30 dark:has-disabled:bg-input/80 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=inline-end]]:[&amp;>input]:pr-1.5 has-[>[data-align=inline-start]]:[&amp;>input]:pl-1.5 w-auto" _bl_127="">
+    									<input placeholder="Select framework..." type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-6-input" aria-controls="quark-combobox-6-listbox" class="h-8 w-full min-w-0 border-input px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    									
+    									<!--!-->
+    									<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-6-listbox" aria-expanded="false" tabindex="-1" class="group/button shrink-0 justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 flex items-center gap-2 text-sm shadow-none size-6 rounded-[calc(var(--radius)-3px)] p-0 has-[>svg]:p-0 group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent [&amp;_svg:not([class*='size-'])]:size-4">
+    										
+    										<!--!-->
+    										<svg data-slot="combobox-trigger-icon" class="pointer-events-none size-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    											<path d="m6 9 6 6 6-6"></path>
+    										</svg>
+    									</button>
+    								</div>
+    							</div>
+    						</div>
+    						
+    						<!--!-->                          																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
     					</div>
-    					
-    					<!--!-->                          																		
-    					<!--!-->
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    				<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     					
     					<!--!-->                         Selected value:                          																		
     					<!--!-->
-    					<span class="q-span text-foreground font-medium">None</span>
+    					<span class="text-foreground font-medium" _bl_14="">None</span>
     				</p>
     			</div>
     		</div>
@@ -110,76 +152,120 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-6 md:grid-cols-2">
+    			<div class="grid gap-6 md:grid-cols-2" data-slot="div">
     				
     				<!--!-->
-    				<div class="q-div space-y-3">
+    				<div class="space-y-3" data-slot="div">
     					
     					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div value="_language" data-slot="combobox" data-state="closed" class="q-combobox relative">
+    					<div class="relative" data-slot="popover">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="q-combobox-control q-input-group group/input-group border-input relative flex h-9 w-full min-w-0 items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40" _bl_16="">
-    							<input placeholder="Choose language..." type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-11-input" aria-controls="quark-combobox-11-listbox" class="q-combobox-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 pr-10 rtl:pr-3 rtl:pl-10 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						<div value="English" data-slot="combobox" data-state="closed" class="relative">
     							
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-11-listbox" aria-expanded="false" tabindex="-1" class="q-combobox-trigger text-muted-foreground absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 inline-flex items-center justify-center px-3">
+    							<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_129="">
     								
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-    									<path d="m6 9 6 6 6-6"></path>
-    								</svg>
-    							</button>
+    								<div style="display:contents;" _bl_144="">
+    									<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="group/input-group relative flex h-8 min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[>textarea]:h-auto dark:bg-input/30 dark:has-disabled:bg-input/80 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=inline-end]]:[&amp;>input]:pr-1.5 has-[>[data-align=inline-start]]:[&amp;>input]:pl-1.5 w-auto" _bl_145="">
+    										<input placeholder="Choose language..." type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-12-input" aria-controls="quark-combobox-12-listbox" class="h-8 w-full min-w-0 border-input px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    										
+    										<!--!-->
+    										<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-12-listbox" aria-expanded="false" tabindex="-1" class="group/button shrink-0 justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 flex items-center gap-2 text-sm shadow-none size-6 rounded-[calc(var(--radius)-3px)] p-0 has-[>svg]:p-0 group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent [&amp;_svg:not([class*='size-'])]:size-4">
+    											
+    											<!--!-->
+    											<svg data-slot="combobox-trigger-icon" class="pointer-events-none size-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    												<path d="m6 9 6 6 6-6"></path>
+    											</svg>
+    										</button>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!-->
     						</div>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
     					</div>
     					
     					<!--!-->                           																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     						
     						<!--!-->                             Language:                              																			
     						<!--!-->
-    						<span class="q-span text-foreground font-medium">English</span>
+    						<span class="text-foreground font-medium" _bl_109="">English</span>
     					</p>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<div class="q-div space-y-3">
+    				<div class="space-y-3" data-slot="div">
     					
     					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div disabled="" value="Nuxt.js" data-slot="combobox" data-state="closed" data-disabled="true" class="q-combobox relative">
+    					<div class="relative" data-slot="popover">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="q-combobox-control q-input-group group/input-group border-input relative flex h-9 w-full min-w-0 items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40" _bl_17="">
-    							<input placeholder="Unavailable" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-12-input" aria-controls="quark-combobox-12-listbox" class="q-combobox-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 pr-10 rtl:pr-3 rtl:pl-10 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						<div disabled="" value="Nuxt.js" data-slot="combobox" data-state="closed" data-disabled="true" class="relative">
     							
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-12-listbox" aria-expanded="false" tabindex="-1" disabled="" class="q-combobox-trigger text-muted-foreground absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 inline-flex items-center justify-center px-3">
+    							<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_130="">
     								
     								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-    									<path d="m6 9 6 6 6-6"></path>
-    								</svg>
-    							</button>
+    								<div style="display:contents;" _bl_147="">
+    									<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="group/input-group relative flex h-8 min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[>textarea]:h-auto dark:bg-input/30 dark:has-disabled:bg-input/80 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=inline-end]]:[&amp;>input]:pr-1.5 has-[>[data-align=inline-start]]:[&amp;>input]:pl-1.5 w-auto" _bl_148="">
+    										<input placeholder="Unavailable" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-13-input" aria-controls="quark-combobox-13-listbox" class="h-8 w-full min-w-0 border-input px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    										
+    										<!--!-->
+    										<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-13-listbox" aria-expanded="false" tabindex="-1" disabled="" class="group/button shrink-0 justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 flex items-center gap-2 text-sm shadow-none size-6 rounded-[calc(var(--radius)-3px)] p-0 has-[>svg]:p-0 group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent [&amp;_svg:not([class*='size-'])]:size-4">
+    											
+    											<!--!-->
+    											<svg data-slot="combobox-trigger-icon" class="pointer-events-none size-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    												<path d="m6 9 6 6 6-6"></path>
+    											</svg>
+    										</button>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!-->
     						</div>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
     					</div>
     					
     					<!--!-->                           																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm">Disabled comboboxes keep the same visual treatment without opening the menu.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">Disabled comboboxes keep the same visual treatment without opening the menu.</p>
     				</div>
     			</div>
     		</div>
@@ -187,77 +273,54 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div max-w-sm space-y-3">
+    			<div class="max-w-sm space-y-3" data-slot="div">
     				
     				<!--!--> 																	
-    				<!--!-->
-    				<div value="_timezone" data-slot="combobox" data-state="closed" class="q-combobox relative">
-    					
-    					<!--!-->
-    					<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="q-combobox-control q-input-group group/input-group border-input relative flex h-9 w-full min-w-0 items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40" _bl_13="">
-    						<input placeholder="Select a timezone" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-6-input" aria-controls="quark-combobox-6-listbox" class="q-combobox-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 pr-10 rtl:pr-3 rtl:pl-10 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
-    						
-    						<!--!-->
-    						<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-6-listbox" aria-expanded="false" tabindex="-1" class="q-combobox-trigger text-muted-foreground absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 inline-flex items-center justify-center px-3">
-    							
-    							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
-    					</div>
-    					
-    					<!--!-->                          																		
-    					<!--!-->
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
-
-    <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
-    			
-    			<!--!-->
-    			<div class="q-div max-w-sm space-y-3">
-    				
     				<!--!--> 																	
     				<!--!-->
-    				<div value="_timezoneWithAddon" data-slot="combobox" data-state="closed" class="q-combobox relative">
+    				<div class="relative" data-slot="popover">
     					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="q-combobox-control q-input-group group/input-group border-input relative flex h-9 w-full min-w-0 items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40" _bl_14="">
+    					<div data-slot="combobox" data-state="closed" class="relative">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div role="group" data-slot="input-group-addon" data-align="inline-start" class="q-input-group-addon flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-2">
+    						<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_123="">
     							
-    							<!--!--> 																				
     							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
-    								<circle cx="12" cy="12" r="10"></circle>
-    								<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-    								<path d="M2 12h20"></path>
-    							</svg>
+    							<div style="display:contents;" _bl_131="">
+    								<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="group/input-group relative flex h-8 min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[>textarea]:h-auto dark:bg-input/30 dark:has-disabled:bg-input/80 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=inline-end]]:[&amp;>input]:pr-1.5 has-[>[data-align=inline-start]]:[&amp;>input]:pl-1.5 w-auto" _bl_132="">
+    									<input placeholder="Select a timezone" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-7-input" aria-controls="quark-combobox-7-listbox" class="h-8 w-full min-w-0 border-input px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    									
+    									<!--!-->
+    									<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-7-listbox" aria-expanded="false" tabindex="-1" class="group/button shrink-0 justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 flex items-center gap-2 text-sm shadow-none size-6 rounded-[calc(var(--radius)-3px)] p-0 has-[>svg]:p-0 group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent [&amp;_svg:not([class*='size-'])]:size-4">
+    										
+    										<!--!-->
+    										<svg data-slot="combobox-trigger-icon" class="pointer-events-none size-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    											<path d="m6 9 6 6 6-6"></path>
+    										</svg>
+    									</button>
+    								</div>
+    							</div>
     						</div>
-    						<input placeholder="Select a timezone" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-7-input" aria-controls="quark-combobox-7-listbox" class="q-combobox-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 pr-10 rtl:pr-3 rtl:pl-10 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
     						
+    						<!--!-->                          																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-7-listbox" aria-expanded="false" tabindex="-1" class="q-combobox-trigger text-muted-foreground absolute inset-y-0 right-0 rtl:right-auto rtl:left-0 inline-flex items-center justify-center px-3">
-    							
-    							<!--!-->
-    							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-    								<path d="m6 9 6 6 6-6"></path>
-    							</svg>
-    						</button>
     					</div>
-    					
-    					<!--!-->                          																		
-    					<!--!-->
     				</div>
     			</div>
     		</div>
@@ -265,46 +328,135 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div max-w-lg space-y-3">
+    			<div class="max-w-sm space-y-3" data-slot="div">
     				
     				<!--!--> 																	
+    				<!--!--> 																	
     				<!--!-->
-    				<div data-slot="combobox" data-state="closed" class="q-combobox relative">
+    				<div class="relative" data-slot="popover">
     					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="combobox-chips" role="group" class="q-combobox-chips border-input relative flex min-h-9 w-full flex-wrap items-center gap-1 rounded-md border bg-transparent px-2 py-1 shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:border-ring has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-ring/50 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-[3px] has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/20 has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:border-destructive dark:has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/40" _bl_15="">
+    					<div data-slot="combobox" data-state="closed" class="relative">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<span data-slot="combobox-chip" data-value="Next.js" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground">Next.js<button type="button" class="inline-flex items-center justify-center rounded-sm p-0.5 hover:bg-black/10 dark:hover:bg-white/10" tabindex="-1" aria-label="Remove selection">
-    								
-    								<!--!--> 																					
-    								<!--!-->
-    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-3">
-    									<path d="M18 6 6 18"></path>
-    									<path d="m6 6 12 12"></path>
-    								</svg>
-    							</button>
-    						</span>
+    						<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_124="">
+    							
+    							<!--!-->
+    							<div style="display:contents;" _bl_134="">
+    								<div data-slot="input-group" data-combobox-slot="combobox-control" role="group" class="group/input-group relative flex h-8 min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[>textarea]:h-auto dark:bg-input/30 dark:has-disabled:bg-input/80 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=inline-end]]:[&amp;>input]:pr-1.5 has-[>[data-align=inline-start]]:[&amp;>input]:pl-1.5 w-auto" _bl_135="">
+    									
+    									<!--!-->
+    									<div class="flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 [&amp;>kbd]:rounded-[calc(var(--radius)-5px)] [&amp;>svg:not([class*='size-'])]:size-4 order-first pl-2 has-[>button]:ml-[-0.3rem] has-[>kbd]:ml-[-0.15rem]" role="group" data-slot="input-group-addon" data-align="inline-start" _bl_151="">
+    										
+    										<!--!--> 																							
+    										<!--!-->
+    										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-slot="icon" class="inline-block size-4 shrink-0 align-middle">
+    											<circle cx="12" cy="12" r="10"></circle>
+    											<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+    											<path d="M2 12h20"></path>
+    										</svg>
+    									</div>
+    									<input placeholder="Select a timezone" type="text" data-slot="input-group-control" data-combobox-slot="combobox-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-8-input" aria-controls="quark-combobox-8-listbox" class="h-8 w-full min-w-0 border-input px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    									
+    									<!--!-->
+    									<button data-slot="combobox-trigger" data-align="inline-end" type="button" aria-label="Open combobox" aria-controls="quark-combobox-8-listbox" aria-expanded="false" tabindex="-1" class="group/button shrink-0 justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 flex items-center gap-2 text-sm shadow-none size-6 rounded-[calc(var(--radius)-3px)] p-0 has-[>svg]:p-0 group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent [&amp;_svg:not([class*='size-'])]:size-4">
+    										
+    										<!--!-->
+    										<svg data-slot="combobox-trigger-icon" class="pointer-events-none size-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    											<path d="m6 9 6 6 6-6"></path>
+    										</svg>
+    									</button>
+    								</div>
+    							</div>
+    						</div>
     						
+    						<!--!-->                          																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<input placeholder="Add frameworks..." type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-8-input" aria-controls="quark-combobox-8-listbox" class="q-combobox-chip-input min-w-20 flex-1 bg-transparent px-1 py-1 text-sm outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50">
     					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="max-w-lg space-y-3" data-slot="div">
+    				
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div class="relative" data-slot="popover">
     					
-    					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
+    					<div data-slot="combobox" data-state="closed" class="relative">
+    						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_125="">
+    							
+    							<!--!-->
+    							<div style="display:contents;" _bl_137="">
+    								<div data-slot="combobox-chips" role="toolbar" class="flex min-h-8 flex-wrap items-center gap-1 rounded-lg border border-input bg-transparent bg-clip-padding px-2.5 py-1 text-sm transition-colors focus-within:border-ring focus-within:ring-3 focus-within:ring-ring/50 has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 has-data-[slot=combobox-chip]:px-1 dark:bg-input/30 dark:has-aria-invalid:border-destructive/50 dark:has-aria-invalid:ring-destructive/40" _bl_138="">
+    									
+    									<!--!-->
+    									<span data-slot="combobox-chip" data-value="Next.js" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0">Next.js<button type="button" data-slot="combobox-chip-remove" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 -ml-1 opacity-50 hover:opacity-100" tabindex="-1" aria-label="Remove selection">
+    											
+    											<!--!--> 																								
+    											<!--!-->
+    											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle pointer-events-none" data-slot="icon">
+    												<path d="M18 6 6 18"></path>
+    												<path d="m6 6 12 12"></path>
+    											</svg>
+    										</button>
+    									</span>
+    									
+    									<!--!-->
+    									<input placeholder="Add frameworks..." type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-9-input" aria-controls="quark-combobox-9-listbox" class="min-w-16 flex-1 outline-none">
+    								</div>
+    							</div>
+    						</div>
+    						
+    						<!--!-->                          																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    					</div>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<p class="q-paragraph leading-7 text-muted-foreground text-sm">
+    				<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">
     					
     					<!--!-->                         Selected frameworks:                          																		
     					<!--!-->
-    					<span class="q-span text-foreground font-medium">Next.js</span>
+    					<span class="text-foreground font-medium" _bl_15="">Next.js</span>
     				</p>
     			</div>
     		</div>
@@ -312,135 +464,201 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div class="q-div grid gap-6 lg:grid-cols-3">
+    			<div class="grid gap-6 lg:grid-cols-3" data-slot="div">
     				
     				<!--!-->
-    				<div class="q-div space-y-3">
+    				<div class="space-y-3" data-slot="div">
     					
     					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div disabled="" data-slot="combobox" data-state="closed" data-disabled="true" class="q-combobox relative">
+    					<div class="relative" data-slot="popover">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div data-slot="combobox-chips" role="group" class="q-combobox-chips border-input relative flex min-h-9 w-full flex-wrap items-center gap-1 rounded-md border bg-transparent px-2 py-1 shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:border-ring has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-ring/50 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-[3px] has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/20 has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:border-destructive dark:has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/40" _bl_18="">
+    						<div disabled="" data-slot="combobox" data-state="closed" data-disabled="true" class="relative">
     							
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="Next.js" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground pointer-events-none opacity-50">Next.js<button type="button" class="inline-flex items-center justify-center rounded-sm p-0.5 hover:bg-black/10 dark:hover:bg-white/10" tabindex="-1" aria-label="Remove selection">
-    									
-    									<!--!--> 																						
-    									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-3">
-    										<path d="M18 6 6 18"></path>
-    										<path d="m6 6 12 12"></path>
-    									</svg>
-    								</button>
-    							</span>
+    							<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_140="">
+    								
+    								<!--!-->
+    								<div style="display:contents;" _bl_154="">
+    									<div data-slot="combobox-chips" role="toolbar" class="flex min-h-8 flex-wrap items-center gap-1 rounded-lg border border-input bg-transparent bg-clip-padding px-2.5 py-1 text-sm transition-colors focus-within:border-ring focus-within:ring-3 focus-within:ring-ring/50 has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 has-data-[slot=combobox-chip]:px-1 dark:bg-input/30 dark:has-aria-invalid:border-destructive/50 dark:has-aria-invalid:ring-destructive/40" _bl_155="">
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="Next.js" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0 has-disabled:pointer-events-none has-disabled:cursor-not-allowed has-disabled:opacity-50">Next.js<button type="button" data-slot="combobox-chip-remove" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 -ml-1 opacity-50 hover:opacity-100" tabindex="-1" aria-label="Remove selection" disabled="">
+    												
+    												<!--!--> 																									
+    												<!--!-->
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle pointer-events-none" data-slot="icon">
+    													<path d="M18 6 6 18"></path>
+    													<path d="m6 6 12 12"></path>
+    												</svg>
+    											</button>
+    										</span>
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="SvelteKit" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0 has-disabled:pointer-events-none has-disabled:cursor-not-allowed has-disabled:opacity-50">SvelteKit<button type="button" data-slot="combobox-chip-remove" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 -ml-1 opacity-50 hover:opacity-100" tabindex="-1" aria-label="Remove selection" disabled="">
+    												
+    												<!--!--> 																									
+    												<!--!-->
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle pointer-events-none" data-slot="icon">
+    													<path d="M18 6 6 18"></path>
+    													<path d="m6 6 12 12"></path>
+    												</svg>
+    											</button>
+    										</span>
+    										
+    										<!--!-->
+    										<input disabled="" placeholder="Disabled" type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-14-input" aria-controls="quark-combobox-14-listbox" class="min-w-16 flex-1 outline-none">
+    									</div>
+    								</div>
+    							</div>
     							
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="SvelteKit" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground pointer-events-none opacity-50">SvelteKit<button type="button" class="inline-flex items-center justify-center rounded-sm p-0.5 hover:bg-black/10 dark:hover:bg-white/10" tabindex="-1" aria-label="Remove selection">
-    									
-    									<!--!--> 																						
-    									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-3">
-    										<path d="M18 6 6 18"></path>
-    										<path d="m6 6 12 12"></path>
-    									</svg>
-    								</button>
-    							</span>
-    							
-    							<!--!-->
-    							<input disabled="" placeholder="Disabled" type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-13-input" aria-controls="quark-combobox-13-listbox" class="q-combobox-chip-input min-w-20 flex-1 bg-transparent px-1 py-1 text-sm outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50">
     						</div>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm">Disabled chips keep the selected values visible without allowing edits.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">Disabled chips keep the selected values visible without allowing edits.</p>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<div class="q-div space-y-3">
+    				<div class="space-y-3" data-slot="div">
     					
     					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="combobox" data-state="closed" class="q-combobox relative">
+    					<div class="relative" data-slot="popover">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div data-slot="combobox-chips" role="group" class="q-combobox-chips border-input relative flex min-h-9 w-full flex-wrap items-center gap-1 rounded-md border bg-transparent px-2 py-1 shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:border-ring has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-ring/50 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-[3px] has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/20 has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:border-destructive dark:has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/40" _bl_19="">
+    						<div data-slot="combobox" data-state="closed" class="relative">
     							
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="Next.js" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground">Next.js<button type="button" class="inline-flex items-center justify-center rounded-sm p-0.5 hover:bg-black/10 dark:hover:bg-white/10" tabindex="-1" aria-label="Remove selection">
-    									
-    									<!--!--> 																						
-    									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-3">
-    										<path d="M18 6 6 18"></path>
-    										<path d="m6 6 12 12"></path>
-    									</svg>
-    								</button>
-    							</span>
+    							<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_141="">
+    								
+    								<!--!-->
+    								<div style="display:contents;" _bl_157="">
+    									<div data-slot="combobox-chips" role="toolbar" class="flex min-h-8 flex-wrap items-center gap-1 rounded-lg border border-input bg-transparent bg-clip-padding px-2.5 py-1 text-sm transition-colors focus-within:border-ring focus-within:ring-3 focus-within:ring-ring/50 has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 has-data-[slot=combobox-chip]:px-1 dark:bg-input/30 dark:has-aria-invalid:border-destructive/50 dark:has-aria-invalid:ring-destructive/40" _bl_158="">
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="Next.js" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0">Next.js<button type="button" data-slot="combobox-chip-remove" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 -ml-1 opacity-50 hover:opacity-100" tabindex="-1" aria-label="Remove selection">
+    												
+    												<!--!--> 																									
+    												<!--!-->
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle pointer-events-none" data-slot="icon">
+    													<path d="M18 6 6 18"></path>
+    													<path d="m6 6 12 12"></path>
+    												</svg>
+    											</button>
+    										</span>
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="SvelteKit" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0">SvelteKit<button type="button" data-slot="combobox-chip-remove" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 -ml-1 opacity-50 hover:opacity-100" tabindex="-1" aria-label="Remove selection">
+    												
+    												<!--!--> 																									
+    												<!--!-->
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle pointer-events-none" data-slot="icon">
+    													<path d="M18 6 6 18"></path>
+    													<path d="m6 6 12 12"></path>
+    												</svg>
+    											</button>
+    										</span>
+    										
+    										<!--!-->
+    										<input placeholder="Frameworks" aria-invalid="true" type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-15-input" aria-controls="quark-combobox-15-listbox" class="min-w-16 flex-1 outline-none">
+    									</div>
+    								</div>
+    							</div>
     							
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="SvelteKit" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground">SvelteKit<button type="button" class="inline-flex items-center justify-center rounded-sm p-0.5 hover:bg-black/10 dark:hover:bg-white/10" tabindex="-1" aria-label="Remove selection">
-    									
-    									<!--!--> 																						
-    									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle size-3">
-    										<path d="M18 6 6 18"></path>
-    										<path d="m6 6 12 12"></path>
-    									</svg>
-    								</button>
-    							</span>
-    							
-    							<!--!-->
-    							<input placeholder="Frameworks" aria-invalid="true" type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-14-input" aria-controls="quark-combobox-14-listbox" class="q-combobox-chip-input min-w-20 flex-1 bg-transparent px-1 py-1 text-sm outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50">
     						</div>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-destructive text-sm">Select at least one framework before continuing.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-destructive text-sm leading-7" data-slot="paragraph">Select at least one framework before continuing.</p>
     				</div>
     				
     				<!--!-->                       																	
     				<!--!-->
-    				<div class="q-div space-y-3">
+    				<div class="space-y-3" data-slot="div">
     					
     					<!--!--> 																		
+    					<!--!--> 																		
     					<!--!-->
-    					<div data-slot="combobox" data-state="closed" class="q-combobox relative">
+    					<div class="relative" data-slot="popover">
     						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
     						<!--!-->
-    						<div data-slot="combobox-chips" role="group" class="q-combobox-chips border-input relative flex min-h-9 w-full flex-wrap items-center gap-1 rounded-md border bg-transparent px-2 py-1 shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:border-ring has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-ring/50 has-[[data-combobox-slot=combobox-chip-input]:focus-visible]:ring-[3px] has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/20 has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:border-destructive dark:has-[[data-combobox-slot=combobox-chip-input][aria-invalid=true]]:ring-destructive/40" _bl_20="">
+    						<div data-slot="combobox" data-state="closed" class="relative">
     							
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="Next.js" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground">Next.js</span>
+    							<div data-bradix-dismissable-layer-branch="" style="display:contents;" _bl_142="">
+    								
+    								<!--!-->
+    								<div style="display:contents;" _bl_160="">
+    									<div data-slot="combobox-chips" role="toolbar" class="flex min-h-8 flex-wrap items-center gap-1 rounded-lg border border-input bg-transparent bg-clip-padding px-2.5 py-1 text-sm transition-colors focus-within:border-ring focus-within:ring-3 focus-within:ring-ring/50 has-aria-invalid:border-destructive has-aria-invalid:ring-3 has-aria-invalid:ring-destructive/20 has-data-[slot=combobox-chip]:px-1 dark:bg-input/30 dark:has-aria-invalid:border-destructive/50 dark:has-aria-invalid:ring-destructive/40" _bl_161="">
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="Next.js" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0">Next.js</span>
+    										
+    										<!--!-->
+    										<span data-slot="combobox-chip" data-value="SvelteKit" class="flex h-[calc(--spacing(5.25))] w-fit items-center justify-center gap-1 rounded-sm bg-muted px-1.5 text-xs font-medium whitespace-nowrap text-foreground has-data-[slot=combobox-chip-remove]:pr-0">SvelteKit</span>
+    										
+    										<!--!-->
+    										<input placeholder="Add frameworks..." type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-16-input" aria-controls="quark-combobox-16-listbox" class="min-w-16 flex-1 outline-none">
+    									</div>
+    								</div>
+    							</div>
     							
+    							<!--!-->                              																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
+    							<!--!--> 																				
     							<!--!-->
-    							<span data-slot="combobox-chip" data-value="SvelteKit" class="q-combobox-chip inline-flex items-center gap-1 rounded-sm bg-muted px-2 py-1 text-sm text-foreground">SvelteKit</span>
-    							
-    							<!--!-->
-    							<input placeholder="Add frameworks..." type="text" data-slot="combobox-chip-input" data-combobox-slot="combobox-chip-input" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="" id="quark-combobox-15-input" aria-controls="quark-combobox-15-listbox" class="q-combobox-chip-input min-w-20 flex-1 bg-transparent px-1 py-1 text-sm outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50">
     						</div>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
     					</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="q-paragraph leading-7 text-muted-foreground text-sm">Hide chip removal when selections should only change from the results list.</p>
+    					<p class="[&amp;:not(:first-child)]:mt-6 text-muted-foreground text-sm leading-7" data-slot="paragraph">Hide chip removal when selections should only change from the results list.</p>
     				</div>
     			</div>
     		</div>
@@ -448,7 +666,7 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
     		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
@@ -457,19 +675,15 @@
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
+    			<!--!--> 																
     			<!--!-->
-    			<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" id="bradix-dialog-9-trigger" data-state="closed" aria-haspopup="dialog" aria-expanded="false" aria-controls="bradix-dialog-9-content" type="button" _bl_21="">Open dialog</button>
+    			<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="dialog-trigger" data-variant="outline" data-size="default" id="dialog-2-content-trigger" data-state="closed" aria-haspopup="dialog" aria-expanded="false" aria-controls="dialog-2-content" type="button" _bl_111="">Open dialog</button>
     			
     			<!--!-->                      																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div _bl_22="">
-    				
-    				<!--!--> 																	
-    				<!--!-->
-    			</div>
     		</div>
     	</div>
     </div>

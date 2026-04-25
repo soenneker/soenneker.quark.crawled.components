@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="requiredField" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_16="">Required Field 																		
+    						<!--!-->
+    						<span class="field-required">*</span>
+    					</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="requiredField" placeholder="This field is required" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="emailField" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_17="">Email Address</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="emailField" placeholder="Enter email address" type="email" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!-->
+    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_10="">Validate Form</button>
+    			</div>
+    			
+    			<!--!-->                  															
+    			<!--!-->
+    			<p class="q-paragraph text-sm leading-7 text-muted-foreground m-0">Basic validation with required field and email validation.</p>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div class="q-grid grid grid-cols-1 md:grid-cols-2 gap-4">
+    					
+    					<!--!-->
+    					<div class="q-div">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							
+    							<!--!--> 																			
+    							<!--!-->
+    							<label for="firstName" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_31="">First Name 																				
+    								<!--!-->
+    								<span class="field-required">*</span>
+    							</label>
+    							
+    							<!--!-->                                      																			
+    							<!--!--> 																			
+    							<!--!-->
+    							<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								
+    								<!--!--> 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<div class="q-text-input">
+    									
+    									<!--!-->
+    									<input id="firstName" placeholder="Enter first name" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    								</div>
+    								
+    								<!--!-->                                              																				
+    								<!--!-->
+    							</div>
+    						</div>
+    					</div>
+    					
+    					<!--!-->                              																	
+    					<!--!-->
+    					<div class="q-div">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    							
+    							<!--!--> 																			
+    							<!--!-->
+    							<label for="lastName" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_32="">Last Name 																				
+    								<!--!-->
+    								<span class="field-required">*</span>
+    							</label>
+    							
+    							<!--!-->                                      																			
+    							<!--!--> 																			
+    							<!--!-->
+    							<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    								
+    								<!--!--> 																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<div class="q-text-input">
+    									
+    									<!--!-->
+    									<input id="lastName" placeholder="Enter last name" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    								</div>
+    								
+    								<!--!-->                                              																				
+    								<!--!-->
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="email" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_18="">Email Address 																		
+    						<!--!-->
+    						<span class="field-required">*</span>
+    					</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="email" placeholder="Enter email address" type="email" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="phone" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_19="">Phone Number</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="phone" placeholder="Enter phone number" type="tel" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="age" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_20="">Age</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-numeric-input">
+    							
+    							<!--!-->
+    							<input id="age" placeholder="Enter age" type="number" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="password" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_21="">Password 																		
+    						<!--!-->
+    						<span class="field-required">*</span>
+    					</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="password" placeholder="Enter password" type="password" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="confirmPassword" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_22="">Confirm Password 																		
+    						<!--!-->
+    						<span class="field-required">*</span>
+    					</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="confirmPassword" placeholder="Confirm password" type="password" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                           																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="acceptTerms" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_23="">Terms and conditions 																		
+    						<!--!-->
+    						<span class="field-required">*</span>
+    					</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-check flex items-center gap-2">
+    							
+    							<!--!--> 																			
+    							<!--!-->
+    							<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="quark-field-8-control" data-slot="checkbox" data-unchecked="true" class="q-check-indicator peer border-input dark:bg-input/30 data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground data-[state=unchecked]:bg-transparent data-[state=unchecked]:text-current shrink-0 rounded-[4px] border shadow-xs transition-[color,box-shadow] outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 disabled:cursor-not-allowed disabled:opacity-50 grid place-content-center size-4" _bl_34="">
+    								
+    								<!--!-->
+    							</button>
+    							<input type="checkbox" value="on" tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_33="">
+    						</div>
+    						
+    						<!--!--> I accept the terms and conditions                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                                                   																
+    				<!--!-->
+    				<div class="q-div">
+    					
+    					<!--!-->
+    					<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 me-2 bg-accent" data-slot="button" data-variant="default" data-size="default" type="button" _bl_14="">Validate All</button>
+    					
+    					<!--!-->                              																	
+    					<!--!-->
+    					<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-secondary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_15="">Clear Form</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="zipCode" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_24="">ZIP Code (US Format)</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="zipCode" placeholder="12345 or 12345-6789" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="ssn" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_25="">Social Security Number</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="ssn" placeholder="XXX-XX-XXXX" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="creditCard" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_26="">Credit Card Number</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="creditCard" placeholder="1234 5678 9012 3456" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!-->
+    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_11="">Validate Patterns</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="username" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_27="">Username</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="username" placeholder="Enter username" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="website" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_28="">Website URL</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="website" placeholder="https://example.com" type="url" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!-->
+    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_12="">Validate Custom</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="successField" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_29="">Field with Success Message</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="successField" placeholder="Type 'success' for success message" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!--> 																		
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    				
+    				<!--!-->                          																
+    				<!--!-->
+    				<button class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md text-primary-foreground hover:bg-primary/90 bg-primary" data-slot="button" data-variant="default" data-size="default" type="button" _bl_13="">Validate Success</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div mb-3 p-3 bg-muted">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Validation Features</h3>
+    				
+    				<!--!-->                      																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">Validation components provide comprehensive form validation:</p>
+    				
+    				<!--!-->                      																
+    				<!--!-->
+    				<ul class="q-unordered-list">
+    					
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Validations:</strong>
+    						Main validation container with model binding</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Validation:</strong>
+    						Individual field validation wrapper</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">ValidationError:</strong>
+    						Displays validation error messages</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">ValidationSuccess:</strong>
+    						Displays validation success messages</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">ValidationError:</strong>
+    						Individual error message component</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Pattern Validation:</strong>
+    						Regex pattern validation support</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Custom Validation:</strong>
+    						Custom validation logic support</li>
+    					
+    					<!--!-->                          																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Model Binding:</strong>
+    						Automatic model property validation</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div me-3 space-y-4">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div data-slot="field" role="group" data-orientation="vertical" class="q-field group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-col">
+    					
+    					<!--!--> 																	
+    					<!--!-->
+    					<label for="realtimeField" data-slot="field-label" class="q-field-label group/field-label peer/field-label flex w-fit items-center gap-2 text-sm leading-snug font-medium select-none group-data-[disabled=true]/field:pointer-events-none group-data-[disabled=true]/field:opacity-50 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10" _bl_30="">Real-time Validation</label>
+    					
+    					<!--!-->                              																	
+    					<!--!--> 																	
+    					<!--!-->
+    					<div data-slot="field-content" class="q-field-body group/field-content flex flex-1 flex-col gap-1.5 leading-snug">
+    						
+    						<!--!--> 																		
+    						<!--!--> 																		
+    						<!--!-->
+    						<div class="q-text-input">
+    							
+    							<!--!-->
+    							<input id="realtimeField" placeholder="Type to see real-time validation" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    						</div>
+    						
+    						<!--!-->                                      																		
+    						<!--!--> 																		
+    						<!--!-->                                      																		
+    						<!--!-->
+    					</div>
+    				</div>
+    			</div>
+    			
+    			<!--!-->                  															
+    			<!--!-->
+    			<p class="q-paragraph text-sm leading-7 text-muted-foreground">This field validates in real-time as you type.</p>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

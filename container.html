@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<p class="q-paragraph text-sm text-foreground leading-7">
+    				
+    				<!--!-->                 Use `Container` when you want the standard centered docs or app-shell width without repeating                 `mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8`.
+    			</p>
+    			
+    			<!--!-->              															
+    			<!--!-->
+    			<div class="q-container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 mb-3 rounded-xl border border-dashed border-border py-6">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Default container</h3>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">Centered content with shared width and padding defaults.</p>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">The built-in layout is ideal for docs pages, settings screens, and general content surfaces.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<p class="q-paragraph text-sm text-foreground leading-7">
+    				
+    				<!--!-->                 Your custom `Class` value is appended after the default container classes, so width or padding overrides can intentionally win when needed.
+    			</p>
+    			
+    			<!--!-->              															
+    			<!--!-->
+    			<div class="q-container mx-auto w-full px-4 md:px-6 lg:px-8 mb-3 max-w-4xl rounded-xl border bg-card py-6">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Narrower container</h3>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">This example trims the reading width for dense prose or form-heavy screens.</p>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<ul class="q-unordered-list">
+    					
+    					<!--!-->
+    					<li class="q-unordered-list-item">The default centering still applies.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">`max-w-4xl` overrides the wider default.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">The component still keeps your content full width inside that cap.</li>
+    				</ul>
+    			</div>
+    			
+    			<!--!-->               															
+    			<!--!-->
+    			<div class="q-container mx-auto w-full px-4 md:px-6 lg:px-8 max-w-2xl rounded-xl border bg-muted/30 py-6">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Even tighter layout</h3>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">Useful for narrow content flows like auth, onboarding, or confirmation states.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-container mx-auto w-full max-w-7xl md:px-6 lg:px-8 rounded-2xl border bg-card px-6 py-8 shadow-sm">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Card-like section</h3>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">
+    					
+    					<!--!-->                     `Container` handles the outer layout, while your utility classes shape the visual surface.                     This is a common pattern for docs callouts, settings groups, and marketing sections.
+    				</p>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<ul class="q-unordered-list">
+    					
+    					<!--!-->
+    					<li class="q-unordered-list-item">Rounded corners and borders create the surface.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">Extra `px-6 py-8` can override the default gutter when desired.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">The centered width behavior still comes from `Container` itself.</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div id="details" class="q-container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 mb-4 rounded-xl border">
+    				
+    				<!--!-->
+    				<h3 class="q-h3 text-2xl font-semibold tracking-tight">Inherited element API</h3>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7">`Container` still inherits the shared `Element` surface.</p>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<ul class="q-unordered-list">
+    					
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Id:</strong>
+    						adds a standard HTML id.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Class / Style:</strong>
+    						lets you layer custom utilities or inline styles.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Margin / Padding:</strong>
+    						works alongside the default container layout.</li>
+    					
+    					<!--!-->                      																	
+    					<!--!-->
+    					<li class="q-unordered-list-item">
+    						
+    						<!--!-->
+    						<strong class="q-strong">Events:</strong>
+    						click, focus, and keyboard handlers are still available.</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

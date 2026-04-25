@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div overflow-hidden rounded-2xl border border-border bg-background shadow-sm">
+    				
+    				<!--!-->
+    				<header class="q-header top-0 z-50 w-full shrink-0 border-b bg-background relative" data-slot="header">
+    					<div class="container-wrapper px-4 sm:px-6">
+    						<div class="flex items-center gap-3.5 sm:gap-4" style="min-height: var(--header-height);">
+    							
+    							<!--!--> 																			
+    							<!--!-->
+    							<a aria-label="Quark Suite home" class="q-anchor inline-flex px-2 items-center gap-3 rounded-md py-2.5 transition-colors hover:bg-accent sm:py-1.5">
+    								
+    								<!--!-->
+    								<img class="size-7 hidden rounded-sm object-contain md:block" src="https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png" alt="Soenneker Quark Suite">
+    								
+    								<!--!-->
+    								<div class="q-div min-w-0 flex flex-col">
+    									
+    									<!--!-->
+    									<span class="q-span text-sm font-semibold leading-none truncate text-[1.05rem] sm:text-sm">Soenneker Quark Suite</span>
+    									
+    									<!--!-->
+    									<span class="q-span hidden sm:block text-muted-foreground text-xs truncate">Reusable app shell pieces</span>
+    								</div>
+    							</a>
+    							<div class="hidden items-center gap-1 lg:flex">
+    								
+    								<!--!--> 																				
+    								<!--!-->
+    								<span class="q-span inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors text-foreground/70 hover:text-foreground opacity-75">Overview</span>
+    								
+    								<!--!-->
+    								<a class="q-anchor inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors text-foreground/70 hover:text-foreground" href="components">Components</a>
+    								
+    								<!--!-->
+    								<a class="q-anchor inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors font-medium text-foreground" href="header">Header 																					
+    									<!--!-->
+    									<span class="q-span text-foreground size-2 rounded-full bg-blue-500"></span>
+    								</a>
+    							</div>
+    							<div class="ml-auto flex shrink-0 items-center gap-2 sm:gap-2">
+    								
+    								<!--!--> 																				
+    								<!--!-->
+    								<a rel="noreferrer" aria-label="View Soenneker Quark Suite on GitHub" class="q-anchor inline-flex h-10 items-center gap-2 rounded-md px-2.5 text-sm text-foreground/70 transition-colors hover:bg-accent hover:text-foreground sm:h-8" href="https://github.com/soenneker/soenneker.quark.suite" target="_blank">
+    									
+    									<!--!-->
+    									<svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    										<path d="M12 .5C5.65.5.5 5.65.5 12A11.5 11.5 0 0 0 8.36 22.9c.57.1.78-.25.78-.56 0-.28-.01-1.2-.02-2.18-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.76 2.68 1.25 3.34.96.1-.74.4-1.25.73-1.53-2.55-.29-5.23-1.27-5.23-5.68 0-1.26.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a10.97 10.97 0 0 1 5.77 0c2.2-1.5 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.73.8 1.18 1.82 1.18 3.08 0 4.42-2.69 5.39-5.25 5.67.41.35.78 1.04.78 2.1 0 1.52-.01 2.75-.01 3.12 0 .31.21.67.79.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path>
+    									</svg>
+    									
+    									<!--!-->
+    									<span class="q-span text-foreground hidden sm:inline">GitHub</span>
+    								</a>
+    								
+    								<!--!-->                          																				
+    								<!--!--> 																				
+    								<!--!-->
+    								<button aria-label="Toggle dark mode" class="q-button shrink-0 gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 dark:hover:bg-accent/50 size-10 inline-flex items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-accent-foreground" data-slot="button" data-variant="ghost" data-size="default" type="button" _bl_5="">
+    									
+    									<!--!-->
+    									<svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    										<circle cx="12" cy="12" r="4"></circle>
+    										<path d="M12 2v2"></path>
+    										<path d="M12 20v2"></path>
+    										<path d="m4.93 4.93 1.41 1.41"></path>
+    										<path d="m17.66 17.66 1.41 1.41"></path>
+    										<path d="M2 12h2"></path>
+    										<path d="M20 12h2"></path>
+    										<path d="m6.34 17.66-1.41 1.41"></path>
+    										<path d="m19.07 4.93-1.41 1.41"></path>
+    									</svg>
+    								</button>
+    							</div>
+    						</div>
+    					</div>
+    				</header>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div overflow-hidden rounded-2xl border border-border bg-background shadow-sm">
+    				
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!--> 																
+    				<!--!-->
+    				<div class="q-sidebar-wrapper group/sidebar-wrapper min-h-svh w-full has-data-[variant=inset]:bg-sidebar flex h-[360px] flex-col overflow-hidden bg-background text-foreground" style="--sidebar-width: calc(var(--spacing) * 64); --sidebar-width-icon: 3rem; --sidebar-width-mobile: 18rem; --header-height: 3.5rem;" data-slot="sidebar-wrapper">
+    					
+    					<!--!-->
+    					<header class="q-header top-0 z-50 w-full shrink-0 border-b bg-background relative" data-slot="header">
+    						<div class="container-wrapper px-4 sm:px-6">
+    							<div class="flex items-center gap-3.5 sm:gap-4" style="min-height: var(--header-height);">
+    								
+    								<!--!-->
+    								<button aria-label="Toggle navigation" class="q-sidebar-trigger shrink-0 gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 dark:hover:bg-accent/50 size-7 inline-flex size-11 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-accent-foreground sm:size-10 lg:hidden" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="">
+    									
+    									<!--!-->
+    									<svg class="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    										<path d="M4 7h16"></path>
+    										<path d="M4 12h16"></path>
+    										<path d="M4 17h16"></path>
+    									</svg>
+    									
+    									<!--!-->
+    									<span class="q-span text-foreground sr-only">Toggle navigation</span>
+    								</button>
+    								
+    								<!--!--> 																				
+    								<!--!-->
+    								<a aria-label="Acme home" class="q-anchor inline-flex px-2 items-center gap-3 rounded-md py-2.5 transition-colors hover:bg-accent sm:py-1.5">
+    									
+    									<!--!-->
+    									<div class="q-div min-w-0 flex flex-col">
+    										
+    										<!--!-->
+    										<span class="q-span text-sm font-semibold leading-none truncate text-[1.05rem] sm:text-sm">Acme Control</span>
+    										
+    										<!--!-->
+    										<span class="q-span hidden sm:block text-muted-foreground text-xs truncate">Workspace shell</span>
+    									</div>
+    								</a>
+    								<div class="hidden items-center gap-1 lg:flex">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<span class="q-span inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors font-medium text-foreground opacity-75">Overview</span>
+    									
+    									<!--!-->
+    									<a class="q-anchor inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors text-foreground/70 hover:text-foreground" href="projects">Projects</a>
+    									
+    									<!--!-->
+    									<a class="q-anchor inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-sm transition-colors text-foreground/70 hover:text-foreground" href="activity">Activity</a>
+    								</div>
+    								<div class="ml-auto flex shrink-0 items-center gap-2 sm:gap-2">
+    									
+    									<!--!-->
+    									<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_6="">Share</button>
+    									
+    									<!--!-->                              																					
+    									<!--!-->
+    									<button data-slot="button" data-variant="default" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90" type="button" _bl_7="">Deploy</button>
+    								</div>
+    							</div>
+    						</div>
+    					</header>
+    					
+    					<!--!-->                       																	
+    					<!--!-->
+    					<div class="q-div flex min-h-0 flex-1">
+    						
+    						<!--!-->
+    						<div data-slot="sidebar" data-side="left" data-variant="sidebar" data-shell="default" data-state="expanded" data-collapsible="" class="q-sidebar group peer hidden text-sidebar-foreground md:block">
+    							<div data-slot="sidebar-gap" class="relative w-(--sidebar-width) bg-transparent transition-[width] duration-200 ease-linear group-data-[collapsible=offcanvas]:w-0 group-data-[side=right]:rotate-180 group-data-[collapsible=icon]:w-(--sidebar-width-icon)"></div>
+    							
+    							<!--!-->
+    							<aside data-slot="sidebar-container" class="fixed inset-y-0 z-10 hidden h-svh w-(--sidebar-width) transition-[left,right,width] duration-200 ease-linear md:flex left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)] group-data-[collapsible=icon]:w-(--sidebar-width-icon) group-data-[side=left]:border-r group-data-[side=right]:border-l">
+    								<div data-slot="sidebar-inner" data-sidebar="sidebar" class="flex h-full w-full flex-col bg-sidebar group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:border-sidebar-border group-data-[variant=floating]:shadow-sm">
+    									
+    									<!--!-->
+    									<div data-slot="sidebar-header" data-sidebar="header" class="q-sidebar-header flex flex-col gap-2 p-2">
+    										
+    										<!--!-->
+    										<input placeholder="Search..." type="search" data-slot="sidebar-input" data-sidebar="input" class="q-sidebar-input h-8 w-full min-w-0 rounded-md border border-input bg-background px-3 py-1 text-sm shadow-none outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/50">
+    									</div>
+    									
+    									<!--!-->                              																					
+    									<!--!-->
+    									<div data-slot="sidebar-content" data-sidebar="content" class="q-sidebar-content no-scrollbar flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto overflow-x-hidden group-data-[collapsible=icon]:overflow-hidden group-data-[shell=navigation]:w-full group-data-[shell=navigation]:px-4 group-data-[shell=navigation]:pb-6 group-data-[shell=navigation]:lg:mx-auto group-data-[shell=navigation]:lg:w-(--sidebar-menu-width) group-data-[shell=navigation]:lg:px-2">
+    										
+    										<!--!--> 																						
+    										<!--!-->
+    										<div class="q-sidebar-group relative flex w-full min-w-0 flex-col p-2 pt-2" data-slot="sidebar-group" data-sidebar="group">
+    											
+    											<!--!-->
+    											<div data-slot="sidebar-group-label" data-sidebar="group-label" class="q-sidebar-group-label text-sidebar-foreground/70 ring-sidebar-ring flex h-8 shrink-0 items-center rounded-md px-2 text-xs font-medium outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0">Workspace</div>
+    											
+    											<!--!-->
+    											<div data-slot="sidebar-group-content" data-sidebar="group-content" class="q-sidebar-group-content w-full text-sm">
+    												
+    												<!--!-->
+    												<ul data-slot="sidebar-menu" data-sidebar="menu" class="q-sidebar-menu flex w-full min-w-0 flex-col gap-1 group-data-[shell=navigation]:gap-0.5">
+    													
+    													<!--!-->
+    													<li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="q-sidebar-menu-item group/menu-item relative">
+    														
+    														<!--!-->
+    														<button tabindex="-1" aria-disabled="true" class="q-sidebar-menu-button peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground text-sm relative h-[30px] justify-start border border-transparent text-[0.8rem] hover:bg-accent hover:text-accent-foreground data-[active=true]:border-accent data-[active=true]:bg-accent data-[active=true]:text-accent-foreground opacity-70" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" type="button">
+    															
+    															<!--!-->
+    															<span class="q-span text-foreground">Dashboard</span>
+    														</button>
+    													</li>
+    													
+    													<!--!-->
+    													<li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="q-sidebar-menu-item group/menu-item relative">
+    														
+    														<!--!--> 																										
+    														<!--!-->
+    														<a href="projects" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" class="q-sidebar-menu-button peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground text-sm relative h-[30px] justify-start border border-transparent text-[0.8rem] hover:bg-accent hover:text-accent-foreground data-[active=true]:border-accent data-[active=true]:bg-accent data-[active=true]:text-accent-foreground">
+    															
+    															<!--!-->
+    															<span class="q-span text-foreground">Projects</span>
+    														</a>
+    													</li>
+    													
+    													<!--!-->
+    													<li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="q-sidebar-menu-item group/menu-item relative">
+    														
+    														<!--!--> 																										
+    														<!--!-->
+    														<a href="activity" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" class="q-sidebar-menu-button peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground text-sm relative h-[30px] justify-start border border-transparent text-[0.8rem] hover:bg-accent hover:text-accent-foreground data-[active=true]:border-accent data-[active=true]:bg-accent data-[active=true]:text-accent-foreground">
+    															
+    															<!--!-->
+    															<span class="q-span text-foreground">Activity</span>
+    														</a>
+    													</li>
+    													
+    													<!--!-->
+    													<li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="q-sidebar-menu-item group/menu-item relative">
+    														
+    														<!--!--> 																										
+    														<!--!-->
+    														<a href="settings" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" class="q-sidebar-menu-button peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground text-sm relative h-[30px] justify-start border border-transparent text-[0.8rem] hover:bg-accent hover:text-accent-foreground data-[active=true]:border-accent data-[active=true]:bg-accent data-[active=true]:text-accent-foreground">
+    															
+    															<!--!-->
+    															<span class="q-span text-foreground">Settings</span>
+    														</a>
+    													</li>
+    												</ul>
+    											</div>
+    										</div>
+    									</div>
+    								</div>
+    							</aside>
+    						</div>
+    						
+    						<!--!-->                           																		
+    						<!--!-->
+    						<main data-slot="sidebar-inset" class="q-sidebar-inset bg-background relative flex w-full flex-1 flex-col md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-2">
+    							
+    							<!--!-->
+    							<div class="q-div flex h-full items-center justify-center p-6 text-sm text-muted-foreground">
+    								
+    								<!--!-->                                 Use the trigger in the header to toggle the sidebar.
+    							</div>
+    						</main>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

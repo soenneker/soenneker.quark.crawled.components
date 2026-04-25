@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div aria-label="Message actions" data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!--> 																	
+    				<!--!-->
+    				<div class="q-button-group w-fit items-stretch flex-row hidden sm:flex" data-slot="button-group" data-orientation="horizontal" role="group">
+    					
+    					<!--!-->
+    					<button aria-label="Go back" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_39="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="m12 19-7-7 7-7"></path>
+    							<path d="M19 12H5"></path>
+    						</svg>
+    					</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_40="">Archive</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_41="">Report</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_42="">Snooze</button>
+    					
+    					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<div id="quark-dropdown-7" data-slot="dropdown-menu" data-state="closed" class="q-dropdown relative">
+    						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div data-bradix-dismissable-layer-branch="" _bl_53="">
+    							
+    							<!--!--> 																				
+    							<!--!-->
+    							<div _bl_60="">
+    								<button type="button" id="bradix-dropdown-menu-9-trigger" aria-haspopup="menu" aria-expanded="false" aria-controls="bradix-dropdown-menu-9-content" data-state="closed" aria-label="More options" data-slot="dropdown-menu-trigger" class="q-dropdown-toggle inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2" _bl_61="">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    										<circle cx="12" cy="12" r="1"></circle>
+    										<circle cx="19" cy="12" r="1"></circle>
+    										<circle cx="5" cy="12" r="1"></circle>
+    									</svg>
+    								</button>
+    							</div>
+    						</div>
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div _bl_62="">
+    							
+    							<!--!--> 																				
+    							<!--!-->
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div aria-label="Media controls" class="q-button-group inline-flex w-fit items-stretch flex-col h-fit" data-slot="button-group" data-orientation="vertical" role="group">
+    				
+    				<!--!-->
+    				<button aria-label="Increase" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_16="">
+    					
+    					<!--!--> 																		
+    					<!--!-->
+    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    						<path d="M5 12h14"></path>
+    						<path d="M12 5v14"></path>
+    					</svg>
+    				</button>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<button aria-label="Decrease" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_17="">
+    					
+    					<!--!--> 																		
+    					<!--!-->
+    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    						<path d="M5 12h14"></path>
+    					</svg>
+    				</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div flex flex-wrap gap-6">
+    				
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_26="">Small</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button aria-label="Submit" data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_27="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="M7 7h10v10"></path>
+    							<path d="M7 17 17 7"></path>
+    						</svg>
+    					</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_28="">Default</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button aria-label="Submit" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_29="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="M7 7h10v10"></path>
+    							<path d="M7 17 17 7"></path>
+    						</svg>
+    					</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="lg" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-10 px-6 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_30="">Large</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button aria-label="Submit" data-slot="button" data-variant="outline" data-size="icon-lg" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-10 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_31="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="M7 7h10v10"></path>
+    							<path d="M7 17 17 7"></path>
+    						</svg>
+    					</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button aria-label="Add" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_43="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="M5 12h14"></path>
+    							<path d="M12 5v14"></path>
+    						</svg>
+    					</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div class="q-button-group inline-flex w-fit items-stretch flex-row min-w-[20rem]" data-slot="button-group" data-orientation="horizontal" role="group">
+    					
+    					<!--!-->
+    					<div data-slot="input-group" role="group" class="q-input-group group/input-group relative flex h-8 w-full min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 dark:bg-input/30 dark:has-disabled:bg-input/80 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<input placeholder="Send a message..." data-slot="input-group-control" class="q-input h-9 w-full min-w-0 border-input px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 q-input-group-input flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent" type="text">
+    						
+    						<!--!-->                              																			
+    						<!--!-->
+    						<div role="group" data-slot="input-group-addon" data-align="inline-end" class="q-input-group-addon flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 order-last pr-2">
+    							
+    							<!--!--> 																				
+    							<!--!-->
+    							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    								<path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path>
+    							</svg>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!-->
+    				<button data-slot="button" data-variant="secondary" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_18="">Copy</button>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div role="none" data-orientation="vertical" data-slot="button-group-separator" class="q-button-group-separator relative m-0! self-stretch bg-input data-[orientation=vertical]:h-auto data-[orientation=vertical]:w-px data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full"></div>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<button data-slot="button" data-variant="secondary" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_19="">Paste</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!-->
+    				<button data-slot="button" data-variant="secondary" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_20="">Button</button>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div role="none" data-orientation="vertical" data-slot="button-group-separator" class="q-button-group-separator relative m-0! self-stretch bg-input data-[orientation=vertical]:h-auto data-[orientation=vertical]:w-px data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full"></div>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<button aria-label="Add" data-slot="button" data-variant="secondary" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_21="">
+    					
+    					<!--!--> 																		
+    					<!--!-->
+    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    						<path d="M5 12h14"></path>
+    						<path d="M12 5v14"></path>
+    					</svg>
+    				</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!-->
+    				<input placeholder="Search..." type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<button aria-label="Search" data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_22="">
+    					
+    					<!--!--> 																		
+    					<!--!-->
+    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    						<path d="m21 21-4.34-4.34"></path>
+    						<circle cx="11" cy="11" r="8"></circle>
+    					</svg>
+    				</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div flex flex-wrap gap-3 items-center">
+    				
+    				<!--!-->
+    				<div data-slot="input-group" role="group" class="q-input-group group/input-group relative flex h-8 w-full min-w-0 items-center rounded-lg border border-input transition-colors outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 dark:bg-input/30 dark:has-disabled:bg-input/80 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40">
+    					
+    					<!--!-->
+    					<div role="group" data-slot="input-group-addon" data-align="inline-start" class="q-input-group-addon flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-2">https://</div>
+    					
+    					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<input placeholder="acme.dev" data-slot="input-group-control" class="q-input h-9 w-full min-w-0 border-input px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 q-input-group-input flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent" type="text">
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_32="">Verify</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_33="">Copy</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!-->
+    				<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_23="">Action</button>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div id="quark-dropdown-2" data-slot="dropdown-menu" data-state="closed" class="q-dropdown relative">
+    					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<div data-bradix-dismissable-layer-branch="" _bl_48="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<div _bl_54="">
+    							<button type="button" id="bradix-dropdown-menu-4-trigger" aria-haspopup="menu" aria-expanded="false" aria-controls="bradix-dropdown-menu-4-content" data-state="closed" data-slot="dropdown-menu-trigger" class="q-dropdown-toggle inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2" _bl_55="">
+    								
+    								<!--!--> 																					
+    								<!--!-->
+    								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    									<path d="m6 9 6 6 6-6"></path>
+    								</svg>
+    							</button>
+    						</div>
+    					</div>
+    					
+    					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<div _bl_56="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<div data-slot="select" data-size="default" data-state="closed" class="q-select group/select relative w-full max-w-full">
+    						
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div data-bradix-dismissable-layer-branch="" _bl_49="">
+    							
+    							<!--!-->
+    							<div _bl_51="">
+    								<button type="button" role="combobox" aria-haspopup="listbox" aria-controls="bradix-select-11-content" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="q-select-trigger flex w-fit items-center justify-between gap-2 rounded-md border border-input bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-xs transition-[color,box-shadow] outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[placeholder]:text-muted-foreground data-[size=default]:h-9 data-[size=sm]:h-8 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 font-mono" data-slot="select-trigger" data-size="default" _bl_52="">
+    									
+    									<!--!--> 																						
+    									<!--!-->
+    									<span style="pointer-events:none;" data-slot="select-value" class="q-select-value line-clamp-1 text-left" _bl_59=""></span>
+    									
+    									<!--!-->      																						
+    									<!--!-->
+    									<span aria-hidden="true" class="pointer-events-none size-4 opacity-50 shrink-0">
+    										
+    										<!--!-->
+    										<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    											<path d="m6 9 6 6 6-6"></path>
+    										</svg>
+    									</span>
+    								</button>
+    							</div>
+    						</div>
+    						
+    						<!--!-->                              																			
+    						<!--!--> 																			
+    						<!--!--> 																			
+    						<!--!-->
+    						<div _bl_50="">
+    							
+    							<!--!-->
+    							<div hidden="" style="display:none;">
+    								
+    								<!--!--> 																					
+    								<!--!-->
+    								<style>
+        [data-radix-select-viewport] { scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch; }
+        [data-radix-select-viewport]::-webkit-scrollbar { display: none; }
+    
+    																					
+    								</style>
+    								<div class="p-1" data-radix-select-viewport="" role="presentation" style="position:relative;flex:1 1 auto;min-height:0;overflow:hidden auto;" _bl_57="">
+    									<div style="min-width:100%;display:block;" _bl_58="">
+    										
+    										<!--!--> 																							
+    										<!--!--> 																							
+    										<!--!-->
+    										<div role="option" aria-labelledby="bradix-select-11-item-USD-text" aria-selected="false" data-state="checked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_63="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    												
+    												<!--!-->
+    												<span aria-hidden="true">
+    													
+    													<!--!-->
+    													<svg class="size-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    														<path d="M20 6 9 17l-5-5"></path>
+    													</svg>
+    												</span>
+    											</span>
+    											
+    											<!--!-->      																								
+    											<!--!-->
+    											<span id="bradix-select-11-item-USD-text" _bl_66="">US Dollar</span>
+    										</div>
+    										
+    										<!--!-->                                  																							
+    										<!--!--> 																							
+    										<!--!--> 																							
+    										<!--!-->
+    										<div role="option" aria-labelledby="bradix-select-11-item-EUR-text" aria-selected="false" data-state="unchecked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_64="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    												
+    												<!--!-->
+    											</span>
+    											
+    											<!--!-->      																								
+    											<!--!-->
+    											<span id="bradix-select-11-item-EUR-text" _bl_67="">Euro</span>
+    										</div>
+    										
+    										<!--!-->                                  																							
+    										<!--!--> 																							
+    										<!--!--> 																							
+    										<!--!-->
+    										<div role="option" aria-labelledby="bradix-select-11-item-GBP-text" aria-selected="false" data-state="unchecked" tabindex="-1" data-slot="select-item" class="q-select-item relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 rtl:pr-2 rtl:pl-8 text-sm outline-hidden select-none focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2" _bl_65="">
+    											<span data-slot="select-item-indicator" class="absolute right-2 flex size-3.5 items-center justify-center rtl:right-auto rtl:left-2">
+    												
+    												<!--!-->
+    											</span>
+    											
+    											<!--!-->      																								
+    											<!--!-->
+    											<span id="bradix-select-11-item-GBP-text" _bl_68="">British Pound</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    						<select tabindex="-1" aria-hidden="true" style="position:absolute;pointer-events:none;opacity:0;margin:0;transform:translateX(-100%);" _bl_46="">
+    							<option value="USD" selected="">US Dollar</option>
+    							<option value="EUR">Euro</option>
+    							<option value="GBP">British Pound</option>
+    						</select>
+    					</div>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<input placeholder="10.00" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button aria-label="Send" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_44="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="M5 12h14"></path>
+    							<path d="m12 5 7 7-7 7"></path>
+    						</svg>
+    					</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!-->
+    				<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_24="">
+    					
+    					<!--!--> 																		
+    					<!--!-->
+    					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    						<path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path>
+    					</svg>
+    					
+    					<!--!-->                         Copilot
+    				</button>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<div data-slot="popover" class="q-popover group/popover relative">
+    					
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!--> 																		
+    					<!--!-->
+    					<button aria-label="Open popover" data-slot="button" data-variant="outline" data-size="icon" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-9 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" id="quark-popover-3-trigger" data-state="closed" aria-haspopup="dialog" aria-expanded="false" aria-controls="quark-popover-3-content" type="button" _bl_47="">
+    						
+    						<!--!--> 																			
+    						<!--!-->
+    						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="q-icon q-lucide inline-block size-4 shrink-0 align-middle">
+    							<path d="m6 9 6 6 6-6"></path>
+    						</svg>
+    					</button>
+    					
+    					<!--!-->                          																		
+    					<!--!--> 																		
+    					<!--!-->
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div role="toolbar" aria-label="Toolbar" class="q-div flex flex-wrap gap-2">
+    				
+    				<!--!--> 																	
+    				<!--!-->
+    				<div role="group" aria-label="Primary tools" data-slot="button-group" data-orientation="horizontal" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_34="">1</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_35="">2</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button data-slot="button" data-variant="outline" data-size="sm" class="q-button inline-flex shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-8 gap-1.5 px-3 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_36="">3</button>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<div role="group" aria-label="Secondary tools" data-slot="button-group" data-orientation="horizontal" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    					
+    					<!--!-->
+    					<button data-slot="button" data-variant="secondary" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_37="">4</button>
+    					
+    					<!--!-->                          																		
+    					<!--!-->
+    					<button data-slot="button" data-variant="secondary" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80" type="button" _bl_38="">5</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!--> 																
+    			<!--!-->
+    			<div data-slot="button-group" data-orientation="horizontal" role="group" class="q-button-group inline-flex w-fit items-stretch flex-row">
+    				
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!--> 																	
+    				<!--!-->
+    				<label for="project-name" data-slot="label" class="q-button-group-text rounded-md border bg-muted px-4 shadow-xs [&amp;_svg]:pointer-events-none q-label flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50" _bl_45="">Project</label>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<input id="project-name" placeholder="Quark Suite" type="text" data-slot="input" class="q-input h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40">
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<button data-slot="button" data-variant="outline" data-size="default" class="q-button inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 h-9 px-4 py-2 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50" type="button" _bl_25="">Save</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div space-y-2">
+    				
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7 m-0">Inline code:  																	
+    					<!--!-->
+    					<code class="q-code q-code-bg px-1 py-0 rounded">var x = 42;</code>
+    					and  																	
+    					<!--!-->
+    					<code class="q-code q-code-bg px-1 py-0 rounded">Console.WriteLine("Hello");</code>
+    				</p>
+    				
+    				<!--!-->                  																
+    				<!--!-->
+    				<p class="q-paragraph text-sm text-foreground leading-7 m-0">Styled:  																	
+    					<!--!-->
+    					<code class="text-destructive font-bold">error message</code>
+    				</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<pre class="q-pre-code q-code-bg p-3 rounded overflow-auto">
+    				<code highlight="">public class Example {     public string Name { get; set; } }</code>
+    			</pre>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<pre class="q-pre-code q-code-bg p-3 rounded overflow-auto">
+    				<code language="csharp" highlight="">public async Task&lt;string&gt; GetDataAsync() {     var response = await client.GetAsync(url);     return await response.Content.ReadAsStringAsync(); }</code>
+    			</pre>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<pre class="rounded-lg border border-primary overflow-auto">
+    				<code highlight="">// Long scrollable block public void Method1() { } public void Method2() { } public void Method3() { } public void Method4() { } public void Method5() { }</code>
+    			</pre>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

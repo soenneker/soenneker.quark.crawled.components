@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div flex gap-4 items-center">
+    				
+    				<!--!-->
+    				<div class="group/native-select relative w-full has-[select:disabled]:opacity-50" data-slot="native-select-wrapper">
+    					<select data-slot="native-select" data-size="default" class="q-native-select border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 h-9 w-full min-w-0 appearance-none rounded-md border bg-transparent px-3 py-2 pr-9 rtl:pr-3 rtl:pl-9 text-sm shadow-xs transition-[color,box-shadow] outline-none disabled:pointer-events-none disabled:cursor-not-allowed data-[size=sm]:h-8 data-[size=sm]:py-1 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive">
+    						
+    						<!--!-->
+    						<option value="" data-slot="native-select-option">Select a fruit...</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="apple" data-slot="native-select-option">Apple</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="banana" data-slot="native-select-option">Banana</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="blueberry" data-slot="native-select-option">Blueberry</option>
+    					</select>
+    					
+    					<!--!-->      																		
+    					<!--!-->
+    					<svg class="text-muted-foreground pointer-events-none absolute top-1/2 right-3.5 rtl:right-auto rtl:left-3.5 size-4 -translate-y-1/2 opacity-50 select-none" aria-hidden="true" data-slot="native-select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    						<path d="m6 9 6 6 6-6"></path>
+    					</svg>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<span class="q-span text-muted-foreground text-sm">Selected: (none)</span>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="group/native-select relative w-full has-[select:disabled]:opacity-50" data-slot="native-select-wrapper">
+    				<select data-slot="native-select" data-size="default" class="q-native-select border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 h-9 w-full min-w-0 appearance-none rounded-md border bg-transparent px-3 py-2 pr-9 rtl:pr-3 rtl:pl-9 text-sm shadow-xs transition-[color,box-shadow] outline-none disabled:pointer-events-none disabled:cursor-not-allowed data-[size=sm]:h-8 data-[size=sm]:py-1 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive">
+    					
+    					<!--!-->
+    					<option value="" data-slot="native-select-option">Select an animal...</option>
+    					
+    					<!--!-->                      																		
+    					<!--!-->
+    					<optgroup data-slot="native-select-optgroup" label="Mammals">
+    						
+    						<!--!-->
+    						<option value="cat" data-slot="native-select-option">Cat</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="dog" data-slot="native-select-option">Dog</option>
+    					</optgroup>
+    					
+    					<!--!-->                      																		
+    					<!--!-->
+    					<optgroup data-slot="native-select-optgroup" label="Birds">
+    						
+    						<!--!-->
+    						<option value="eagle" data-slot="native-select-option">Eagle</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="parrot" data-slot="native-select-option">Parrot</option>
+    					</optgroup>
+    				</select>
+    				
+    				<!--!-->      																	
+    				<!--!-->
+    				<svg class="text-muted-foreground pointer-events-none absolute top-1/2 right-3.5 rtl:right-auto rtl:left-3.5 size-4 -translate-y-1/2 opacity-50 select-none" aria-hidden="true" data-slot="native-select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    					<path d="m6 9 6 6 6-6"></path>
+    				</svg>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div space-y-3">
+    				
+    				<!--!-->
+    				<div class="group/native-select relative w-full has-[select:disabled]:opacity-50" data-slot="native-select-wrapper">
+    					<select data-slot="native-select" data-size="sm" class="q-native-select border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 h-9 w-full min-w-0 appearance-none rounded-md border bg-transparent px-3 py-2 pr-9 rtl:pr-3 rtl:pl-9 text-sm shadow-xs transition-[color,box-shadow] outline-none disabled:pointer-events-none disabled:cursor-not-allowed data-[size=sm]:h-8 data-[size=sm]:py-1 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive">
+    						
+    						<!--!-->
+    						<option value="" data-slot="native-select-option">Small size</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="one" data-slot="native-select-option">Option one</option>
+    					</select>
+    					
+    					<!--!-->      																		
+    					<!--!-->
+    					<svg class="text-muted-foreground pointer-events-none absolute top-1/2 right-3.5 rtl:right-auto rtl:left-3.5 size-4 -translate-y-1/2 opacity-50 select-none" aria-hidden="true" data-slot="native-select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    						<path d="m6 9 6 6 6-6"></path>
+    					</svg>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<div class="group/native-select relative w-full has-[select:disabled]:opacity-50" data-slot="native-select-wrapper">
+    					<select disabled="" data-slot="native-select" data-size="default" class="q-native-select border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 h-9 w-full min-w-0 appearance-none rounded-md border bg-transparent px-3 py-2 pr-9 rtl:pr-3 rtl:pl-9 text-sm shadow-xs transition-[color,box-shadow] outline-none disabled:pointer-events-none disabled:cursor-not-allowed data-[size=sm]:h-8 data-[size=sm]:py-1 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive">
+    						
+    						<!--!-->
+    						<option value="" data-slot="native-select-option">Disabled select</option>
+    					</select>
+    					
+    					<!--!-->      																		
+    					<!--!-->
+    					<svg class="text-muted-foreground pointer-events-none absolute top-1/2 right-3.5 rtl:right-auto rtl:left-3.5 size-4 -translate-y-1/2 opacity-50 select-none" aria-hidden="true" data-slot="native-select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    						<path d="m6 9 6 6 6-6"></path>
+    					</svg>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-[10rem] w-full items-center justify-center p-6 sm:min-h-[12rem] sm:p-8 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    			
+    			<!--!-->
+    			<div class="q-div space-y-2">
+    				
+    				<!--!-->
+    				<div class="group/native-select relative w-full has-[select:disabled]:opacity-50" data-slot="native-select-wrapper">
+    					<select class="q-native-select placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 h-9 w-full min-w-0 appearance-none rounded-md border bg-transparent px-3 py-2 pr-9 rtl:pr-3 rtl:pl-9 text-sm shadow-xs transition-[color,box-shadow] outline-none disabled:pointer-events-none disabled:cursor-not-allowed data-[size=sm]:h-8 data-[size=sm]:py-1 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border-destructive text-destructive" data-slot="native-select" data-size="default">
+    						
+    						<!--!-->
+    						<option value="" data-slot="native-select-option">Select a plan...</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="starter" data-slot="native-select-option">Starter</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="pro" data-slot="native-select-option">Pro</option>
+    					</select>
+    					
+    					<!--!-->      																		
+    					<!--!-->
+    					<svg class="text-muted-foreground pointer-events-none absolute top-1/2 right-3.5 rtl:right-auto rtl:left-3.5 size-4 -translate-y-1/2 opacity-50 select-none" aria-hidden="true" data-slot="native-select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    						<path d="m6 9 6 6 6-6"></path>
+    					</svg>
+    				</div>
+    				
+    				<!--!-->                      																	
+    				<!--!-->
+    				<p class="q-paragraph leading-7 text-destructive text-sm">Please choose a plan before continuing.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>

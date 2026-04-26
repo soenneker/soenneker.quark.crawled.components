@@ -2,8 +2,8 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto w-full max-w-xs px-12" data-slot="div">
@@ -13,48 +13,8 @@
     				<div class="relative w-full max-w-xs" data-slot="carousel" data-orientation="horizontal" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-y">
     						<div class="flex -ml-4" style="transform: translateX(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-4xl font-semibold" _bl_121="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-4xl font-semibold" _bl_122="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
@@ -115,13 +75,53 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-4xl font-semibold" _bl_126="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-4xl font-semibold" _bl_127="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_104="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_106="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -135,7 +135,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_105="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_107="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -152,8 +152,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto w-full max-w-sm px-12" data-slot="div">
@@ -163,48 +163,8 @@
     				<div class="relative w-full max-w-sm" data-slot="carousel" data-orientation="horizontal" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-y">
     						<div class="flex -ml-4" style="transform: translateX(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_126="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_127="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
@@ -265,13 +225,53 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_131="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_132="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_106="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_108="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -285,7 +285,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_107="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_109="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -302,8 +302,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto w-full max-w-sm px-12" data-slot="div">
@@ -313,48 +313,8 @@
     				<div class="relative w-full max-w-sm" data-slot="carousel" data-orientation="horizontal" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-y">
     						<div class="flex -ml-4 -ml-1" style="transform: translateX(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 pl-1 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-2xl font-semibold" _bl_131="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 pl-1 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-2xl font-semibold" _bl_132="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 pl-1 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
@@ -415,13 +375,53 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 pl-1 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-2xl font-semibold" _bl_136="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pl-4 pl-1 md:basis-1/2 lg:basis-1/3" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-2xl font-semibold" _bl_137="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_108="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_110="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -435,7 +435,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_109="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_111="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -452,8 +452,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto w-full max-w-xs px-12" data-slot="div">
@@ -463,48 +463,8 @@
     				<div class="relative w-full max-w-xs" data-slot="carousel" data-orientation="vertical" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-x">
     						<div class="flex -mt-4 flex-col -mt-1 h-[200px]" style="transform: translateY(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pt-4 pt-1 md:basis-1/2" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div class="px-4 group-data-[size=sm]/card:px-3 flex items-center justify-center p-6" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_136="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div class="min-w-0 shrink-0 grow-0 basis-full pt-4 pt-1 md:basis-1/2" data-slot="carousel-item" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div class="px-4 group-data-[size=sm]/card:px-3 flex items-center justify-center p-6" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_137="">6</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div class="min-w-0 shrink-0 grow-0 basis-full pt-4 pt-1 md:basis-1/2" data-slot="carousel-item" role="group" aria-roledescription="slide">
@@ -565,13 +525,53 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pt-4 pt-1 md:basis-1/2" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div class="px-4 group-data-[size=sm]/card:px-3 flex items-center justify-center p-6" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_141="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div class="min-w-0 shrink-0 grow-0 basis-full pt-4 pt-1 md:basis-1/2" data-slot="carousel-item" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div class="px-4 group-data-[size=sm]/card:px-3 flex items-center justify-center p-6" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_142="">6</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all -top-12 left-1/2 -translate-x-1/2 rotate-90 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_110="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all -top-12 left-1/2 -translate-x-1/2 rotate-90 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_112="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -585,7 +585,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all -bottom-12 left-1/2 -translate-x-1/2 rotate-90 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_111="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all -bottom-12 left-1/2 -translate-x-1/2 rotate-90 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_113="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -602,8 +602,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto max-w-xs" data-slot="div">
@@ -613,40 +613,8 @@
     				<div class="relative w-full max-w-xs" data-slot="carousel" data-orientation="horizontal" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-y">
     						<div class="flex -ml-4" style="transform: translateX(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!--> 																				
-    								<!--!-->
-    								<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    									
-    									<!--!-->
-    									<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    										
-    										<!--!-->
-    										<span class="text-4xl font-semibold" _bl_116="">6</span>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!--> 																				
-    								<!--!-->
-    								<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    									
-    									<!--!-->
-    									<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    										
-    										<!--!-->
-    										<span class="text-4xl font-semibold" _bl_117="">6</span>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
@@ -695,13 +663,45 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!--> 																				
+    								<!--!-->
+    								<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    									
+    									<!--!-->
+    									<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    										
+    										<!--!-->
+    										<span class="text-4xl font-semibold" _bl_121="">6</span>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!--> 																				
+    								<!--!-->
+    								<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    									
+    									<!--!-->
+    									<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    										
+    										<!--!-->
+    										<span class="text-4xl font-semibold" _bl_122="">6</span>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_112="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" disabled="" _bl_114="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -715,7 +715,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_113="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_115="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -738,8 +738,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div class="mx-auto w-full max-w-xs px-12" data-slot="div">
@@ -749,48 +749,8 @@
     				<div class="relative w-full max-w-xs" data-slot="carousel" data-orientation="horizontal" role="region" aria-roledescription="carousel">
     					
     					<!--!-->
-    					<div data-slot="carousel-content" class="overflow-hidden">
+    					<div data-slot="carousel-content" class="overflow-hidden touch-pan-y">
     						<div class="flex -ml-4" style="transform: translateX(-0%); transition: transform 300ms ease-in-out">
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_141="">5</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    							
-    							<!--!-->
-    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
-    								
-    								<!--!-->
-    								<div class="p-1" data-slot="div">
-    									
-    									<!--!--> 																					
-    									<!--!-->
-    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
-    										
-    										<!--!-->
-    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
-    											
-    											<!--!-->
-    											<span class="text-3xl font-semibold" _bl_142="">5</span>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
     							
     							<!--!-->
     							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
@@ -831,13 +791,53 @@
     									</div>
     								</div>
     							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_145="">5</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							
+    							<!--!-->
+    							<div data-slot="carousel-item" class="min-w-0 shrink-0 grow-0 basis-full pl-4" role="group" aria-roledescription="slide">
+    								
+    								<!--!-->
+    								<div class="p-1" data-slot="div">
+    									
+    									<!--!--> 																					
+    									<!--!-->
+    									<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl">
+    										
+    										<!--!-->
+    										<div aspectratio="AspectRatio.R1X1" class="px-4 group-data-[size=sm]/card:px-3 flex p-6 items-center justify-center" data-slot="card-content">
+    											
+    											<!--!-->
+    											<span class="text-3xl font-semibold" _bl_146="">5</span>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
     						</div>
     					</div>
     					
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_114="">
+    					<button data-slot="carousel-previous" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -left-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_116="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -851,7 +851,7 @@
     					<!--!-->                      																	
     					<!--!--> 																	
     					<!--!-->
-    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_115="">
+    					<button data-slot="carousel-next" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-8 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all top-1/2 -right-12 -translate-y-1/2 absolute rounded-full" data-variant="outline" data-size="icon" type="button" _bl_117="">
     						
     						<!--!-->
     						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

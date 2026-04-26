@@ -2,40 +2,65 @@
 <html>
   <body>
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div id="resizable-basic-demo" class="max-w-3xl" data-slot="div">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<div class="flex h-full w-full aria-[orientation=vertical]:flex-col min-h-[220px] rounded-xl border" data-slot="resizable-panel-group" aria-orientation="horizontal" _bl_9="">
+    				<div class="flex h-full w-full aria-[orientation=vertical]:flex-col max-w-md rounded-lg border md:min-w-[450px]" data-slot="resizable-panel-group" aria-orientation="horizontal" _bl_9="">
     					
     					<!--!-->
     					<div data-slot="resizable-panel" style="flex: 0 0 50%; min-width: 0">
     						
     						<!--!-->
-    						<div class="flex p-6 h-full items-center justify-center bg-card" data-slot="div">
+    						<div class="flex p-6 items-center justify-center h-[200px]" data-slot="div">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_109="">One</span>
+    							<span class="font-semibold" _bl_110="">One</span>
     						</div>
     					</div>
     					
     					<!--!-->                           																		
     					<!--!-->
-    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_105="" data-resizable-ready="true"></div>
+    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_107=""></div>
     					
     					<!--!-->                           																		
     					<!--!-->
     					<div data-slot="resizable-panel" style="flex: 0 0 50%; min-width: 0">
     						
+    						<!--!--> 																			
     						<!--!-->
-    						<div class="flex p-6 h-full items-center justify-center bg-muted/30" data-slot="div">
+    						<div data-slot="resizable-panel-group" aria-orientation="vertical" class="flex h-full w-full aria-[orientation=vertical]:flex-col" _bl_111="">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_110="">Two</span>
+    							<div data-slot="resizable-panel" style="flex: 0 0 25%; min-height: 0">
+    								
+    								<!--!-->
+    								<div class="flex p-6 h-full items-center justify-center" data-slot="div">
+    									
+    									<!--!-->
+    									<span class="font-semibold" _bl_119="">Two</span>
+    								</div>
+    							</div>
+    							
+    							<!--!-->                                   																				
+    							<!--!-->
+    							<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="horizontal" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_116=""></div>
+    							
+    							<!--!-->                                   																				
+    							<!--!-->
+    							<div data-slot="resizable-panel" style="flex: 0 0 75%; min-height: 0">
+    								
+    								<!--!-->
+    								<div class="flex p-6 h-full items-center justify-center" data-slot="div">
+    									
+    									<!--!-->
+    									<span class="font-semibold" _bl_120="">Three</span>
+    								</div>
+    							</div>
     						</div>
     					</div>
     				</div>
@@ -45,8 +70,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div id="resizable-vertical-demo" class="max-w-3xl" data-slot="div">
@@ -62,13 +87,13 @@
     						<div class="flex p-6 h-full items-center justify-center bg-card" data-slot="div">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_111="">Top</span>
+    							<span class="font-semibold" _bl_112="">Top</span>
     						</div>
     					</div>
     					
     					<!--!-->                           																		
     					<!--!-->
-    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="horizontal" aria-valuemin="0" aria-valuemax="100" aria-valuenow="33.33" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_106="" data-resizable-ready="true"></div>
+    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="horizontal" aria-valuemin="0" aria-valuemax="100" aria-valuenow="33.33" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_108=""></div>
     					
     					<!--!-->                           																		
     					<!--!-->
@@ -78,7 +103,7 @@
     						<div class="flex p-6 h-full items-center justify-center bg-muted/30" data-slot="div">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_112="">Bottom</span>
+    							<span class="font-semibold" _bl_113="">Bottom</span>
     						</div>
     					</div>
     				</div>
@@ -88,8 +113,8 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
     			<div id="resizable-handle-demo" class="max-w-3xl" data-slot="div">
@@ -105,13 +130,13 @@
     						<div class="flex p-6 h-full items-center justify-center bg-card" data-slot="div">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_113="">One</span>
+    							<span class="font-semibold" _bl_114="">One</span>
     						</div>
     					</div>
     					
     					<!--!-->                           																		
     					<!--!-->
-    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_107="" data-resizable-ready="true">
+    					<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_109="">
     						<div class="z-10 flex h-4 w-3 items-center justify-center rounded-xs border bg-border">
     							
     							<!--!--> 																				
@@ -135,7 +160,7 @@
     						<div class="flex p-6 h-full items-center justify-center bg-muted/30" data-slot="div">
     							
     							<!--!-->
-    							<span class="font-semibold" _bl_114="">Two</span>
+    							<span class="font-semibold" _bl_115="">Two</span>
     						</div>
     					</div>
     				</div>
@@ -145,19 +170,21 @@
     </div>
 
     <div data-slot="preview" dir="ltr">
-    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
-    		<div class="mx-auto flex max-w-full flex-col items-center justify-center [&amp;>*]:max-w-full [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex min-h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:min-h-0 data-[chromeless=true]:p-0">
+    		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!--> 																
+    			<!--!--> 																
+    			<!--!--> 																
     			<!--!-->
-    			<div data-slot="direction-provider" dir="rtl">
+    			<div data-slot="direction-provider" dir="rtl" class="contents">
     				
     				<!--!-->
     				<div id="resizable-rtl-demo" class="text-end max-w-3xl" data-slot="div">
     					
     					<!--!--> 																		
     					<!--!-->
-    					<div class="flex h-full w-full aria-[orientation=vertical]:flex-col min-h-[220px] rounded-xl border" data-slot="resizable-panel-group" aria-orientation="horizontal" _bl_108="">
+    					<div class="flex h-full w-full aria-[orientation=vertical]:flex-col min-h-[220px] rounded-xl border" data-slot="resizable-panel-group" aria-orientation="horizontal" _bl_117="">
     						
     						<!--!-->
     						<div data-slot="resizable-panel" style="flex: 0 0 50%; min-width: 0">
@@ -166,7 +193,7 @@
     							<div class="flex p-6 h-full items-center justify-center bg-card" data-slot="div">
     								
     								<!--!-->
-    								<span class="font-semibold" _bl_116="">
+    								<span class="font-semibold" _bl_121="">
     									
     									<!--!-->البداية</span>
     							</div>
@@ -174,7 +201,7 @@
     						
     						<!--!-->                               																			
     						<!--!-->
-    						<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_115="" data-resizable-ready="true"></div>
+    						<div data-slot="resizable-handle" role="separator" tabindex="0" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 [&amp;[aria-orientation=horizontal]>div]:rotate-90" style="flex-basis:auto; flex-grow:0; flex-shrink:0" _bl_118=""></div>
     						
     						<!--!-->                               																			
     						<!--!-->
@@ -184,7 +211,7 @@
     							<div class="flex p-6 h-full items-center justify-center bg-muted/30" data-slot="div">
     								
     								<!--!-->
-    								<span class="font-semibold" _bl_117="">
+    								<span class="font-semibold" _bl_122="">
     									
     									<!--!-->النهاية</span>
     							</div>

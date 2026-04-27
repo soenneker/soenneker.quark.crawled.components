@@ -14,7 +14,7 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 50.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50.00% + 0.0px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="50">
     				</div>
@@ -37,11 +37,11 @@
     				<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full gap-2" data-slot="field" role="group" data-orientation="vertical">
     					
     					<!--!-->
-    					<div class="flex w-fit items-center gap-2 text-sm font-medium leading-snug group-data-[disabled=true]/field:opacity-50" data-slot="field-label">Price Range</div>
+    					<div class="group-data-[disabled=true]/field:opacity-50 flex text-sm font-medium leading-snug w-fit gap-2 items-center" data-slot="field-label">Price Range</div>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<p class="text-left text-sm font-normal leading-normal text-muted-foreground group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary" data-slot="field-description" id="quark-field-1-description">
+    					<p class="group-has-[[data-orientation=horizontal]]/field:text-balance last:mt-0 nth-last-2:-mt-1 [[data-variant=legend]+&amp;]:-mt-1.5 [&amp;>a]:underline [&amp;>a]:underline-offset-4 [&amp;>a:hover]:text-primary text-left text-muted-foreground text-sm font-normal leading-normal" data-slot="field-description" id="quark-field-1-description">
     						
     						<!--!-->                             Set your budget range ($ 																			
     						<!--!-->
@@ -60,10 +60,10 @@
     							<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 20.00%; right: 20.00%"></div>
     						</div>
     						<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(20.00% + 4.8px)">
-    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="200" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="200" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     						</span>
     						<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(80.00% - 4.8px)">
-    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="800" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="800" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     						</span>
     						<input type="hidden" class="sr-only" value="200">
     						<input type="hidden" class="sr-only" value="800">
@@ -84,10 +84,10 @@
     					<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 25.00%; right: 50.00%"></div>
     				</div>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(25.00% + 4.0px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50.00% + 0.0px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<input type="hidden" class="sr-only" value="25">
     				<input type="hidden" class="sr-only" value="50">
@@ -106,13 +106,13 @@
     					<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 10.00%; right: 30.00%"></div>
     				</div>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(10.00% + 6.4px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 1 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 1 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(20.00% + 4.8px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 2 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 2 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(70.00% - 3.2px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 3 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Value 3 of 3" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<input type="hidden" class="sr-only" value="10">
     				<input type="hidden" class="sr-only" value="20">
@@ -135,7 +135,7 @@
     						<div data-slot="slider-range" data-orientation="vertical" data-vertical="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="bottom: 0.00%; top: 50.00%"></div>
     					</div>
     					<span style="transform: translateY(50%); position: absolute; bottom: calc(50.00% + 0.0px)">
-    						<span data-slot="slider-thumb" data-orientation="vertical" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="vertical" data-radix-collection-item="" data-vertical="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="vertical" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="vertical" data-radix-collection-item="" data-vertical="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="50">
     				</div>
@@ -147,7 +147,7 @@
     						<div data-slot="slider-range" data-orientation="vertical" data-vertical="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="bottom: 0.00%; top: 75.00%"></div>
     					</div>
     					<span style="transform: translateY(50%); position: absolute; bottom: calc(25.00% + 4.0px)">
-    						<span data-slot="slider-thumb" data-orientation="vertical" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-orientation="vertical" data-radix-collection-item="" data-vertical="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="vertical" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-orientation="vertical" data-radix-collection-item="" data-vertical="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="25">
     				</div>
@@ -168,7 +168,7 @@
     					
     					<!--!--> 																		
     					<!--!-->
-    					<label for="slider-demo-temperature" class="items-center gap-2 text-sm leading-none select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 flex font-medium" data-slot="label" _bl_122="">Temperature</label>
+    					<label for="slider-demo-temperature" class="group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 flex text-sm font-medium leading-none gap-2 items-center select-none" data-slot="label" _bl_122="">Temperature</label>
     					
     					<!--!-->                          																		
     					<!--!-->
@@ -182,10 +182,10 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 30.00%; right: 30.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(30.00% + 3.2px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.30000000000000004" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.30000000000000004" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Minimum" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(70.00% - 3.2px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7000000000000001" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" id="slider-demo-temperature-1" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7000000000000001" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" aria-label="Maximum" id="slider-demo-temperature-1" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="0.30000000000000004" id="slider-demo-temperature-value">
     					<input type="hidden" class="sr-only" value="0.7000000000000001" id="slider-demo-temperature-value-1">
@@ -205,7 +205,7 @@
     					<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 50.00%"></div>
     				</div>
     				<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50.00% + 0.0px)">
-    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="-1" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" disabled="" aria-disabled="true" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    					<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="-1" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" disabled="" aria-disabled="true" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     				</span>
     				<input type="hidden" class="sr-only" value="50" disabled="">
     			</div>
@@ -232,7 +232,7 @@
     							<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="right: 0.00%; left: 25.00%"></div>
     						</div>
     						<span style="transform: var(--radix-slider-thumb-transform); position: absolute; right: calc(75.00% - 4.0px)">
-    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    							<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     						</span>
     						<input type="hidden" class="sr-only" value="75">
     					</div>
@@ -255,7 +255,7 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 70.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(30.00% + 3.2px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="30">
     				</div>
@@ -277,7 +277,7 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 65.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(35.00% + 1.8px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="35" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="35" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="35">
     				</div>
@@ -289,7 +289,7 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 40.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(60.00% - 1.6px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="60">
     				</div>
@@ -301,7 +301,7 @@
     						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 20.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(80.00% - 6.0px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="80">
     				</div>

@@ -7,26 +7,26 @@
     			
     			<!--!-->
     			<div class="group/native-select relative w-fit has-[select:disabled]:opacity-50" data-slot="native-select-wrapper" data-size="default">
-    				<select class="h-9 appearance-none rounded-md px-3 py-2 pr-9 transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm w-full min-w-0 border border-input bg-transparent shadow-xs" data-slot="native-select" data-size="default">
+    				<select class="appearance-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm px-3 py-2 pr-9 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="native-select" data-size="default">
     					
     					<!--!-->
-    					<option value="" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Select status</option>
-    					
-    					<!--!-->                      																		
-    					<!--!-->
-    					<option value="todo" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Todo</option>
+    					<option value="" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Select status</option>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<option value="in-progress" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">In Progress</option>
+    					<option value="todo" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Todo</option>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<option value="done" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Done</option>
+    					<option value="in-progress" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">In Progress</option>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<option value="cancelled" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Cancelled</option>
+    					<option value="done" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Done</option>
+    					
+    					<!--!-->                      																		
+    					<!--!-->
+    					<option value="cancelled" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Cancelled</option>
     				</select>
     				
     				<!--!-->      																	
@@ -45,33 +45,33 @@
     			
     			<!--!-->
     			<div class="group/native-select relative w-fit has-[select:disabled]:opacity-50" data-slot="native-select-wrapper" data-size="default">
-    				<select class="h-9 appearance-none rounded-md px-3 py-2 pr-9 transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm w-full min-w-0 border border-input bg-transparent shadow-xs" data-slot="native-select" data-size="default">
+    				<select class="appearance-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm px-3 py-2 pr-9 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="native-select" data-size="default">
     					
     					<!--!-->
-    					<option value="" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Select an animal...</option>
+    					<option value="" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Select an animal...</option>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<optgroup data-slot="native-select-optgroup" class="bg-[Canvas] text-[CanvasText]" label="Mammals">
+    					<optgroup class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-optgroup" label="Mammals">
     						
     						<!--!-->
-    						<option value="cat" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Cat</option>
+    						<option value="cat" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Cat</option>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<option value="dog" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Dog</option>
+    						<option value="dog" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Dog</option>
     					</optgroup>
     					
     					<!--!-->                      																		
     					<!--!-->
-    					<optgroup data-slot="native-select-optgroup" class="bg-[Canvas] text-[CanvasText]" label="Birds">
+    					<optgroup class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-optgroup" label="Birds">
     						
     						<!--!-->
-    						<option value="eagle" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Eagle</option>
+    						<option value="eagle" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Eagle</option>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<option value="parrot" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Parrot</option>
+    						<option value="parrot" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Parrot</option>
     					</optgroup>
     				</select>
     				
@@ -94,14 +94,14 @@
     				
     				<!--!-->
     				<div class="group/native-select relative w-fit has-[select:disabled]:opacity-50" data-slot="native-select-wrapper" data-size="sm">
-    					<select class="h-9 appearance-none rounded-md px-3 py-2 pr-9 transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm w-full min-w-0 border border-input bg-transparent shadow-xs" data-slot="native-select" data-size="sm">
+    					<select class="appearance-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm px-3 py-2 pr-9 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="native-select" data-size="sm">
     						
     						<!--!-->
-    						<option value="" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Small size</option>
+    						<option value="" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Small size</option>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<option value="one" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Option one</option>
+    						<option value="one" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Option one</option>
     					</select>
     					
     					<!--!-->      																		
@@ -114,10 +114,10 @@
     				<!--!-->                      																	
     				<!--!-->
     				<div class="group/native-select relative w-fit has-[select:disabled]:opacity-50" data-slot="native-select-wrapper" data-size="default">
-    					<select disabled="" class="h-9 appearance-none rounded-md px-3 py-2 pr-9 transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm w-full min-w-0 border border-input bg-transparent shadow-xs" data-slot="native-select" data-size="default">
+    					<select disabled="" class="appearance-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm px-3 py-2 pr-9 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="native-select" data-size="default">
     						
     						<!--!-->
-    						<option value="" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Disabled select</option>
+    						<option value="" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Disabled select</option>
     					</select>
     					
     					<!--!-->      																		
@@ -140,18 +140,18 @@
     				
     				<!--!-->
     				<div class="group/native-select relative w-fit has-[select:disabled]:opacity-50" data-slot="native-select-wrapper" data-size="default">
-    					<select aria-invalid="true" class="h-9 appearance-none rounded-md px-3 py-2 pr-9 transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm w-full min-w-0 border border-input bg-transparent shadow-xs" data-slot="native-select" data-size="default">
+    					<select aria-invalid="true" class="appearance-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[size=sm]:h-8 data-[size=sm]:py-1 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 text-sm px-3 py-2 pr-9 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="native-select" data-size="default">
     						
     						<!--!-->
-    						<option value="" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Select a plan...</option>
-    						
-    						<!--!-->                          																			
-    						<!--!-->
-    						<option value="starter" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Starter</option>
+    						<option value="" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Select a plan...</option>
     						
     						<!--!-->                          																			
     						<!--!-->
-    						<option value="pro" data-slot="native-select-option" class="bg-[Canvas] text-[CanvasText]">Pro</option>
+    						<option value="starter" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Starter</option>
+    						
+    						<!--!-->                          																			
+    						<!--!-->
+    						<option value="pro" class="text-[CanvasText] bg-[Canvas]" data-slot="native-select-option">Pro</option>
     					</select>
     					
     					<!--!-->      																		

@@ -9,13 +9,13 @@
     			<div class="flex w-full max-w-xs flex-col gap-4 [--radius:1rem]" data-slot="div">
     				
     				<!--!-->
-    				<div class="group/item w-full duration-100 outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted border-transparent bg-muted/50 gap-2.5 px-3 py-2.5 flex text-sm flex-wrap items-center border rounded-lg transition-colors" data-slot="item" data-variant="muted" data-size="default">
+    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted flex text-sm px-3 py-2.5 w-full flex-wrap gap-2.5 items-center border border-transparent bg-muted/50 rounded-lg outline-none transition-colors" data-slot="item" data-variant="muted" data-size="default">
     					
     					<!--!-->
-    					<div class="shrink-0 group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none bg-transparent flex gap-2 items-center justify-center" data-slot="item-media" data-variant="default">
+    					<div class="group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none flex shrink-0 gap-2 items-center justify-center bg-transparent" data-slot="item-media" data-variant="default">
     						
     						<!--!-->
-    						<svg role="status" aria-label="Loading" class="size-4 animate-spin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    						<svg class="size-4 animate-spin" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     							
     							<!--!-->
     							<path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
@@ -24,7 +24,7 @@
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div class="flex-1 [&amp;+[data-slot=item-content]]:flex-none flex flex-col gap-1" data-slot="item-content">
+    					<div class="[&amp;+[data-slot=item-content]]:flex-none flex flex-1 flex-col gap-1" data-slot="item-content">
     						
     						<!--!-->
     						<div class="flex text-sm font-medium leading-snug w-fit gap-2 items-center line-clamp-1" data-slot="item-title">Processing payment...</div>
@@ -32,7 +32,7 @@
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<div class="flex-1 [&amp;+[data-slot=item-content]]:flex-none flex flex-col gap-1 flex-none justify-end" data-slot="item-content">
+    					<div class="[&amp;+[data-slot=item-content]]:flex-none flex flex-1 flex-col gap-1 flex-none justify-end" data-slot="item-content">
     						
     						<!--!-->
     						<span class="text-sm tabular-nums" _bl_110="">$100.00</span>
@@ -59,7 +59,7 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<svg class="size-4 animate-spin size-6" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    				<svg class="size-6 animate-spin" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     					
     					<!--!-->
     					<path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
@@ -82,7 +82,7 @@
     		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_6="">
+    			<button class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_6="">
     				
     				<!--!-->
     				<svg class="size-4 animate-spin mr-2" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -102,10 +102,10 @@
     		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<span class="group/badge inline-flex h-5 w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-4xl border border-transparent px-2 py-0.5 whitespace-nowrap transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;>svg]:pointer-events-none [&amp;>svg]:size-3! border-border text-foreground [a]:hover:bg-muted [a]:hover:text-muted-foreground text-xs font-medium gap-1.5" data-slot="badge" data-variant="outline">
+    			<span class="group/badge focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;>svg]:pointer-events-none [&amp;>svg]:size-3! [a]:hover:bg-muted [a]:hover:text-muted-foreground inline-flex text-foreground text-xs font-medium whitespace-nowrap px-2 py-0.5 w-fit h-5 overflow-hidden shrink-0 gap-1.5 items-center justify-center border border-transparent rounded-4xl transition-all" data-slot="badge" data-variant="outline">
     				
     				<!--!-->
-    				<svg class="size-4 animate-spin size-3" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    				<svg class="size-3 animate-spin" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     					
     					<!--!-->
     					<path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
@@ -119,18 +119,18 @@
     		<div class="mx-auto flex w-full max-w-full flex-col items-center justify-center [&amp;_img]:mx-auto [&amp;_img]:block [&amp;_img]:max-h-72 [&amp;_img]:max-w-full [&amp;_img]:object-contain">
     			
     			<!--!-->
-    			<div data-slot="input-group" role="group" class="group/input-group relative flex h-9 w-full min-w-0 items-center rounded-md border border-input shadow-xs transition-[color,box-shadow] outline-none dark:bg-input/30 in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[>textarea]:h-auto dark:has-disabled:bg-input/80 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-destructive/20 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=inline-start]]:[&amp;>input]:pl-2 has-[>[data-align=inline-end]]:[&amp;>input]:pr-2">
+    			<div class="group/input-group dark:bg-input/30 in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-disabled:bg-input/50 has-disabled:opacity-50 has-[>textarea]:h-auto dark:has-disabled:bg-input/80 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-[3px] has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-destructive/20 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-start]]:[&amp;>input]:pb-3 has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-end]]:[&amp;>input]:pt-3 has-[>[data-align=inline-start]]:[&amp;>input]:pl-2 has-[>[data-align=inline-end]]:[&amp;>input]:pr-2 flex relative w-full min-w-0 h-9 items-center border border-input rounded-md outline-none shadow-xs transition-[color,shadow]" data-slot="input-group" role="group">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<input placeholder="Search..." data-slot="input-group-control" class="h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 flex-1 rounded-none border-0 shadow-none ring-0 focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent">
+    				<input placeholder="Search..." data-slot="input-group-control" class="selection:bg-primary selection:text-primary-foreground file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-input/30 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 text-base md:text-sm px-3 py-1 w-full min-w-0 h-9 border border-input bg-transparent rounded-md outline-none shadow-xs transition-[color,shadow] focus-visible:ring-0 disabled:bg-transparent aria-invalid:ring-0 dark:bg-transparent dark:disabled:bg-transparent flex-1 border-0 rounded-none ring-0 shadow-none">
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 [&amp;>kbd]:rounded-[calc(var(--radius)-5px)] [&amp;>svg:not([class*='size-'])]:size-4 order-last pr-3 has-[>button]:mr-[-0.45rem] has-[>kbd]:mr-[-0.35rem]" role="group" data-slot="input-group-addon" data-align="inline-end" _bl_12="">
+    				<div class="group-data-[disabled=true]/input-group:opacity-50 [&amp;>kbd]:rounded-[calc(var(--radius)-5px)] [&amp;>svg:not([class*='size-'])]:size-4 order-last has-[>button]:mr-[-0.45rem] has-[>kbd]:mr-[-0.35rem] flex text-muted-foreground text-sm font-medium py-1.5 pr-3 h-auto gap-2 items-center justify-center select-none cursor-text" role="group" data-slot="input-group-addon" data-align="inline-end" _bl_12="">
     					
     					<!--!-->
-    					<svg class="size-4 animate-spin size-3" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    					<svg class="size-3 animate-spin" role="status" aria-label="Loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     						
     						<!--!-->
     						<path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
@@ -177,7 +177,7 @@
     				<div class="flex gap-4 items-center" data-slot="div">
     					
     					<!--!-->
-    					<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_111="">
+    					<button class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="default" data-size="default" type="button" _bl_111="">
     						
     						<!--!-->                             جار الحفظ...                              																			
     						<!--!-->

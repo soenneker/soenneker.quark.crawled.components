@@ -27,7 +27,7 @@
     							
     							<!--!-->                              																			
     							<!--!-->
-    							<input placeholder="Search..." type="search" class="outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/50 text-sm px-3 py-1 w-full min-w-0 h-8 border border-input bg-background rounded-md shadow-none" data-slot="sidebar-input" data-sidebar="input">
+    							<input placeholder="Search..." type="search" class="placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/50 text-sm px-3 py-1 w-full min-w-0 h-8 border border-input bg-background rounded-md outline-none shadow-none" data-slot="sidebar-input" data-sidebar="input">
     						</div>
     						
     						<!--!-->                           																		
@@ -38,17 +38,17 @@
     							<div class="flex p-2 relative w-full min-w-0 flex-col" data-slot="sidebar-group" data-sidebar="group">
     								
     								<!--!-->
-    								<div class="text-muted-foreground ring-sidebar-ring shrink-0 outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-xs font-medium px-2 h-8 items-center rounded-md" data-slot="sidebar-group-label" data-sidebar="group-label">Platform</div>
+    								<div class="transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-muted-foreground text-xs font-medium px-2 h-8 shrink-0 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-group-label" data-sidebar="group-label">Platform</div>
     								
     								<!--!-->                                  																				
     								<!--!--> 																				
     								<!--!--> 																				
     								<!--!-->
-    								<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="ghost" data-size="icon-xs" type="button" _bl_108="">
+    								<button class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="ghost" data-size="icon-xs" type="button" _bl_108="">
     									
     									<!--!--> 																					
     									<!--!-->
-    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     										<path d="M5 12h14"></path>
     										<path d="M12 5v14"></path>
     									</svg>
@@ -71,11 +71,11 @@
     											<!--!--> 																							
     											<!--!--> 																							
     											<!--!-->
-    											<a class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="true" data-state="closed">
+    											<a class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="true" data-state="closed">
     												
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     													<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
     													<path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
     												</svg>
@@ -91,11 +91,11 @@
     										<li class="group/menu-item relative" data-slot="sidebar-menu-item" data-sidebar="menu-item">
     											
     											<!--!-->
-    											<button class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="open" type="button">
+    											<button class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="open" type="button">
     												
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     													<path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
     												</svg>
     												
@@ -106,7 +106,7 @@
     												<!--!-->                                                  																								
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle ml-auto transition-transform rotate-90" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0 ml-auto transition-transform rotate-90" data-slot="icon">
     													<path d="m9 18 6-6-6-6"></path>
     												</svg>
     											</button>
@@ -115,11 +115,11 @@
     											<!--!--> 																							
     											<!--!--> 																							
     											<!--!-->
-    											<button class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="ghost" data-size="icon-xs" type="button" _bl_114="">
+    											<button class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&amp;_svg:not([class*='size-'])]:size-3 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="ghost" data-size="icon-xs" type="button" _bl_114="">
     												
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     													<path d="M5 12h14"></path>
     													<path d="M12 5v14"></path>
     												</svg>
@@ -130,7 +130,7 @@
     											</button>
     											
     											<!--!-->
-    											<ul class="border-sidebar-border mx-3.5 translate-x-px border-l px-2.5 py-0.5 group-data-[collapsible=icon]:hidden flex min-w-0 flex-col gap-1" data-slot="sidebar-menu-sub" data-sidebar="menu-sub">
+    											<ul class="translate-x-px group-data-[collapsible=icon]:hidden flex mx-3.5 px-2.5 py-0.5 min-w-0 flex-col gap-1 border-l sidebar-border" data-slot="sidebar-menu-sub" data-sidebar="menu-sub">
     												
     												<!--!-->
     												<li class="group/menu-sub-item relative" data-slot="sidebar-menu-sub-item" data-sidebar="menu-sub-item">
@@ -138,7 +138,7 @@
     													<!--!--> 																									
     													<!--!--> 																									
     													<!--!-->
-    													<a href="cards" class="text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground [&amp;>svg]:text-sidebar-accent-foreground h-7 -translate-x-px overflow-hidden outline-hidden focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground text-sm group-data-[collapsible=icon]:hidden flex px-2 min-w-0 gap-2 items-center rounded-md" data-slot="sidebar-menu-sub-button" data-sidebar="menu-sub-button" data-size="md" data-active="false">
+    													<a href="cards" class="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground [&amp;>svg]:text-sidebar-accent-foreground -translate-x-px focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground text-sm group-data-[collapsible=icon]:hidden flex sidebar-foreground px-2 min-w-0 h-7 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-menu-sub-button" data-sidebar="menu-sub-button" data-size="md" data-active="false">
     														
     														<!--!-->
     														<span _bl_124="">Design System</span>
@@ -152,7 +152,7 @@
     													<!--!--> 																									
     													<!--!--> 																									
     													<!--!-->
-    													<a href="sidebar" class="text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground [&amp;>svg]:text-sidebar-accent-foreground h-7 -translate-x-px overflow-hidden outline-hidden focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground text-sm group-data-[collapsible=icon]:hidden flex px-2 min-w-0 gap-2 items-center rounded-md" data-slot="sidebar-menu-sub-button" data-sidebar="menu-sub-button" data-size="md" data-active="true">
+    													<a href="sidebar" class="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground [&amp;>svg]:text-sidebar-accent-foreground -translate-x-px focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground text-sm group-data-[collapsible=icon]:hidden flex sidebar-foreground px-2 min-w-0 h-7 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-menu-sub-button" data-sidebar="menu-sub-button" data-size="md" data-active="true">
     														
     														<!--!-->
     														<span _bl_125="">Sidebar Refresh</span>
@@ -168,11 +168,11 @@
     											<!--!--> 																							
     											<!--!--> 																							
     											<!--!-->
-    											<a href="input-demo" class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
+    											<a href="input-demo" class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
     												
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     													<path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
     													<rect x="2" y="4" width="20" height="16" rx="2"></rect>
     												</svg>
@@ -184,7 +184,7 @@
     											
     											<!--!-->                                              																							
     											<!--!-->
-    											<div class="text-sidebar-foreground pointer-events-none right-1 h-5 min-w-5 tabular-nums peer-hover/menu-button:text-sidebar-accent-foreground peer-data-[active=true]/menu-button:text-sidebar-accent-foreground peer-data-[size=sm]/menu-button:top-1 peer-data-[size=default]/menu-button:top-1.5 peer-data-[size=lg]/menu-button:top-2.5 group-data-[collapsible=icon]:hidden flex text-xs font-medium px-1 absolute items-center justify-center select-none rounded-md" data-slot="sidebar-menu-badge" data-sidebar="menu-badge">12</div>
+    											<div class="pointer-events-none right-1 tabular-nums peer-hover/menu-button:text-sidebar-accent-foreground peer-data-[active=true]/menu-button:text-sidebar-accent-foreground peer-data-[size=sm]/menu-button:top-1 peer-data-[size=default]/menu-button:top-1.5 peer-data-[size=lg]/menu-button:top-2.5 group-data-[collapsible=icon]:hidden flex sidebar-foreground text-xs font-medium px-1 absolute min-w-5 h-5 items-center justify-center select-none rounded-md" data-slot="sidebar-menu-badge" data-sidebar="menu-badge">12</div>
     										</li>
     									</ul>
     								</div>
@@ -192,14 +192,14 @@
     							
     							<!--!-->                               																			
     							<!--!-->
-    							<div role="separator" data-slot="sidebar-separator" data-sidebar="separator" aria-orientation="horizontal" class="bg-sidebar-border mx-2 h-px w-auto"></div>
+    							<div role="separator" class="mx-2 w-auto h-px bg-sidebar-border" data-slot="sidebar-separator" data-sidebar="separator" aria-orientation="horizontal"></div>
     							
     							<!--!-->                               																			
     							<!--!-->
     							<div class="flex p-2 relative w-full min-w-0 flex-col" data-slot="sidebar-group" data-sidebar="group">
     								
     								<!--!-->
-    								<div class="text-muted-foreground ring-sidebar-ring shrink-0 outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-xs font-medium px-2 h-8 items-center rounded-md" data-slot="sidebar-group-label" data-sidebar="group-label">Team</div>
+    								<div class="transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-muted-foreground text-xs font-medium px-2 h-8 shrink-0 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-group-label" data-sidebar="group-label">Team</div>
     								
     								<!--!-->                                  																				
     								<!--!-->
@@ -214,11 +214,11 @@
     											<!--!--> 																							
     											<!--!--> 																							
     											<!--!-->
-    											<a href="avatars" class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
+    											<a href="avatars" class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
     												
     												<!--!--> 																								
     												<!--!-->
-    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     													<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
     													<circle cx="12" cy="7" r="4"></circle>
     												</svg>
@@ -244,7 +244,7 @@
     								<li class="group/menu-item relative" data-slot="sidebar-menu-item" data-sidebar="menu-item">
     									
     									<!--!-->
-    									<button class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm bg-background shadow-[0_0_0_1px_hsl(var(--sidebar-border))] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground hover:shadow-[0_0_0_1px_hsl(var(--sidebar-accent))] flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" type="button">
+    									<button class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground hover:shadow-[0_0_0_1px_hsl(var(--sidebar-accent))] flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center bg-background rounded-md ring-sidebar-ring outline-hidden shadow-[0_0_0_1px_hsl(var(--sidebar-border))] transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" type="button">
     										
     										<!--!-->
     										<span class="flex size-7 items-center justify-center rounded-lg bg-sidebar-accent text-xs font-semibold text-sidebar-accent-foreground" _bl_109="">JS</span>
@@ -278,7 +278,7 @@
     						<div class="flex px-4 h-14 gap-3 items-center border-b bg-background" data-slot="div">
     							
     							<!--!-->
-    							<button class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-7" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="true">
+    							<button class="focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 inline-flex text-sm font-medium whitespace-nowrap size-7 shrink-0 gap-2 items-center justify-center rounded-md outline-none transition-all" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="true">
     								
     								<!--!-->
     								<svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -353,7 +353,7 @@
     										<!--!-->                                              																						
     										<!--!--> 																						
     										<!--!-->
-    										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" data-slot="icon">
+    										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0 ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" data-slot="icon">
     											<path d="m6 9 6 6 6-6"></path>
     										</svg>
     									</button>
@@ -362,7 +362,7 @@
     									<!--!--> 																					
     									<!--!--> 																					
     									<!--!-->
-    									<div data-slot="collapsible-content" class="overflow-hidden" id="bradix-collapsible-4-content" data-state="open" aria-labelledby="bradix-collapsible-4-trigger" _bl_115="" style="--radix-collapsible-content-height: 68px; --radix-collapsible-content-width: 240px;">
+    									<div class="overflow-hidden" data-slot="collapsible-content" id="bradix-collapsible-4-content" data-state="open" aria-labelledby="bradix-collapsible-4-trigger" _bl_115="">
     										
     										<!--!-->
     										<div class="text-sm w-full" data-slot="sidebar-group-content" data-sidebar="group-content">
@@ -376,11 +376,11 @@
     													<!--!--> 																									
     													<!--!--> 																									
     													<!--!-->
-    													<a href="cards" class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
+    													<a href="cards" class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
     														
     														<!--!--> 																										
     														<!--!-->
-    														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     															<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
     															<path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
     														</svg>
@@ -398,11 +398,11 @@
     													<!--!--> 																									
     													<!--!--> 																									
     													<!--!-->
-    													<a href="validation-summary" class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
+    													<a href="validation-summary" class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed">
     														
     														<!--!--> 																										
     														<!--!-->
-    														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     															<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
     														</svg>
     														
@@ -449,7 +449,7 @@
     							<div class="flex p-2 relative w-full min-w-0 flex-col" data-slot="sidebar-group" data-sidebar="group">
     								
     								<!--!-->
-    								<div class="text-muted-foreground ring-sidebar-ring shrink-0 outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-xs font-medium px-2 h-8 items-center rounded-md" data-slot="sidebar-group-label" data-sidebar="group-label">Loading</div>
+    								<div class="transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-muted-foreground text-xs font-medium px-2 h-8 shrink-0 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-group-label" data-sidebar="group-label">Loading</div>
     								
     								<!--!-->                                  																				
     								<!--!-->
@@ -468,7 +468,7 @@
     												<div data-sidebar="menu-skeleton-icon" class="bg-accent rounded-md animate-pulse size-4" data-slot="skeleton"></div>
     												
     												<!--!-->
-    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 59%" data-slot="skeleton"></div>
+    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 56%" data-slot="skeleton"></div>
     											</div>
     										</li>
     										
@@ -483,7 +483,7 @@
     												<div data-sidebar="menu-skeleton-icon" class="bg-accent rounded-md animate-pulse size-4" data-slot="skeleton"></div>
     												
     												<!--!-->
-    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 62%" data-slot="skeleton"></div>
+    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 77%" data-slot="skeleton"></div>
     											</div>
     										</li>
     										
@@ -495,7 +495,7 @@
     											<div class="flex px-2 h-8 gap-2 items-center rounded-md" data-slot="sidebar-menu-skeleton" data-sidebar="menu-skeleton">
     												
     												<!--!-->
-    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 53%" data-slot="skeleton"></div>
+    												<div data-sidebar="menu-skeleton-text" class="bg-accent rounded-md animate-pulse h-4 max-w-(--skeleton-width) flex-1" style="--skeleton-width: 71%" data-slot="skeleton"></div>
     											</div>
     										</li>
     									</ul>
@@ -542,7 +542,7 @@
     										<div class="flex p-2 relative w-full min-w-0 flex-col" data-slot="sidebar-group" data-sidebar="group">
     											
     											<!--!-->
-    											<div class="text-muted-foreground ring-sidebar-ring shrink-0 outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-xs font-medium px-2 h-8 items-center rounded-md" data-slot="sidebar-group-label" data-sidebar="group-label">State</div>
+    											<div class="transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 flex text-muted-foreground text-xs font-medium px-2 h-8 shrink-0 items-center rounded-md ring-sidebar-ring outline-hidden" data-slot="sidebar-group-label" data-sidebar="group-label">State</div>
     											
     											<!--!-->                                      																							
     											<!--!-->
@@ -555,11 +555,11 @@
     													<li class="group/menu-item relative" data-slot="sidebar-menu-item" data-sidebar="menu-item">
     														
     														<!--!-->
-    														<button class="peer/menu-button w-full overflow-hidden text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 h-8 text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex p-2 gap-2 items-center rounded-md" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" title="Dashboard state" type="button">
+    														<button class="peer/menu-button group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex text-left text-sm p-2 w-full h-8 overflow-hidden gap-2 items-center rounded-md ring-sidebar-ring outline-hidden transition-[width,height,padding]" data-slot="sidebar-menu-button" data-sidebar="menu-button" data-size="default" data-active="false" data-state="closed" title="Dashboard state" type="button">
     															
     															<!--!--> 																											
     															<!--!-->
-    															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-4 shrink-0 align-middle" data-slot="icon">
+    															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block align-middle size-4 shrink-0" data-slot="icon">
     																<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
     																<path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
     															</svg>
@@ -589,7 +589,7 @@
     							<div class="flex px-4 h-14 gap-3 items-center border-b bg-background" data-slot="div">
     								
     								<!--!-->
-    								<button id="sidebar-controlled-trigger" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-7 relative z-50" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="false">
+    								<button id="sidebar-controlled-trigger" class="focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 inline-flex text-sm font-medium whitespace-nowrap size-7 shrink-0 gap-2 items-center justify-center rounded-md outline-none transition-all relative z-50" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="false">
     									
     									<!--!-->
     									<svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -610,14 +610,14 @@
     								<div class="flex ms-auto flex-wrap gap-2" data-slot="div">
     									
     									<!--!-->
-    									<button id="sidebar-controlled-open" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="default" data-size="sm" type="button" _bl_106="">
+    									<button id="sidebar-controlled-open" class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-transparent bg-primary text-primary-foreground [a]:hover:bg-primary/80 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="default" data-size="sm" type="button" _bl_106="">
     										
     										<!--!-->                                         Open
     									</button>
     									
     									<!--!-->                                      																					
     									<!--!-->
-    									<button id="sidebar-controlled-close" class="group/button bg-clip-padding outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg transition-all" data-slot="button" data-variant="outline" data-size="sm" type="button" _bl_107="">
+    									<button id="sidebar-controlled-close" class="group/button bg-clip-padding focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&amp;_svg:not([class*='size-'])]:size-3.5 inline-flex text-sm font-medium whitespace-nowrap shrink-0 items-center justify-center select-none border rounded-lg outline-none transition-all" data-slot="button" data-variant="outline" data-size="sm" type="button" _bl_107="">
     										
     										<!--!-->                                         Close
     									</button>
@@ -662,7 +662,13 @@
     					<!--!--> 																	
     					<!--!--> 																	
     					<!--!--> 																	
-    					<!--!--> 																	
+    					<!--!-->
+    					<div _bl_122="">
+    						
+    						<!--!--> 																		
+    						<!--!-->
+    					</div>
+    					
     					<!--!-->                       																	
     					<!--!-->
     					<main class="flex-col md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-2 flex relative w-full flex-1 bg-background" data-slot="sidebar-inset">
@@ -671,7 +677,7 @@
     						<div class="flex px-4 h-14 gap-3 items-center border-b bg-background relative z-10" data-slot="div">
     							
     							<!--!-->
-    							<button id="sidebar-mobile-open-trigger" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-7 relative z-50" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="false">
+    							<button id="sidebar-mobile-open-trigger" class="focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 inline-flex text-sm font-medium whitespace-nowrap size-7 shrink-0 gap-2 items-center justify-center rounded-md outline-none transition-all relative z-50" data-slot="sidebar-trigger" data-sidebar="trigger" type="button" aria-expanded="false">
     								
     								<!--!-->
     								<svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

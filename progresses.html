@@ -8,7 +8,7 @@
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="13" aria-valuetext="13%" data-state="loading" data-value="13" data-max="100" class="relative h-2 overflow-hidden bg-primary/20 rounded-full w-[60%]" data-slot="progress">
+    			<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="13" aria-valuetext="13%" data-state="loading" data-value="13" data-max="100" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full w-[60%]" data-slot="progress">
     				
     				<!--!-->
     				<div data-state="loading" data-value="13" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-87%);"></div>
@@ -27,7 +27,7 @@
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-valuetext="0%" data-state="loading" data-value="0" data-max="100" class="relative h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
+    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-valuetext="0%" data-state="loading" data-value="0" data-max="100" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
     					
     					<!--!-->
     					<div data-state="loading" data-value="0" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-100%);"></div>
@@ -47,7 +47,7 @@
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" aria-valuetext="50%" data-state="loading" data-value="50" data-max="100" class="relative h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
+    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" aria-valuetext="50%" data-state="loading" data-value="50" data-max="100" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
     					
     					<!--!-->
     					<div data-state="loading" data-value="50" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-50%);"></div>
@@ -57,7 +57,7 @@
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" aria-valuetext="75%" data-state="loading" data-value="75" data-max="100" class="relative h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
+    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" aria-valuetext="75%" data-state="loading" data-value="75" data-max="100" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
     					
     					<!--!-->
     					<div data-state="loading" data-value="75" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-25%);"></div>
@@ -67,7 +67,7 @@
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" aria-valuetext="100%" data-state="complete" data-value="100" data-max="100" class="relative h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
+    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" aria-valuetext="100%" data-state="complete" data-value="100" data-max="100" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
     					
     					<!--!-->
     					<div data-state="complete" data-value="100" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-0%);"></div>
@@ -85,18 +85,18 @@
     			<!--!--> 																
     			<!--!--> 																
     			<!--!-->
-    			<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full max-w-sm gap-2" data-slot="field" role="group" data-orientation="vertical">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col [&amp;>*]:w-full [&amp;>.sr-only]:w-auto flex w-full max-w-sm gap-3" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
     				<!--!-->
-    				<label for="progress-upload" id="progress-upload-label" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[[data-slot=checkbox][data-state=checked]]:border-primary/30 has-[[data-slot=checkbox][data-state=checked]]:bg-muted has-[[data-slot=radio-group-item][data-state=checked]]:border-primary/30 has-[[data-slot=radio-group-item][data-state=checked]]:bg-muted has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-[[data-slot=checkbox][data-state=checked]]:border-primary/20 dark:has-[[data-slot=checkbox][data-state=checked]]:bg-primary/10 dark:has-[[data-slot=radio-group-item][data-state=checked]]:border-primary/20 dark:has-[[data-slot=radio-group-item][data-state=checked]]:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium w-full flex-row select-none" data-slot="field-label" _bl_113="">
+    				<label for="progress-upload" id="progress-upload-label" class="group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col has-[>[data-slot=field]]:rounded-md has-[>[data-slot=field]]:border [&amp;>*]:data-[slot=field]:p-4 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10 text-sm font-medium w-full flex-row items-center select-none" data-slot="field-label" _bl_114="">
     					
     					<!--!-->
-    					<span _bl_114="">Upload progress</span>
+    					<span _bl_115="">Upload progress</span>
     					
     					<!--!-->                          																		
     					<!--!-->
-    					<span class="ml-auto text-muted-foreground" _bl_115="">66%</span>
+    					<span class="ml-auto text-muted-foreground" _bl_116="">66%</span>
     				</label>
     				
     				<!--!-->                      																	
@@ -121,7 +121,7 @@
     			<div class="group/item-group flex flex-col w-full max-w-xl" role="list" data-slot="item-group">
     				
     				<!--!-->
-    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted in-data-[slot=dropdown-menu-content]:p-0 flex text-sm px-2.5 py-2 w-full flex-wrap gap-2 items-center border border-transparent rounded-lg outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="xs">
+    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-accent/50 flex text-sm px-4 py-3 flex-wrap gap-2.5 items-center border border-transparent bg-transparent rounded-md outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="sm">
     					
     					<!--!-->
     					<div class="group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 flex size-8 shrink-0 gap-2 items-center justify-center border bg-muted rounded-sm" data-slot="item-media" data-variant="icon">
@@ -161,12 +161,12 @@
     					<div class="flex gap-2 items-center w-16 justify-end" data-slot="item-actions">
     						
     						<!--!-->
-    						<span class="text-muted-foreground text-sm" _bl_109="">2m 30s</span>
+    						<span class="text-muted-foreground text-sm" _bl_110="">2m 30s</span>
     					</div>
     				</div>
     				
     				<!--!-->
-    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted in-data-[slot=dropdown-menu-content]:p-0 flex text-sm px-2.5 py-2 w-full flex-wrap gap-2 items-center border border-transparent rounded-lg outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="xs">
+    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-accent/50 flex text-sm px-4 py-3 flex-wrap gap-2.5 items-center border border-transparent bg-transparent rounded-md outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="sm">
     					
     					<!--!-->
     					<div class="group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 flex size-8 shrink-0 gap-2 items-center justify-center border bg-muted rounded-sm" data-slot="item-media" data-variant="icon">
@@ -206,12 +206,12 @@
     					<div class="flex gap-2 items-center w-16 justify-end" data-slot="item-actions">
     						
     						<!--!-->
-    						<span class="text-muted-foreground text-sm" _bl_110="">45s</span>
+    						<span class="text-muted-foreground text-sm" _bl_111="">45s</span>
     					</div>
     				</div>
     				
     				<!--!-->
-    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted in-data-[slot=dropdown-menu-content]:p-0 flex text-sm px-2.5 py-2 w-full flex-wrap gap-2 items-center border border-transparent rounded-lg outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="xs">
+    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-accent/50 flex text-sm px-4 py-3 flex-wrap gap-2.5 items-center border border-transparent bg-transparent rounded-md outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="sm">
     					
     					<!--!-->
     					<div class="group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 flex size-8 shrink-0 gap-2 items-center justify-center border bg-muted rounded-sm" data-slot="item-media" data-variant="icon">
@@ -251,12 +251,12 @@
     					<div class="flex gap-2 items-center w-16 justify-end" data-slot="item-actions">
     						
     						<!--!-->
-    						<span class="text-muted-foreground text-sm" _bl_111="">5m 12s</span>
+    						<span class="text-muted-foreground text-sm" _bl_112="">5m 12s</span>
     					</div>
     				</div>
     				
     				<!--!-->
-    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-muted in-data-[slot=dropdown-menu-content]:p-0 flex text-sm px-2.5 py-2 w-full flex-wrap gap-2 items-center border border-transparent rounded-lg outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="xs">
+    				<div class="group/item duration-100 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 [a]:transition-colors [a]:hover:bg-accent/50 flex text-sm px-4 py-3 flex-wrap gap-2.5 items-center border border-transparent bg-transparent rounded-md outline-none transition-colors px-0" data-slot="item" data-variant="default" data-size="sm">
     					
     					<!--!-->
     					<div class="group-has-[[data-slot=item-description]]/item:translate-y-0.5 group-has-[[data-slot=item-description]]/item:self-start [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 flex size-8 shrink-0 gap-2 items-center justify-center border bg-muted rounded-sm" data-slot="item-media" data-variant="icon">
@@ -296,7 +296,7 @@
     					<div class="flex gap-2 items-center w-16 justify-end" data-slot="item-actions">
     						
     						<!--!-->
-    						<span class="text-muted-foreground text-sm" _bl_112="">Complete</span>
+    						<span class="text-muted-foreground text-sm" _bl_113="">Complete</span>
     					</div>
     				</div>
     			</div>
@@ -322,12 +322,12 @@
     				
     				<!--!-->                      																	
     				<!--!-->
-    				<div class="w-full relative flex touch-none items-center select-none data-[disabled]:opacity-50 data-horizontal:w-full data-vertical:h-full data-vertical:min-h-44 data-vertical:w-auto data-vertical:flex-col" style="--radix-slider-thumb-transform: translateX(-50%)" data-slot="slider" data-orientation="horizontal" data-js-ready="false" dir="ltr" aria-disabled="false" data-horizontal="" _bl_11="">
-    					<div data-slot="slider-track" data-orientation="horizontal" data-horizontal="" class="relative grow overflow-hidden rounded-full bg-muted select-none data-horizontal:h-1.5 data-horizontal:w-full data-vertical:h-full data-vertical:w-1.5 h-1.5">
-    						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary select-none data-horizontal:h-full data-vertical:w-full" style="left: 0.00%; right: 50.00%"></div>
+    				<div class="relative flex w-full touch-none items-center select-none data-[disabled]:opacity-50 data-[orientation=vertical]:h-full data-[orientation=vertical]:min-h-44 data-[orientation=vertical]:w-auto data-[orientation=vertical]:flex-col" style="--radix-slider-thumb-transform: translateX(-50%)" data-slot="slider" data-orientation="horizontal" data-js-ready="false" dir="ltr" aria-disabled="false" data-horizontal="" _bl_11="">
+    					<div data-slot="slider-track" data-orientation="horizontal" data-horizontal="" class="relative grow overflow-hidden rounded-full bg-muted data-[orientation=horizontal]:h-1.5 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-1.5 h-1.5">
+    						<div data-slot="slider-range" data-orientation="horizontal" data-horizontal="" class="absolute bg-primary data-[orientation=horizontal]:h-full data-[orientation=vertical]:w-full" style="left: 0.00%; right: 50.00%"></div>
     					</div>
     					<span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50.00% + 0.0px)">
-    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="relative block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,shadow] select-none after:absolute after:-inset-2 hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden active:ring-4 disabled:pointer-events-none disabled:opacity-50"></span>
+    						<span data-slot="slider-thumb" data-orientation="horizontal" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal" data-radix-collection-item="" data-horizontal="" class="block size-4 shrink-0 rounded-full border border-primary bg-white shadow-sm ring-ring/50 transition-[color,box-shadow] hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50"></span>
     					</span>
     					<input type="hidden" class="sr-only" value="50">
     				</div>
@@ -343,38 +343,35 @@
     			<!--!--> 																
     			<!--!--> 																
     			<!--!--> 																
+    			<!--!--> 																
+    			<!--!--> 																
+    			<!--!--> 																
+    			<!--!--> 																
     			<!--!-->
-    			<div data-slot="direction-provider" dir="rtl" class="contents">
+    			<div class="group/field data-[invalid=true]:text-destructive flex-col [&amp;>*]:w-full [&amp;>.sr-only]:w-auto flex w-full max-w-sm gap-3" data-slot="field" role="group" data-orientation="vertical">
     				
     				<!--!--> 																	
+    				<!--!-->
+    				<label for="progress-upload-rtl" class="group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col has-[>[data-slot=field]]:rounded-md has-[>[data-slot=field]]:border [&amp;>*]:data-[slot=field]:p-4 has-data-[state=checked]:border-primary has-data-[state=checked]:bg-primary/5 dark:has-data-[state=checked]:bg-primary/10 text-sm font-medium w-full flex-row items-center select-none" data-slot="field-label" _bl_117="">
+    					
+    					<!--!-->
+    					<span _bl_118="">
+    						
+    						<!--!-->تقدم الرفع</span>
+    					
+    					<!--!-->                              																		
+    					<!--!-->
+    					<span class="ml-auto text-muted-foreground" _bl_119="">66%</span>
+    				</label>
+    				
+    				<!--!-->                          																	
     				<!--!--> 																	
     				<!--!--> 																	
     				<!--!-->
-    				<div class="group/field data-[invalid=true]:text-destructive flex-col *:w-full [&amp;>.sr-only]:w-auto flex w-full max-w-sm gap-2" data-slot="field" role="group" data-orientation="vertical">
+    				<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="66" aria-valuetext="66%" data-state="loading" data-value="66" data-max="100" id="progress-upload-rtl" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
     					
-    					<!--!--> 																		
     					<!--!-->
-    					<label for="progress-upload-rtl" class="items-center group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[[data-slot=checkbox][data-state=checked]]:border-primary/30 has-[[data-slot=checkbox][data-state=checked]]:bg-muted has-[[data-slot=radio-group-item][data-state=checked]]:border-primary/30 has-[[data-slot=radio-group-item][data-state=checked]]:bg-muted has-[>[data-slot=field]]:rounded-lg has-[>[data-slot=field]]:border *:data-[slot=field]:p-2.5 dark:has-[[data-slot=checkbox][data-state=checked]]:border-primary/20 dark:has-[[data-slot=checkbox][data-state=checked]]:bg-primary/10 dark:has-[[data-slot=radio-group-item][data-state=checked]]:border-primary/20 dark:has-[[data-slot=radio-group-item][data-state=checked]]:bg-primary/10 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col text-sm font-medium w-full flex-row select-none" data-slot="field-label" _bl_116="">
-    						
-    						<!--!-->
-    						<span _bl_117="">
-    							
-    							<!--!-->تقدم الرفع</span>
-    						
-    						<!--!-->                              																			
-    						<!--!-->
-    						<span class="ml-auto text-muted-foreground" _bl_118="">66%</span>
-    					</label>
-    					
-    					<!--!-->                          																		
-    					<!--!--> 																		
-    					<!--!--> 																		
-    					<!--!-->
-    					<div role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="66" aria-valuetext="66%" data-state="loading" data-value="66" data-max="100" id="progress-upload-rtl" class="relative w-full h-2 overflow-hidden bg-primary/20 rounded-full" data-slot="progress">
-    						
-    						<!--!-->
-    						<div data-state="loading" data-value="66" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-34%);"></div>
-    					</div>
+    					<div data-state="loading" data-value="66" data-max="100" data-slot="progress-indicator" class="h-full w-full flex-1 bg-primary transition-all" style="transform: translateX(-34%);"></div>
     				</div>
     			</div>
     		</div>

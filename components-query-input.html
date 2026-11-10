@@ -14,7 +14,7 @@
     				
     				<!--!-->
     				<div data-slot="query-input" class="relative w-full">
-    					<input class="h-10 w-full rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50" placeholder="Search or add a filter..." aria-label="Search query" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="query-options-f3b3011c4a5c4ae1ad51e482dd87f192" autocomplete="off" _bl_249="">
+    					<input class="h-10 w-full rounded-md border border-input bg-background px-3 pr-10 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50" placeholder="Search or add a filter..." aria-label="Search query" aria-busy="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="query-options-6516e4cc156b4260b508cc03ee8dc1da" autocomplete="off" _bl_249="">
     				</div>
     				
     				<!--!-->              																	
@@ -26,8 +26,18 @@
     				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Text:
     				</p>
     				
+    				<!--!-->              																	
+    				<!--!-->
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Expression: QueryInputBinaryExpression { Left = QueryInputFilterExpression { Filter = QueryInputFilter { Field = state, Value = open, Excluded = False } }, Operator = Or, Right = QueryInputBinaryExpression { Left = QueryInputFilterExpression { Filter = QueryInputFilter { Field = state, Value = closed, Excluded = False } }, Operator = And, Right = QueryInputFilterExpression { Filter = QueryInputFilter { Field = assignee, Value = me, Excluded = True } } } }</p>
+    				
     				<!--!-->
     				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Include state: open</p>
+    				
+    				<!--!-->
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Include state: closed</p>
+    				
+    				<!--!-->
+    				<p class="[&amp;:not(:first-child)]:mt-6 leading-7" data-slot="paragraph">Exclude assignee: me</p>
     			</div>
     		</div>
     	</div>
